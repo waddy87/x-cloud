@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#user_config="passwd:111111"
+user_config=`/usr/sbin/vmware-rpctool machine.id.get`
+
+echo ${user_config#*passwd:}
+echo ${user_config#*passwd:} | passwd root --stdin
+

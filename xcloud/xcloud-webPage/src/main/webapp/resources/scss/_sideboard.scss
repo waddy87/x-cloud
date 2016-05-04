@@ -1,0 +1,46 @@
+.sideboard {
+    position: fixed;
+    top: 65px;
+    right: -500px;
+    bottom: 0;
+    width: 400px;
+    background-color: #FFF;
+    z-index: 1000;
+    padding: 20px;
+    & .sideboard-close {
+        position: absolute;
+        top: 0;
+        left: -48px;
+        display: block;
+        background-color: #FFF;
+        width: 48px;
+        height: 48px;
+        font-size: 28px;
+        color: #CCC;
+        line-height: 48px;
+        text-align: center;
+        cursor: pointer;
+        transition: .3s all ease;
+        &:hover {
+            color: #666;
+        }
+    }
+}
+.sugon-cc{left:966px;top:34px;}
+.sugon-aa.sugon-aaa.sugon-aaa{opacity:0;background-color:#000;position:fixed;right:0;top:0;}
+.modal-slide{width:400px;height:auto}
+.sideboard-close{background-color: #fff;
+    color: #ccc;
+    cursor: pointer;
+    display: block;
+    font-size: 28px;
+    height: 48px;
+    left: -48px;
+    line-height: 48px;
+    text-align: center;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 48px;}
+ input.ng-invalid.ng-dirty {
+          background-color: #FFC0CB;
+  }

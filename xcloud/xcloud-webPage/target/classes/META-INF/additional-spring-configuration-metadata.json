@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "rabbitmq.server.ip",
+    "type": "java.lang.String",
+    "description": "A description for 'rabbitmq.server.ip'"
+  },
+  {
+    "name": "vcenter.ip",
+    "type": "java.lang.String",
+    "description": "A description for 'vcenter.ip'"
+  },
+  {
+    "name": "vcenter.username",
+    "type": "java.lang.String",
+    "description": "A description for 'vcenter.username'"
+  },
+  {
+    "name": "vcenter.password",
+    "type": "java.lang.String",
+    "description": "A description for 'vcenter.password'"
+  },
+  {
+    "name": "vcenter.ssoip",
+    "type": "java.lang.String",
+    "description": "A description for 'vcenter.ssoip'"
+  }
+]}

@@ -1,0 +1,454 @@
+2016-04-25 16:41:40,789 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener:65] 开始启动虚机事件监听器...
+2016-04-25 16:41:41,589 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener:218] 启动虚机事件监听器成功！
+2016-04-25 16:41:42,221 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:42,221 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:42,237 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-372, createdTime=Sat Apr 23 12:25:25 CST 2016, entityName=大鹏哥的虚拟机a, result=success, operatorType=PowerOffVM, vmId=vm-109, desc=null]
+2016-04-25 16:41:42,237 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:42,237 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:42,237 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:42,237 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:42,252 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:42,252 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:42,252 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-372, createdTime=Sat Apr 23 12:25:25 CST 2016, entityName=大鹏哥的虚拟机a, result=success, operatorType=PowerOffVM, vmId=vm-109, desc=null]
+2016-04-25 16:41:42,252 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:42,252 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-372,vmId=vm-109,actionType=PowerOffVMsuccess
+2016-04-25 16:41:42,270 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-373, createdTime=Sat Apr 23 12:27:01 CST 2016, entityName=大兵哥的虚拟机a, result=success, operatorType=PowerOnVM, vmId=vm-108, desc=null]
+2016-04-25 16:41:42,286 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:42,394 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-373, createdTime=Sat Apr 23 12:27:01 CST 2016, entityName=大兵哥的虚拟机a, result=success, operatorType=PowerOnVM, vmId=vm-108, desc=null]
+2016-04-25 16:41:42,398 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:181] 识别到虚机关闭成功事件
+2016-04-25 16:41:42,401 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:42,403 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-372,vmId=vm-109,actionType=PowerOffVMsuccess
+2016-04-25 16:41:42,406 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:42,417 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-373,vmId=vm-108,actionType=PowerOnVMsuccess
+2016-04-25 16:41:42,427 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:181] 识别到虚机关闭成功事件
+2016-04-25 16:41:42,430 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-373,vmId=vm-108,actionType=PowerOnVMsuccess
+2016-04-25 16:41:42,444 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:163] 识别到虚机启动成功事件
+2016-04-25 16:41:42,456 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:163] 识别到虚机启动成功事件
+2016-04-25 16:41:42,898 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:194] vmId不存在，直接丢弃！
+2016-04-25 16:41:42,899 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:42,922 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:176] vmId不存在，直接丢弃！
+2016-04-25 16:41:42,923 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:42,927 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:42,928 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:42,930 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-372, createdTime=Sat Apr 23 12:25:25 CST 2016, entityName=大鹏哥的虚拟机a, result=success, operatorType=PowerOffVM, vmId=vm-109, desc=null]
+2016-04-25 16:41:42,936 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:42,937 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-372,vmId=vm-109,actionType=PowerOffVMsuccess
+2016-04-25 16:41:42,938 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:181] 识别到虚机关闭成功事件
+2016-04-25 16:41:42,948 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:42,951 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:42,954 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-374, createdTime=Sat Apr 23 12:35:24 CST 2016, entityName=大鹏哥的虚拟机a, result=success, operatorType=PowerOnVM, vmId=vm-109, desc=null]
+2016-04-25 16:41:42,956 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:42,958 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-374,vmId=vm-109,actionType=PowerOnVMsuccess
+2016-04-25 16:41:42,961 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:163] 识别到虚机启动成功事件
+2016-04-25 16:41:43,030 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:176] vmId不存在，直接丢弃！
+2016-04-25 16:41:43,031 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:43,033 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:194] vmId不存在，直接丢弃！
+2016-04-25 16:41:43,036 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:43,039 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:194] vmId不存在，直接丢弃！
+2016-04-25 16:41:43,041 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:43,042 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:176] vmId不存在，直接丢弃！
+2016-04-25 16:41:43,043 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:43,052 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:43,053 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:43,054 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorFailed [taskId=task-375, createdTime=Sat Apr 23 12:37:23 CST 2016, entityName=wchch, result=error, operatorType=MigrationVM, vmId=vm-49, desc=数据存储“datastore1”上的磁盘空间不足。]
+2016-04-25 16:41:43,055 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:43,055 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-375,vmId=vm-49,actionType=MigrationVMerror
+2016-04-25 16:41:43,055 WARN [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:199] 未约定的虚机动作类型，直接丢弃！actionType=MigrationVM
+2016-04-25 16:41:43,056 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:43,062 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:43,067 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:43,068 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-376, createdTime=Sat Apr 23 13:11:06 CST 2016, entityName=大鹏哥的虚拟机a, result=success, operatorType=PowerOffVM, vmId=vm-109, desc=null]
+2016-04-25 16:41:43,069 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:43,070 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-376,vmId=vm-109,actionType=PowerOffVMsuccess
+2016-04-25 16:41:43,071 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:181] 识别到虚机关闭成功事件
+2016-04-25 16:41:43,119 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:43,122 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:43,125 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-377, createdTime=Sat Apr 23 13:11:29 CST 2016, entityName=大鹏哥的虚拟机a, result=success, operatorType=PowerOnVM, vmId=vm-109, desc=null]
+2016-04-25 16:41:43,132 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:43,146 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-377,vmId=vm-109,actionType=PowerOnVMsuccess
+2016-04-25 16:41:43,149 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:163] 识别到虚机启动成功事件
+2016-04-25 16:41:43,161 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:194] vmId不存在，直接丢弃！
+2016-04-25 16:41:43,162 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:43,207 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:43,209 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:43,212 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-378, createdTime=Sat Apr 23 13:11:47 CST 2016, entityName=大鹏哥的虚拟机a, result=success, operatorType=PowerOffVM, vmId=vm-109, desc=null]
+2016-04-25 16:41:43,214 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:176] vmId不存在，直接丢弃！
+2016-04-25 16:41:43,214 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:43,218 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:43,220 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-378,vmId=vm-109,actionType=PowerOffVMsuccess
+2016-04-25 16:41:43,222 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:181] 识别到虚机关闭成功事件
+2016-04-25 16:41:43,227 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:43,227 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:43,228 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-379, createdTime=Sat Apr 23 13:12:09 CST 2016, entityName=大鹏哥的虚拟机a, result=success, operatorType=Destroy, vmId=vm-109, desc=null]
+2016-04-25 16:41:43,228 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:43,229 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-379,vmId=vm-109,actionType=Destroysuccess
+2016-04-25 16:41:43,230 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:145] 识别到虚机删除完成事件
+2016-04-25 16:41:43,233 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:43,233 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:43,234 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-380, createdTime=Sat Apr 23 13:14:28 CST 2016, entityName=wchch, result=success, operatorType=CloneVM, vmId=vm-113, desc=null]
+2016-04-25 16:41:43,234 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:43,235 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-380,vmId=vm-113,actionType=CloneVMsuccess
+2016-04-25 16:41:43,235 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:126] 识别到虚机创建完成事件
+2016-04-25 16:41:43,237 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:43,238 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:43,238 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-382, createdTime=Sat Apr 23 13:44:56 CST 2016, entityName=大鹏哥的虚拟机, result=success, operatorType=Destroy, vmId=vm-113, desc=null]
+2016-04-25 16:41:43,238 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:43,239 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-382,vmId=vm-113,actionType=Destroysuccess
+2016-04-25 16:41:43,239 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:145] 识别到虚机删除完成事件
+2016-04-25 16:41:43,299 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:194] vmId不存在，直接丢弃！
+2016-04-25 16:41:43,300 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:43,301 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:158] vmId不存在，直接丢弃！
+2016-04-25 16:41:43,302 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:43,303 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:129] taskId不存在，直接丢弃！
+2016-04-25 16:41:43,304 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:43,315 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:158] vmId不存在，直接丢弃！
+2016-04-25 16:41:43,315 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:43,404 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:43,406 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:43,409 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-383, createdTime=Sat Apr 23 13:46:11 CST 2016, entityName=wchch, result=success, operatorType=CloneVM, vmId=vm-114, desc=null]
+2016-04-25 16:41:43,409 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:43,410 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-383,vmId=vm-114,actionType=CloneVMsuccess
+2016-04-25 16:41:43,410 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:126] 识别到虚机创建完成事件
+2016-04-25 16:41:43,418 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:43,419 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:43,419 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-385, createdTime=Sat Apr 23 14:02:03 CST 2016, entityName=大兵哥的虚拟机b, result=success, operatorType=Destroy, vmId=vm-114, desc=null]
+2016-04-25 16:41:43,419 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:43,420 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-385,vmId=vm-114,actionType=Destroysuccess
+2016-04-25 16:41:43,421 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:145] 识别到虚机删除完成事件
+2016-04-25 16:41:43,423 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:129] taskId不存在，直接丢弃！
+2016-04-25 16:41:43,457 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:43,473 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:158] vmId不存在，直接丢弃！
+2016-04-25 16:41:43,487 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:43,490 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:76] +++++++++++++++++++++++++++++++++++
+2016-04-25 16:41:43,517 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:43,519 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:43,519 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:77] routeKey = vm.none.info.user:admin
+2016-04-25 16:41:43,520 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-386, createdTime=Sat Apr 23 14:03:50 CST 2016, entityName=wchch, result=success, operatorType=CloneVM, vmId=vm-116, desc=null]
+2016-04-25 16:41:43,521 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:78] VmOperatorSuccess [taskId=task-389, createdTime=Mon Apr 25 11:39:40 CST 2016, entityName=win2008, result=success, operatorType=PowerOnVM, vmId=vm-107, desc=null]
+2016-04-25 16:41:43,522 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:43,524 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:79] -----------------------------------
+2016-04-25 16:41:43,525 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-386,vmId=vm-116,actionType=CloneVMsuccess
+2016-04-25 16:41:43,526 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:90] 接收到虚机操作完成事件：taskId=task-389,vmId=vm-107,actionType=PowerOnVMsuccess
+2016-04-25 16:41:43,533 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:126] 识别到虚机创建完成事件
+2016-04-25 16:41:43,533 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:163] 识别到虚机启动成功事件
+2016-04-25 16:41:43,562 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:129] taskId不存在，直接丢弃！
+2016-04-25 16:41:43,562 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:41:43,565 DEBUG [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:176] vmId不存在，直接丢弃！
+2016-04-25 16:41:43,566 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener$1:203] 处理事件成功！
+2016-04-25 16:51:06,233 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener:65] 开始启动虚机事件监听器...
+2016-04-25 16:51:07,072 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener:218] 启动虚机事件监听器成功！
+2016-04-25 16:55:41,997 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener:65] 开始启动虚机事件监听器...
+2016-04-25 16:55:42,303 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener:218] 启动虚机事件监听器成功！
+2016-04-25 16:55:45,459 INFO [com.sugon.cloudview.cloudmanager.vm.api.VmApi:131] 收到客户端查询请求：{id=297e33d2544ca18001544ca1b0300000,name=null,orgId=null,cpool=null,spool=null,template=null,status=null,creater=null}
+2016-04-25 16:55:45,806 ERROR [com.sugon.cloudview.cloudmanager.vm.api.VmApi:406] 获取关联实体对象异常！
+com.sugon.cloudview.cloudmanager.resource.service.exception.vdc.VDCException: 查询提供者VDC失败！
+	at com.sugon.cloudview.cloudmanager.resource.serviceImpl.impl.vdc.ProviderVDCServiceImpl.findProviderVDC(ProviderVDCServiceImpl.java:83) ~[cloudmanager-resourceMgmt-serviceImpl-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_60]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:302) ~[spring-aop-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202) ~[spring-aop-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at com.sun.proxy.$Proxy151.findProviderVDC(Unknown Source) ~[na:na]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.buildVmHostVO(VmApi.java:397) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.access$300(VmApi.java:51) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi$VmConverter.convert(VmApi.java:420) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi$VmConverter.convert(VmApi.java:417) [classes/:na]
+	at org.springframework.data.domain.Chunk.getConvertedContent(Chunk.java:168) [spring-data-commons-1.11.2.RELEASE.jar:na]
+	at org.springframework.data.domain.PageImpl.map(PageImpl.java:104) [spring-data-commons-1.11.2.RELEASE.jar:na]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.list(VmApi.java:146) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.intergration.ApiTestCaseI.showVm(ApiTestCaseI.java:157) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_60]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+2016-04-25 18:50:27,619 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener:65] 开始启动虚机事件监听器...
+2016-04-25 18:50:28,112 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener:218] 启动虚机事件监听器成功！
+2016-04-25 18:50:31,999 ERROR [com.sugon.cloudview.cloudmanager.vm.api.VmApi:417] 获取VDC实体异常！
+com.sugon.cloudview.cloudmanager.resource.service.exception.vdc.VDCException: 查询提供者VDC失败！
+	at com.sugon.cloudview.cloudmanager.resource.serviceImpl.impl.vdc.ProviderVDCServiceImpl.findProviderVDC(ProviderVDCServiceImpl.java:83) ~[cloudmanager-resourceMgmt-serviceImpl-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_60]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:302) ~[spring-aop-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202) ~[spring-aop-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at com.sun.proxy.$Proxy151.findProviderVDC(Unknown Source) ~[na:na]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.buildVmHostVO(VmApi.java:414) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.show(VmApi.java:89) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.intergration.ApiTestCaseI.showVm(ApiTestCaseI.java:109) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_60]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+2016-04-25 18:50:32,021 ERROR [com.sugon.cloudview.cloudmanager.vm.api.VmApi:426] 查询关联存储池异常！
+com.sugon.cloudview.cloudmanager.resource.service.exception.vdc.VDCException: 查询存储池失败！
+	at com.sugon.cloudview.cloudmanager.resource.serviceImpl.impl.vdc.StoragePoolServiceImpl.findStoragePool(StoragePoolServiceImpl.java:46) ~[cloudmanager-resourceMgmt-serviceImpl-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.buildVmHostVO(VmApi.java:423) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.show(VmApi.java:89) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.intergration.ApiTestCaseI.showVm(ApiTestCaseI.java:109) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_60]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+2016-04-25 18:56:24,382 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener:65] 开始启动虚机事件监听器...
+2016-04-25 18:56:24,889 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener:218] 启动虚机事件监听器成功！
+2016-04-25 18:56:29,340 ERROR [com.sugon.cloudview.cloudmanager.vm.api.VmApi:417] 获取VDC实体异常！
+com.sugon.cloudview.cloudmanager.resource.service.exception.vdc.VDCException: 查询提供者VDC失败！
+	at com.sugon.cloudview.cloudmanager.resource.serviceImpl.impl.vdc.ProviderVDCServiceImpl.findProviderVDC(ProviderVDCServiceImpl.java:83) ~[cloudmanager-resourceMgmt-serviceImpl-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_60]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:302) ~[spring-aop-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202) ~[spring-aop-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at com.sun.proxy.$Proxy151.findProviderVDC(Unknown Source) ~[na:na]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.buildVmHostVO(VmApi.java:414) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.show(VmApi.java:89) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.intergration.ApiTestCaseI.showVm(ApiTestCaseI.java:111) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_60]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+2016-04-25 18:56:29,364 ERROR [com.sugon.cloudview.cloudmanager.vm.api.VmApi:426] 查询关联存储池异常！
+com.sugon.cloudview.cloudmanager.resource.service.exception.vdc.VDCException: 查询存储池失败！
+	at com.sugon.cloudview.cloudmanager.resource.serviceImpl.impl.vdc.StoragePoolServiceImpl.findStoragePool(StoragePoolServiceImpl.java:46) ~[cloudmanager-resourceMgmt-serviceImpl-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.buildVmHostVO(VmApi.java:423) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.show(VmApi.java:89) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.intergration.ApiTestCaseI.showVm(ApiTestCaseI.java:111) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_60]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+2016-04-25 19:00:33,721 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener:65] 开始启动虚机事件监听器...
+2016-04-25 19:00:34,227 INFO [com.sugon.cloudview.cloudmanager.vm.event.VmEventListener:218] 启动虚机事件监听器成功！
+2016-04-25 21:02:37,146 ERROR [com.sugon.cloudview.cloudmanager.vm.api.VmApi:417] 获取VDC实体异常！
+com.sugon.cloudview.cloudmanager.resource.service.exception.vdc.VDCException: 查询提供者VDC失败！
+	at com.sugon.cloudview.cloudmanager.resource.serviceImpl.impl.vdc.ProviderVDCServiceImpl.findProviderVDC(ProviderVDCServiceImpl.java:83) ~[cloudmanager-resourceMgmt-serviceImpl-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_60]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:302) ~[spring-aop-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202) ~[spring-aop-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at com.sun.proxy.$Proxy151.findProviderVDC(Unknown Source) ~[na:na]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.buildVmHostVO(VmApi.java:414) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.show(VmApi.java:89) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.intergration.ApiTestCaseI.showVm(ApiTestCaseI.java:77) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_60]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+2016-04-25 21:03:02,878 ERROR [com.sugon.cloudview.cloudmanager.vm.api.VmApi:426] 查询关联存储池异常！
+com.sugon.cloudview.cloudmanager.resource.service.exception.vdc.VDCException: 查询存储池失败！
+	at com.sugon.cloudview.cloudmanager.resource.serviceImpl.impl.vdc.StoragePoolServiceImpl.findStoragePool(StoragePoolServiceImpl.java:46) ~[cloudmanager-resourceMgmt-serviceImpl-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.buildVmHostVO(VmApi.java:423) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.vm.api.VmApi.show(VmApi.java:89) [classes/:na]
+	at com.sugon.cloudview.cloudmanager.intergration.ApiTestCaseI.showVm(ApiTestCaseI.java:77) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_60]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]

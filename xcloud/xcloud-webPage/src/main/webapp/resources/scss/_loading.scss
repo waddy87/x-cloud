@@ -1,0 +1,40 @@
+.frame-loading {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2147483647;
+    background-color: $colorCyan;
+}
+.full-sketch-container {
+    height: 45px;
+    left: 50%;
+    margin: -22px 0 0 -80px;
+    position: absolute;
+    top: 50%;
+    width: 160px;
+}
+path {
+    fill: rgba(255, 255, 255, 0);
+    stroke-width: 2.7;
+}
+.shade {
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 1;
+}
+.back .shade {
+    animation: 1s ease 0s normal none 1 running myfirst;
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(255, 255, 255, 0);
+}
+@keyframes myfirst {
+0% {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(255, 255, 255, 1);
+}
+100% {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(255, 255, 255, 0);
+}
+}

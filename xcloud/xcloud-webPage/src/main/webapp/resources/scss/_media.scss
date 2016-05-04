@@ -1,0 +1,79 @@
+.media {
+    & .media-heading {
+        margin-bottom:0;
+        font-size: 14px;
+        & small {
+            font-size: 12px;
+            float: right;
+        }
+    }
+    & .media-left {
+        & i {
+            font-size: 40px;
+            width: 48px;
+            text-align: center;
+            &.fa-desktop {
+                color: $colorCyan;
+            }
+            &.fa-qrcode {
+                color: $colorCyan;
+            }
+            &.fa-ticket {
+                color: #9d50a5;
+            }
+            &.fa-database {
+                color: #5cb85c;
+            }
+        }
+    }
+    & .media-footing {
+        margin: 0;
+        padding: 5px 0;
+        &  small {
+            font-size: 12px;
+            &:first-child {
+                float: left;
+            }
+            &:last-child {
+                float: right;
+            }
+        }
+    }
+    .modal & {
+        padding: 10px 30px 20px 30px;
+        & .media-heading {
+            font-size: 20px;
+            line-height: 32px;
+        }
+        & + form {
+            margin-left: 84px;
+            margin-right: 30px;
+        }
+    }
+    &.confirm-addprovdc {
+        padding: 20px 0;
+        & .media-left {
+            color: #337ab7;
+        }
+        & .media-body {
+            & .media-heading {
+                color: #666;
+                font-size: 20px;
+                margin: 8px 0 12px;
+                & span {
+                    color: #ff8a00;
+                    margin: 0 8px;
+                }
+            }
+            & ul li.list-group-item {
+                display: block;
+                padding: 10px 15px;
+                & span {
+                    padding: 0;
+                    white-space: normal;
+                    text-overflow: inherit;
+                }
+            }
+        }
+    }
+}

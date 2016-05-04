@@ -1,0 +1,15 @@
+.progress {
+    box-shadow: none;
+    border-radius: 2px;
+    .media & {
+        margin-bottom: 0;
+    }
+    & .progress-bar {
+        box-shadow: none;
+    }
+    .timeline & {
+        margin-bottom: 10px;
+        height: 4px;
+        background: #ddd;
+    }
+}

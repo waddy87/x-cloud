@@ -1,0 +1,11 @@
+{"vcenter":[{
+  "vcenter_ip": "10.0.36.251",
+  "vcenter_port": 3600,
+  "vcenter_user": "admin",
+  "vcenter_passwd": "Sugon!123"
+},{
+  "vcenter_ip": "10.0.36.128",
+  "vcenter_port": 3600,
+  "vcenter_user": "admin",
+  "vcenter_passwd": "Sugon!123"
+}]}

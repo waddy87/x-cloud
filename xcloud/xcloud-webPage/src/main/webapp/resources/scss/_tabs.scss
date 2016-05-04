@@ -1,0 +1,88 @@
+.vm-tabs {
+    & .nav-tabs {
+        border: none;
+        & > li {
+            margin-bottom: 0;
+            & > a {
+                border: none;
+                min-width: 100px;
+                text-align: center;
+                padding: 12px 15px;
+                color: #999;
+                & .badge {
+                    margin-left: 10px;
+                    vertical-align: top;
+                    background: #CCC;
+                    color: #FFF;
+                } 
+                &:hover {
+                    background-color: #e7eaee;
+                    border-radius: 2px 2px 0 0;
+                }
+                &:focus {
+                    outline: none;
+                }
+            }
+            &.active > a, &.active > a:focus, &.active > a:hover {
+                border: none;
+                border-radius: 2px 2px 0 0;
+                color: #333;
+                font-weight: bold;
+                background: #FFF;
+                & .badge {
+                    margin-left: 10px;
+                    vertical-align: top;
+                    background: #999;
+                    color: #FFF;
+                }
+            }
+        }
+    }
+    & .tab-content {
+         background: #FFF;
+         padding: 1rem;
+         border-radius: 0 0 2px 2px;
+    }
+}
+.vm-tabs-child {
+    & .nav-tabs {
+        border: none;
+        background-color: $colorLightGray;
+        border-radius: 2px;
+        & > li {
+            margin: 0;
+            & > a {
+                border: none;
+                min-width: 100px;
+                text-align: center;
+                padding: 8px 15px;
+                color: #999;
+                margin: 0;
+                border-radius: 0;
+                &:hover {
+                    background-color: #e7eaee;
+                }
+            }
+            &.active > a, &.active > a:focus, &.active > a:hover {
+                border: none;
+                border-radius:0;
+                color: #FFF;
+                font-weight: bold;
+                background-color: $colorCyan;
+            }
+            &:first-child {
+                & > a {
+                   border-radius: 2px 0 0 2px; 
+                }
+            }
+            &.active:first-child {
+                & > a, & > a:focus, & > a:hover {
+                   border-radius: 2px 0 0 2px; 
+                }
+            }
+        }
+    }
+    & .tab-content {
+         padding: 1rem 0;
+    }
+}

@@ -1,0 +1,31 @@
+.form-title {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #efefef;
+    color: #666;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+.control-label {
+    color: #999;
+}
+label.error {
+    color: #d55b48;
+    display: inline-block;
+    line-height: 34px;
+    position: relative;
+    margin: 0; 
+    &:before {
+        font-family: 'FontAwesome';
+        content: '\f05a';
+        position: absolute;
+        top: 0;
+        left: -16px;
+    }
+}
+.form-control.error {
+    background: rgb(251, 227, 228);
+    border: 1px solid #fbc2c4;
+    color: #8a1f11;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(251, 227, 228, 0.6) ;
+}

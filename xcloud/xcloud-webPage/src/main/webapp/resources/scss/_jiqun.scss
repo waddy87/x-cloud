@@ -1,0 +1,61 @@
+.jiqun{
+    & .jq-table{
+        & .jq-table-content{
+          background: #FFFFFF;
+          height: 350px;
+          & .nav-tabs{
+                float: left;
+                border-right: 1px solid #ececec;
+                border-bottom: none;
+                height: 100%;
+                width:130px;
+                padding-left: 24px;
+                & li{
+                    float: none;
+                    margin-top:1px;
+                    margin-bottom: 1px;
+                    text-align: right;
+                    &.active {
+                        margin-right: -1px;
+                        & a{
+                            border-color: #ececec transparent #ececec #ececec;
+                            border-radius: 4px 0 0 4px;
+                            color: #555;
+                            background-color: #fff;
+                            cursor: default;
+                            &:hover {
+                                border-color: #ddd transparent #ddd #ddd;
+                                background: #FFF;
+                            }
+                            &:focus{
+                                outline: none;
+                            }
+                        }
+                    }
+                    &:first-child {
+                        list-style: outside none none;
+                        font-size: 16px;  
+                        height: 70px; 
+                        padding-top: 25px;
+                        text-align: left;
+                    }
+                    & a{
+                        border-color: transparent;
+                        border-radius: 4px 0 0 4px;
+                        color: #9a9c9c;
+                        border-width: 1px;
+                        border-style: solid;
+                        margin: 0;
+                        &:hover {
+                            background-color: #f5f5f5;
+                        }
+                    }
+                }
+            }
+           & .tab-content{
+               height: 100%;
+           }
+            
+        }
+    }
+}

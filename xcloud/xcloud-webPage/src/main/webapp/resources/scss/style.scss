@@ -1,0 +1,62 @@
+//导入所需要的CSS模块
+
+//全局变量
+@import "variables";
+//全局基础样式
+@import "base";
+//全局顶部导航
+@import "navbar";
+//页面主体
+@import "main";
+//全局侧边栏
+@import "sidebar";
+//表格组件
+@import "table";
+//弹层组件
+@import "layer";
+//页面部件
+@import "pagetitle";
+//按钮
+@import "button";
+//查询筛选
+@import "filter";
+//卡片式展示样式一
+@import "card-1";
+//分页样式
+@import "pagination";
+//分步表单
+@import "steps";
+//标签页
+@import "tabs";
+//列表组
+@import "listgroup";
+//媒体
+@import "media";
+//进度条
+@import "progress";
+//表单
+@import "form";
+//侧滑面板
+@import "sideboard";
+//面板
+@import "panel";
+//滑块
+@import "uc_slider";
+//内嵌well
+@import "well";
+//监控概览
+@import "overview";
+//集群视图
+@import "jiqun";
+//集群侧滑面板
+@import "jq-sideboard";
+//全局任务面板
+@import "task-board";
+//按钮组
+@import "btn-group";
+//输入框组
+@import "input-group";
+//加载动画
+@import "loading";
+//控制面板
+@import "dashboard";

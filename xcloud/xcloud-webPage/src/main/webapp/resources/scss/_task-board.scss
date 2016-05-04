@@ -1,0 +1,85 @@
+.task-board {
+    position: fixed;
+    top: $navHeight;
+    bottom: 0;
+    right: -420px;
+    z-index: 999999999;
+    width: 420px;
+    background: #FFF;
+    border-top: 2px solid $colorLightGray;
+    & h2 {
+        margin: 0;
+        padding: 5px 10px;
+        line-height: 24px;
+        font-size: 14px;
+        background: #fafafa;
+        border-bottom: 1px solid $colorLightGray;
+        & a {
+            text-decoration: none;
+            color: #666;
+            font-weight: normal;
+            font-size: 12px; 
+            &:hover {
+                color: $colorCyan;
+            }
+            & i {
+                margin-right: 5px;
+            }
+        }
+    }
+    & .task-board-body {
+        position: absolute;
+        top: 35px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        overflow: auto;
+        padding: 20px 0;
+        & .timeline {
+            & .timeline-item {
+                & .date {
+                    text-align: right;
+                    width: 110px;
+                    position: relative;
+                    padding-top: 30px;
+                    font-size: 12px;
+                    & i {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        padding: 5px;
+                        width: 30px;
+                        text-align: center;
+                        border-top: 1px solid #e7eaec;
+                        border-bottom: 1px solid #e7eaec;
+                        border-left: 1px solid #e7eaec;
+                        background: #f8f8f8;
+                        font-size: 14px;
+                    }
+                }
+                & .content {
+                    border-left: 1px solid #e7eaec;
+                    border-top: 1px solid #e7eaec;
+                    padding-top: 10px;
+                    min-height: 100px;
+                    cursor: pointer;
+                    & p {
+                        color: #999;
+                        & strong {
+                            color: #666;
+                        }
+                    }
+                    &:hover {
+                        background: #f6f6f6;
+                        & p {
+                            color: #666;
+                            & strong {
+                                color: #333;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

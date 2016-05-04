@@ -1,0 +1,247 @@
+.overview{
+    & .gk-top{
+        background: #FFFFFF;
+        border-radius: 2px;
+        & h2{
+            font-size: 14px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 14px;
+        }//cpu 内存 磁盘标题
+        & .cont-char{
+            padding: 10px 15px 15px;
+            & span{
+                display: block;
+                float: left;
+                height: 56px;
+                margin-left: 14px;
+                margin-top: 10px;
+                position: absolute;
+                width: 56px;
+                & i{
+                    color: $colorCyan;
+                    font-size: 45px;
+                    &.fa-inbox {
+                        color: #614ccb;
+                        font-size: 50px;
+                    }
+                    &.fa-ticket {
+                        color: #94cb4c;
+                        font-size: 50px;
+                    }
+                }
+                }//图标
+            & ul{
+                height: 20px;
+                line-height: 20px;
+                list-style: outside none none;
+                margin: 3px 10px 3px 40px;
+                & li{
+                    color: #333333;
+                    float: left;
+                    width: 50%;
+                }
+                & li:last-child{
+                    text-align: right;
+                }
+                }//数据字体
+        }
+    }//CPU 内存 磁盘整体使用视图
+    & .gk-cen{
+        margin-top: 20px;
+        & .gk-cen1{
+        border-radius: 2px;
+        background: #FFFFFF;
+        height: 200px; 
+        }
+        & ul{
+            list-style: outside none none;
+            margin-top: 20px;
+            position: absolute;
+            right: 100px;
+            top: 0;
+            font-weight: bold;
+            color: #999999;
+            & span{
+                font-size: 24px;
+                color: $colorCyan;
+                font-weight: bold;
+                &.yx2{
+                    color: #30c8b4;
+                }
+                &.yx3{
+                    color: #94cb4c;
+                }
+                &.tz{
+                   color: $navTextColor; 
+                }
+            }
+        }//右上角的字
+        & .yxz{
+            margin-top: 130px;
+            height: 16px;
+            position: absolute;
+            right: 77px;
+            top: 0;
+            color: #999999;
+            line-height: 16px;
+            & .yxz-left{
+                border-radius: 2px;
+                background-color: $colorCyan;
+                float:left;
+                width:16px;
+                height: 16px;
+                margin-right: 5px;
+            }
+            & .yxz-left2{
+                border-radius: 2px;
+                background-color: #30c8b4;
+                float:left;
+                width:16px;
+                height: 16px;
+                margin-right: 5px;
+            }
+            & .yxz-left3{
+                border-radius: 2px;
+                background-color: #94cb4c;
+                float:left;
+                width:16px;
+                height: 16px;
+                margin-right: 5px;
+            }//运行中
+        }
+        & .ytz{
+            margin-top: 155px;
+            height: 16px;
+            position: absolute;
+            right: 77px;
+            top: 0;
+            color: #999999;
+            line-height: 16px;
+            & .ytz-left{
+                border-radius: 2px;
+                background-color: #e3e3e3;
+                float:left;
+                width:16px;
+                height: 16px;
+                margin-right: 5px;
+            }
+        }//已停止
+    }//三个圆环图
+    & .gk-cen2{
+        margin-top: 20px;
+        & .main-gk{
+          border-radius: 2px;
+          background: #FFFFFF;
+          height: 260px;
+          & .nav-tabs{
+                float: left;
+                border-right: 1px solid #ececec;
+                border-bottom: none;
+                height: 100%;
+                width:140px;
+                padding-left: 24px;
+                & li{
+                    float: none;
+                    margin-top:1px;
+                    margin-bottom: 1px;
+                    text-align: right;
+                    &.active {
+                        margin-right: -1px;
+                        & a{
+                            border-color: #ececec transparent #ececec #ececec;
+                            border-radius: 4px 0 0 4px;
+                            color: #555;
+                            background-color: #fff;
+                            cursor: default;
+                            &:hover {
+                                border-color: #ddd transparent #ddd #ddd;
+                                background: #FFF;
+                            }
+                            &:focus{
+                                outline: none;
+                            }
+                        }
+                    }
+                    &:first-child {
+                        list-style: outside none none;
+                        font-size: 16px;  
+                        height: 70px; 
+                        padding-top: 25px;
+                        text-align: left;
+                    }
+                    & a{
+                        border-color: transparent;
+                        border-radius: 4px 0 0 4px;
+                        color: #9a9c9c;
+                        border-width: 1px;
+                        border-style: solid;
+                        margin: 0;
+                        &:hover {
+                            background-color: #f5f5f5;
+                        }
+                    }
+                }
+            }
+           & .tab-content{
+               margin-left: 145px;
+               height: 100%;
+           }
+            
+        }
+    }//四个概况
+    & .gk-cen3{
+        border-radius: 2px;
+        margin-top: 20px;
+        background: #FFFFFF;
+        height: 200px;
+        & h2{
+            font-size: 16px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            height: 50px;
+            line-height: 55px;
+            padding-left: 14px;
+        }
+        & .gj-left{
+            width: 50%;
+            height:150px;
+            float: left; 
+            & .list-group1{
+                padding-left: 14px;
+                padding-right: 30px;
+                border-right: 1px solid #ddd;
+                & .list-group-item1{
+                    border: none;
+                    border-bottom: 1px solid #ddd;
+                    margin-bottom: 0px;
+                    padding: 7px 15px;
+                    & .virtual-square{
+                        margin-left: 40px;
+                        float: right;
+                        font-size: 12px;   
+                    }
+                }
+                
+            }
+            
+        }
+    }//三个告警图
+    & .gk-bottom{
+        border-radius: 2px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background: #FFFFFF;
+        height: 260px;
+        & h2{
+            font-size: 16px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            height: 50px;
+            line-height: 55px;
+            padding-left: 14px;
+        }
+    }//最近20条告警
+}

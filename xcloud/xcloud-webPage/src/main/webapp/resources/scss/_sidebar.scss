@@ -1,0 +1,144 @@
+.sidebar {
+    position: fixed; 
+    width: $sidebarWidth;
+    top: $navHeight;
+    left: 0;
+    bottom: 0;
+    overflow: auto;
+    background-color: $colorDarkBule;
+    & ul.nav {
+        background: $colorBlue;
+        padding: 10px 0;
+        & .open > a, & .open > a:focus, & .open > a:hover, & a:focus, & a:hover {
+            background: #2c3942;
+        }
+        & > li {
+            &.nav-header {
+                color: #939aa0;
+                font-size: 12px;
+                line-height: 24px;
+                padding: 2px 18px 2px;
+            }
+            & + li {
+                margin: 0;
+            }
+            & > a {
+                color: #8ca1af;
+                font-size: 14px;
+                font-weight: bold;
+                padding: 8px 10px 8px 28px;
+                line-height: 24px;
+                border-radius: 0;
+                transition: .3s all ease;
+                &:hover {
+                    background: #2c3942;
+                    color: #FFF;
+                }
+                &:focus {
+                    outline: none;
+                }
+                & i { 
+                    margin-right: 12px;
+                    font-size: 16px;
+                    &.fa-dropbox { color: #58a6d3;}
+                    &.fa-cloud { color: #689947;}
+                    &.fa-users { color: #4cb6cb;}
+                    &.fa-tachometer { color: #6f8be5;}
+                    &.fa-pie-chart { color: #89a3b5;}
+                    &.fa-bell { color: #a47953;}
+                    &.fa-shield { color: #af9d3a;}
+                    &.fa-calendar { color: #925e5e;}
+                    &.fa-cog { color: #909090;}
+                    &.fa-file-text { color: #689947;}
+                    &.fa-desktop { color: #4cb6cb;}
+                    &.fa-hand-o-right { color: #89a3b5;}
+                    &.fa-cube { color: #a47953;}
+                    &.fa-television { color: #af9d3a;}
+                    &.fa-connectdevelop { color: #925e5e;}
+                    &.fa-user { color: #909090;}
+                    &.fa-list { color: #58a6d3;}
+                    &.fa-server { color: #48cbc9;}
+                    &.fa-connectdevelop { color: #53a7d3;}
+                    &.fa-tasks { color: #88bc7c;}
+                }
+                & span.fa.arrow {
+                    float:right;
+                    margin-top: 5px;
+                    &::before {
+                        content: "\f105";
+                    }
+                }
+            }
+            & > ul {
+                background-color: $colorDarkBule;
+                border-left: 4px solid $colorCyan;
+                padding: 0;
+                & > li > a {
+                    display: block;
+                    padding: 4px;
+                    padding-left: 40px;
+                    color: #778e9d;
+                    font-size: 12px;
+                    line-height: 24px;
+                    transition: .3s all ease;
+                    text-decoration: none;
+                    & i {
+                        margin-right: 10px;
+                    }
+                    &:hover {
+                        color: #FFF;
+                    }
+                    &:focus {
+                        outline: none;
+                    }
+                    &.active {
+                        background-color: #344754;
+                        color: #FFF;
+                    }
+                }
+            }
+        }
+    }
+    & ul li.active {
+        & > a {
+            background: #2c3942;
+            & > span {
+                &.caret {
+                    margin-top: 10px;
+                }
+                &.badge {
+                    margin-top: 3px;
+                    margin-right: 8px;
+                }
+            }
+            & span.fa.arrow {
+                float:right; 
+                &::before {
+                    content: "\f107";
+                }
+            }
+        }
+    }
+    & div.dropdown {
+        & > a {
+            background: #2c3942;
+            display: block;
+            margin: 10px;
+            padding: 5px 10px;
+            color: #FFF;
+            text-align: center;
+            text-decoration: none;
+            & > span {
+                &.caret {
+                    float: right;
+                    margin-top: 8px;
+                }
+            }
+        }
+        & .dropdown-menu {
+            left: 10px;
+            width: 200px;
+            border-radius: 2px;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+//页面标题
+.page-header {
+    margin-top: 0;
+    border-bottom: 1px solid #e3e4e8;
+    padding-bottom: 12px;
+    & h1 {
+        font-size: 20px;
+        color: #666666;
+    }
+    & .small {
+        font-size: 12px;
+        color: #999999;
+        line-height: 14px;
+    }
+}
+//子页面标题
+.page-header-detail {
+    border-bottom: 1px solid #e3e4e8;
+    margin-bottom: 1.25rem;
+    & > .btn-link {
+        float: left;
+        font-size: 16px;
+        color: #999;
+        & i {
+            margin-right: 0.5rem;
+        }
+        &:hover {
+            color: #FFF;
+            background: $colorCyan;
+            text-decoration: none;
+        }
+    }
+    & > h2 {
+        margin-left: 6rem;
+        padding-left: 1rem;
+        margin-bottom: 0.75rem;
+        border-left: 1px solid #e3e4e8;
+        & > i {
+            color: #666;
+        }
+        & > span {
+            font-size: 24px;
+            display: inline-block;
+            max-width: 480px;
+            min-width: 200px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            vertical-align: middle;
+        }
+        & > .btn {
+            vertical-align: middle;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+        <groupId>com.sugon.cloudview.cloudmanager</groupId>
+		<artifactId>cloudmanager-org</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>cloudmanager-org-service</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-common-bo</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-org-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <!-- 用户服务 -->
+        <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-userMgmt-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!-- 资源服务 -->
+        <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-resourceMgmt-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!-- 模板服务 -->
+         <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-templet-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    
+</project>

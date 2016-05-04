@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.sugon.cloudview.cloudmanager</groupId>
+		<artifactId>cloudmanager</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>cloudmanager-vijava</artifactId>
+	<packaging>pom</packaging>
+	<name>Cloudview :: CloudManager :: vijava :: POM</name>
+	<description>Cloudview :: CloudManager :: vijava :: POM</description>
+
+	<modules>
+		<module>cloudmanager-vijava-mo</module>
+		<module>cloudmanager-vijava-api</module>
+		<module>cloudmanager-vijava-impl</module>
+		<module>cloudmanager-vijava-demo</module>
+	</modules>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.sugon.cloudview.cloudmanager</groupId>
+        <artifactId>cloudmanager-userMgmt</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <artifactId>cloudmanager-userMgmt-api</artifactId>
+    <name>Cloudview :: CloudManager :: UserMgmt :: Api</name>
+    <description>Cloudview :: CloudManager :: UserMgmt :: Api :: Description</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-common-web</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-userMgmt-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-userMgmt-serviceImpl</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-org-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-org-serviceImpl</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,89 @@
+//虚拟化环境卡片样式
+.card-1 {
+    margin-top: 20px;
+    & .card-1-content {
+        background-color: #FFFFFF;
+        border-radius: 2px;
+        height: 300px;
+        overflow: hidden;
+        -webkit-transform-style: preserve-3d;
+        & .card-1-c-r {
+            float: right;
+            width: 120px;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            & .btn-link {
+                text-decoration: none;
+                color: #999;
+                & i { margin-right: 8px;}
+                &:hover {
+                    color: #333;
+                }
+            }
+        }
+        & .card-1-c-l {
+            margin-right: 120px;
+            & .card-1-c-info {
+                height: 200px;
+                background-color: $colorCyan;
+                position: relative;
+                padding: 32px 20px 20px 72px;
+                & i {
+                    position: absolute;
+                    top: 32px;
+                    left: 20px;
+                    font-size: 32px;
+                    color: #7fdcee;
+                }
+                & dl {
+                    & dt {
+                        font-size: 24px;
+                        color: #FFF;
+                        font-weight: normal;
+                        margin-bottom: 5px;
+                    }
+                    & dd {
+                        color: #bcf3fe;
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                }
+            }
+            & .card-1-c-status {
+                height: 100px;
+                padding: 20px;
+                border-right: 1px solid $colorLightGray;
+                & p {
+                    line-height: 20px;
+                    font-size: 12px;
+                    color: #999;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    & .card-1-content-add {
+        height: 300px;
+        border-radius: 4px;
+        border:2px dashed #d7d8d9;
+        text-align: center;
+        & button {
+            width: 200px;
+            height: 200px;
+            margin-top: 50px;
+            color: #e1e4e9;
+            text-decoration: none;
+            & i {
+                font-size: 64px;
+            }
+            & p {
+                line-height: 32px;
+                color: #999;
+            }
+            &:hover {
+                color: $colorCyan;
+            }
+        }
+    }
+}

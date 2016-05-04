@@ -1,0 +1,320 @@
+.vm-table {
+    & .table, & table {
+        background-color: #FFF;
+        border-radius: 2px;
+        margin-bottom: 0;
+        margin-top: 20px;
+        & > tbody > tr > td, & > tbody > tr > th, & > tfoot > tr > td, & > tfoot > tr > th, & > thead > tr > td, & > thead > tr > th {
+            border-top: none;
+            padding: 12px 8px;
+            & .btn {
+                min-width: inherit;
+                padding: 0 8px;
+                border: none;
+                vertical-align: top;
+            }
+        }
+        & .no-records-found td {
+            text-align: center;
+            line-height: 100px;
+        }
+        & > thead > tr > th {
+            background-color: #a4aeb9;
+            color: #FFFFFF;
+            border-color: #93999e;
+            padding: 6px 8px;
+            &:first-child {
+                border-top-left-radius: 2px;
+            }
+            &:last-child {
+                border-top-right-radius: 2px;
+            }
+        }
+        &.table-striped > tbody > tr:nth-of-type(2n+1) {
+            background-color: #f6f8fa;
+        }
+        &.table-hover > tbody > tr:hover,&.table-hover > tbody > tr:nth-of-type(2n+1):hover {
+            background-color: #e7eaee;
+        }
+        &.table-hover > tbody > tr.active,&.table-hover > tbody > tr.active:nth-of-type(2n+1) {
+            background-color: $colorCyan;
+            color: #FFF;
+        }
+    }
+    & .bootstrap-table {
+        & .fixed-table-toolbar {
+            &::after, &::before {
+                content: " ";
+                display: table;
+            }
+            &::after {
+                clear: both;
+            }
+            & .search {
+                margin-right: 10px;
+                & .form-control {
+                    border: 1px solid #e3e4e8;
+                    box-shadow: none;
+                    height: 32px;
+                    border-radius: 2px;
+                    &::-moz-placeholder {
+                      color: #DDD;
+                      opacity: 1;
+                    }
+                    &:-ms-input-placeholder {
+                      color: #DDD;
+                    }
+                    &::-webkit-input-placeholder {
+                      color: #DDD;
+                    }
+                    &:focus {
+                        border-color: $colorCyan;
+                    }
+                }
+            }
+            & .columns {
+                & .btn {
+                    min-width: 32px;
+                    width: 32px;
+                    padding: {
+                        left: 0;
+                        right: 0;
+                    }
+                    &.btn-default {
+                        background-color: #e1e4e9;
+                        color: #999999;
+                        &.focus, &:focus, &.hover, &:hover {
+                            background-color: #ced2d8;
+                            color: #777;
+                        }
+                    }
+                }
+                & .btn-group {
+                    & .dropdown-menu {
+                        left: auto;
+                        right: 0;
+                        & li label {
+                            display: block;
+                            padding: 2px 10px;
+                        }
+                    }
+                }
+            }
+        }
+        & .fixed-table-container {
+            margin-top: 20px;
+            & .fixed-table-body {
+                position: relative;
+                & .fixed-table-loading {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgba(0,0,0,0.1);
+                    border-radius: 2px;
+                    & .fixed-table-loading-text {
+                        position: absolute;
+                        font-size: 12px;
+                        background: #FFF;
+                        border-radius: 2px;
+                        padding: 5px 10px;
+                        line-height: 20px;
+                        margin-top: -15px;
+                        margin-left: -80px;
+                        top: 50%;
+                        left: 50%;
+                        & i {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+            & .table, & table {
+                background-color: #FFF;
+                border-radius: 2px;
+                margin-bottom: 0;
+                margin-top: 0;
+                & > tbody > tr > td, & > tbody > tr > th, & > tfoot > tr > td, & > tfoot > tr > th, & > thead > tr > td, & > thead > tr > th {
+                    border-top: none;
+                    padding: 12px 8px;
+                    & .btn {
+                        min-width: inherit;
+                        padding: 0 8px;
+                        border: none;
+                        vertical-align: top;
+                    }
+                }
+                & .no-records-found td {
+                    text-align: center;
+                    line-height: 100px;
+                }
+                & > thead > tr > th {
+                    background-color: #a4aeb9;
+                    color: #FFFFFF;
+                    border-color: #93999e;
+                    padding: 6px 8px;
+                    &:first-child {
+                        border-top-left-radius: 2px;
+                    }
+                    &:last-child {
+                        border-top-right-radius: 2px;
+                    }
+                }
+                &.table-striped > tbody > tr:nth-of-type(2n+1) {
+                    background-color: #f6f8fa;
+                }
+                &.table-hover > tbody > tr:hover,&.table-hover > tbody > tr:nth-of-type(2n+1):hover {
+                    background-color: #e7eaee;
+                }
+                &.table-hover > tbody > tr.active,&.table-hover > tbody > tr.active:nth-of-type(2n+1) {
+                    background-color: $colorCyan;
+                    color: #FFF;
+                }
+            }
+            & .fixed-table-pagination {
+                &::after, &::before {
+                    content: " ";
+                    display: table;
+                }
+                &::after {
+                    clear: both;
+                }
+                padding: 20px 0;
+                text-align: right;
+                & .pagination-detail {
+                    display: inline-block;
+                    float: none !important;
+                    & .btn {
+                        background-color: #FFF;
+                        min-width: auto;
+                        color: #333;
+                        border:1px solid #e3e4e8;
+                    }
+                    & .dropdown-menu {
+                        right: 0;
+                        left: auto;
+                    }
+                }
+                & .pagination {
+                    display: inline-block;
+                    float: none !important;
+                    margin: 0;
+                    vertical-align: middle;
+                    border: none;
+                    border-radius: 2px;
+                    & > li:first-child > a, & > li:first-child > span {
+                        border-bottom-left-radius:2px;
+                        border-top-left-radius:2px;
+                    }
+                    & > li > a, & > li > span {
+                        border:1px solid #e3e4e8;
+                        color:#666;
+                    }
+                    & > li:last-child > a, & > li:last-child > span {
+                        border-bottom-right-radius:2px;
+                        border-top-right-radius:2px;
+                    }
+                    & > .active > a, & > .active > a:focus, & > .active > a:hover, & > .active > span, & > .active > span:focus, & > .active > span:hover {
+                        background-color:$colorCyan;
+                        color:#ffffff;
+                        border: 1px solid $colorCyan;
+                    }
+                    & > .disabled > a, & > .disabled > a:focus, & > .disabled > a:hover, & > .disabled > span, & > .disabled > span:focus, & > .disabled > span:hover {
+                        color: #DDD;
+                    }
+                }
+            }
+        }
+    }
+    & .datagrid {
+        box-shadow: none;
+        background: none;
+        & .panel-header, & .panel-body {
+            background: none;
+            border: none;
+            padding: 0;
+            & .datagrid-view {
+                border-radius: 2px;
+                background: #fff;
+            }
+            & .datagrid-header {
+                background: #a4aeb9;
+                border-color: #93999e;
+            }
+            & .datagrid-td-rownumber {
+                background: none;
+            }
+            & .datagrid-body {
+                border: none;
+                & .datagrid-row-alt {
+                    background: #f6f8fa;
+                    &.datagrid-row-selected {
+                        background: #ffe48d;
+                    }
+                }
+                & .datagrid-row-over {
+                    background: #eaf2ff;
+                }
+                & td {
+                    border-right:1px dotted transparent;
+                    border-bottom:1px dotted transparent;
+                }
+            }
+            & .datagrid-footer-inner {
+                border: none;
+            }
+            & .datagrid-pager {
+                border: none;
+                margin-top: 20px;
+                background: none;
+                & table {
+                    background: none;
+                    border-radius: 2px;
+                    float: right;
+                    & > tbody > tr > td, & > tbody > tr > th, & > tfoot > tr > td, & > tfoot > tr > th, & > thead > tr > td, & > thead > tr > th {
+                        padding: 0 2px;
+                        &:first-child {
+                            border-radius: 2px 0 0 2px;
+                        }
+                        &:last-child {
+                            border-radius:0 2px 2px 0;
+                        }
+                    }
+                    & .pagination-num {
+                        border:1px solid #e3e4e8;
+                        border-radius: 2px;
+                        text-align: center;
+                    }
+                }
+                & .pagination-page-list {
+                    border:1px solid #e3e4e8;
+                    border-radius: 2px;
+                }
+            }
+            & table {
+                margin: 0;
+                border-radius: 0;
+                &.datagrid-htable {
+                    & > tbody > tr > td, & > tbody > tr > th, & > tfoot > tr > td, & > tfoot > tr > th, & > thead > tr > td, & > thead > tr > th {
+                        background-color: #a4aeb9;
+                        color: #FFFFFF;
+                        border-color: #93999e;
+                        padding: 6px 8px;
+                        &:first-child {
+                            border-top-left-radius: 0;
+                        }
+                        &:last-child {
+                            border-top-right-radius: 0;
+                        }
+                    }
+                }
+            }
+        }
+        & .datagrid-toolbar {
+            background: none;
+            margin-bottom: 20px;
+            border: none;
+        }
+    }
+}

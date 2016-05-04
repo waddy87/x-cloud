@@ -1,0 +1,100 @@
+.filter {
+    text-align: right;
+    & .filter-search {
+        margin-right: 80px;
+        & .searchbox {
+            border-radius: 2px;
+            border: 1px solid #e3e4e8;
+            &.textbox-focused {
+                box-shadow: none;
+            }
+        }
+        & .input-group {
+            & .textbox {
+                display: table-cell;
+                border-radius: 2px 0 0 2px;
+                border: 1px solid #e3e4e8;
+                &.textbox-focused {
+                    box-shadow: none;
+                }
+                & .combo-arrow {
+                    background-color: transparent;
+                }
+                & input {
+                    border: none;
+                    border-radius:0;
+                    height: 30px;
+                }
+            }
+            & .input-group-btn {
+                & .btn-default {
+                    background-color: #FFFFFF;
+                    color: #999999;
+                    min-width: 32px;
+                    border: 1px solid #e3e4e8;
+                    padding: 5px 12px;
+                }
+                & .l-btn {
+                    border-radius: 0 2px 2px 0;
+                    margin-left: -1px;
+                    & .l-btn-icon {
+                        font-size: 14px;
+                        color: #999;
+                    }
+                    &:hover {
+                        background: #FFF;
+                        border-color: #e3e4e8;
+                        & .l-btn-icon {
+                            color: #333;
+                        }
+                    }
+                    &:focus {
+                        outline: none;
+                    }
+                    &:active {
+                        background: #FFF;
+                        border-color: #e3e4e8;
+                        & .l-btn-icon {
+                            color: #333;
+                        }
+                    }
+                }
+            }
+            & input {
+                border: 1px solid #e3e4e8;
+                box-shadow: none;
+                height: 32px;
+                border-radius: 2px;
+                &::-moz-placeholder {
+                  color: #DDD;
+                  opacity: 1;
+                }
+                &:-ms-input-placeholder {
+                  color: #DDD;
+                }
+                &::-webkit-input-placeholder {
+                  color: #DDD;
+                }
+            }
+        }
+    }
+    & .filter-tool {
+        float: right;
+        & .btn {
+            min-width: 32px;
+            width: 32px;
+            padding: {
+                left: 0;
+                right: 0;
+            }
+            &.btn-default {
+                background-color: #e1e4e9;
+                color: #999999;
+                &.focus, &:focus, &.hover, &:hover {
+                    background-color: #ced2d8;
+                    color: #777;
+                }
+            }
+        }
+    }
+}

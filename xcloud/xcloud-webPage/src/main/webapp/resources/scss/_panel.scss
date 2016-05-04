@@ -1,0 +1,97 @@
+.panel {
+    .vm-table & {
+        overflow: inherit;
+        &.datagrid .panel-body {
+            overflow: inherit;
+        }
+    }
+    .project-list & {
+        border-radius: 2px;
+        box-shadow: none;
+        border-color: #e7eaee;
+        & .panel-body {
+            & .page-header {
+                & h1 {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    .dashboard-list & {
+        border-radius: 2px;
+        box-shadow: none;
+        border-color: #e7eaee;
+        & .panel-body {
+            & .row {
+                & > div {
+                    padding:10px 30px;
+                }
+            }
+            & .data-attributes {
+                & > div {
+                    text-align: center;
+                    padding: 30px 0;
+                    position: relative;
+                    & .peity {
+                        display: inline-block;
+                    }
+                    & dl {
+                        position: absolute;
+                        width: 100px;
+                        left: 50%;
+                        margin-left: -50px;
+                        top: 50%;
+                        margin-top: -25px;
+                        & dt {
+                            font-size: 12px;
+                        }
+                        & dd {
+                            line-height: 40px;
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.combo-p {
+        & .combo-panel {
+            border: 1px solid #a4aeb9;
+        }
+    }
+    &.vm-addnet-list {
+        margin-bottom: 0;
+        & .panel-body {
+            height: 425px;
+            overflow: auto;
+            & .netcard-list {
+                border:1px solid #EEE;
+                border-radius: 2px;
+                background: #f9f9f9;
+                padding: 5px 30px 5px 10px;
+                margin-bottom: 5px;
+                position: relative;
+                line-height: 24px;
+                & span {
+                    margin-right: 10px;
+                    font-size: 12px;
+                    color: #333;
+                }
+                & a {
+                    display: block;
+                    position: absolute;
+                    top: 4px;
+                    right: 4px;
+                    width: 24px;
+                    height: 24px;
+                    text-align: center;
+                    color: #ccc;
+                    text-decoration:none; 
+                    &:hover {
+                        color: #999;
+                    }
+                }
+            }
+        }
+    }
+}

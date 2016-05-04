@@ -1,0 +1,121 @@
+html, body, div, form, input, label, button, span, p, img { margin:0; padding:0;}
+img { border:none;}
+html, body { height:100%; font-size:12px;}
+.login-body { position:absolute; top:0; left:0; right:0; bottom:0; overflow:hidden;}
+.login-shadow { position:absolute; top:50%; left:50%; margin:-360px 0 0 -368px; width:736px; height:736px; background:url(../image/login-shadow.png) 0 0 no-repeat;}
+.login-box { position:absolute; top:50%; left:50%; width:320px; height:460px; margin:-250px 0 0 -180px; padding:20px; z-index:3; background:url(../image/login-bg.svg) 0 0 no-repeat;}
+.login-logo { padding:50px 70px;}
+.login-form { padding:0 40px;}
+.login-form .form-group { position:relative; margin-bottom:10px;}
+.login-form .form-group > label { position:absolute; top:0; left:0; height:42px; padding:13px 0 0 13px; font-size:16px; color:#999;transition: .3s all ease;}
+.login-form .form-group .form-control { border:1px solid #DDD; color:#666; height:22px; padding:10px 10px 10px 40px; border-radius:2px; font-size:16px; width:188px;transition: .3s all ease;}
+.login-form .form-group .form-control:focus { border-color:#3aabd6; color:#3aabd6;}
+.login-form .form-group .form-control:focus + label { color:#3aabd6;}
+.login-form .form-group .form-control.error { border-color:#fb6e6e; color:#fb6e6e;}
+.login-form .form-group .form-control.error:focus { border-color:#fb6e6e; color:#fb6e6e;}
+.login-form .form-group .form-control.error + label { color:#fb6e6e;}
+.login-form .form-group .form-control.error:focus + label { color:#fb6e6e;}
+.login-form .form-group .form-validate { vertical-align: middle; border:1px solid #DDD; color:#666; height:22px; padding:10px; border-radius:2px; font-size:16px; width:80px; transition: .3s all ease;}
+.login-form .form-group .form-validate:focus { border-color:#3aabd6; color:#3aabd6;}
+.login-form .form-group .form-validate:focus + label { color:#3aabd6;}
+.login-form .form-group .form-validate.error { border-color:#fb6e6e; color:#fb6e6e;}
+.login-form .form-group .form-validate.error:focus { border-color:#fb6e6e; color:#fb6e6e;}
+.login-form .form-group .form-validate.error + label { color:#fb6e6e;}
+.login-form .form-group .form-validate.error:focus + label { color:#fb6e6e;}
+.login-form .form-group div.errordiv { position:absolute; top:0;right:250px;}
+.login-form .form-group div.errordiv label { position:relative; display:block; padding:10px 20px; font-size:14px; line-height:24px; background:#fb6e6e; color:#FFF; border-radius:2px; white-space: nowrap;}
+.login-form .form-group div.errordiv label:after { content:''; position:absolute;right:-10px; top:50%; margin-top:-5px; display:block; width:0; height:0; line-height:0; border:5px dashed transparent; border-left:5px solid #fb6e6e;}
+.login-form .form-group img { vertical-align: middle; border-radius:2px; border:1px solid #DDD; padding:3px; margin:0 3px;}
+.login-form .form-group a { font-size:18px; display:inline-block; width:20px; text-align:center; color:#CCC; transition: .3s all ease; vertical-align: middle;}
+.login-form .form-group a:hover { color:#999;}
+.login-form .form-group a .fa-check-circle { color:#5cb85c;}
+.login-form .form-group a:hover .fa-check-circle { color:#5cb85c;}
+.login-form .form-group a .fa-times-circle { color:#d9534f;}
+.login-form .form-group a:hover .fa-times-circle { color:#d9534f;}
+#validateCodeIcon { display:none;}
+.login-form .login-btn { display:inline-block; width:72px; height:72px; border:none; border-radius:50%; margin:28px 0 0 88px; font-size:24px; color:#FFF;
+	background: -webkit-linear-gradient(#2da4de, #4cb6cb); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(#2da4de, #4cb6cb); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(#2da4de, #4cb6cb); /* Firefox 3.6 - 15 */
+	background: linear-gradient(#2da4de, #4cb6cb); /* 标准的语法 */
+	cursor: pointer;
+	opacity: 0.8;
+	transition: .3s all ease;
+	position:relative;
+}
+.login-form .login-btn:hover {
+	opacity: 1;
+}
+@-webkit-keyframes line-scale-party {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+
+  50% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5); }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes line-scale-party {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+
+  50% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5); }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+.loader {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-36px 0 0 -36px;
+	width:72px;
+	height:72px;
+	display:none;
+}
+.line-scale-party > div:nth-child(1) {
+  -webkit-animation-delay: 0.77s;
+          animation-delay: 0.77s;
+  -webkit-animation-duration: 1.26s;
+          animation-duration: 1.26s; }
+.line-scale-party > div:nth-child(2) {
+  -webkit-animation-delay: 0.29s;
+          animation-delay: 0.29s;
+  -webkit-animation-duration: 0.43s;
+          animation-duration: 0.43s; }
+.line-scale-party > div:nth-child(3) {
+  -webkit-animation-delay: 0.28s;
+          animation-delay: 0.28s;
+  -webkit-animation-duration: 1.01s;
+          animation-duration: 1.01s; }
+.line-scale-party > div:nth-child(4) {
+  -webkit-animation-delay: 0.74s;
+          animation-delay: 0.74s;
+  -webkit-animation-duration: 0.73s;
+          animation-duration: 0.73s; }
+.line-scale-party > div {
+  background-color: #fff;
+  width: 2px;
+  height: 16px;
+  border-radius: 2px;
+  margin: 1px;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  display: inline-block;
+  -webkit-animation-name: line-scale-party;
+          animation-name: line-scale-party;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 0;
+          animation-delay: 0; }
+.line-scale-party {
+	width:48px;
+	margin: 22px auto 0;
+}

@@ -1,0 +1,129 @@
+.uc-slider {
+    border-radius: 4px;
+    display: inline-block;
+    float: left;
+    height: 10px;
+    margin-right: 10px;
+    position: relative;
+    vertical-align: bottom;
+    width: 506px;
+}
+.uc-slider .range {
+    background-color: #eee;
+    border-radius: 2px;
+    height: 10px;
+    position: relative;
+}
+.uc-slider .range .block {
+    display: inline-block;
+    height: 8px;
+}
+.uc-slider .w50 {
+    width: 50%;
+}
+.uc-slider .block span {
+    color: #999999;
+    display: inline;
+    float: right;
+    font-size: 12px;
+}
+.uc-slider .w25 {
+    width: 25%;
+}
+.uc-slider .block div {
+    border-left: 1px solid #e6e6e6;
+    height: 8px;
+    padding: 1px 10px 1px 0;
+    text-align: right;
+}
+.uc-slider .block:first-child div {
+    border: medium none;
+    padding-right: 11px;
+}
+.uc-slider .container {
+    border-radius: 2px;
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 0;
+    padding: 0;
+}
+.uc-slider .container .current {
+    background-color: #4cb6cb;
+    border-radius: 2px;
+    height: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+.uc-slider .current .unit {
+    display: inline-block;
+    font-size: 12px;
+    height: 8px;
+    margin-left: 0;
+    vertical-align: top;
+}
+.uc-slider .unit div {
+    border-right: 1px solid rgba(255,255,255,0.4);
+    height: 8px;
+    padding-right: 10px;
+    text-align: right;
+    color: #FFF;
+}
+.uc-slider .unit span {
+    color: #c8c1a8;
+    display: inline;
+    float: right;
+    font-size: 12px;
+    height: 8px;
+    line-height: 2;
+    transition: color 0.3s ease 0s;
+}
+.uc-slider .bar {
+    background-color: #ff0000;
+    cursor: default;
+    height: 10px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.uc-slider .drag {
+    background-color: #DDD;
+    cursor: default;
+    display: block;
+    height: 3px;
+    left: -5px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 9px 0 0 3px;
+    position: absolute;
+    top: -4px;
+    transform: scale(1);
+    transition: border-color 0.3s ease 0s, -moz-transform 0.3s ease 0s;
+    width: 12px;
+}
+.uc-buy .c-f60 {
+    color: #ff6600;
+}
+.uc-buy .uc-band {
+    display: inline;
+    float: left;
+    margin-right: 8px;
+}
+.uc-input {
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px #e8e8e8 inset;
+    color: #000000;
+    font-size: 12px;
+    height: 12px;
+    line-height: 1;
+    margin-right: 5px;
+    outline: medium none;
+    width: 22px;
+    vertical-align: top;
+    text-align: center;
+}

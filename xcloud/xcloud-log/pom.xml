@@ -1,0 +1,83 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.sugon.cloudview.cloudmanager</groupId>
+		<artifactId>cloudmanager</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>cloudmanager-log</artifactId>
+
+	<properties>
+		<subsystem.name>cloudmanager</subsystem.name>
+		<module.type>service</module.type>
+		<module.name>log</module.name>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.sugon.cloudview.cloudmanager</groupId>
+			<artifactId>cloudmanager-common-dboperation</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sugon.cloudview.cloudmanager</groupId>
+			<artifactId>cloudmanager-common-base</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sugon.cloudview.cloudmanager</groupId>
+			<artifactId>cloudmanager-userMgmt-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!-- taskMgmt -->
+        <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-taskMgmt-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+         <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-taskMgmt-serviceImpl</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

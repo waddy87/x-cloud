@@ -1,0 +1,54 @@
+.btn {
+    border-radius: 2px;
+    min-width: 80px;
+    transition: .3s all ease;
+    border:none;
+    &.btn-default {
+        background-color: $colorCyan;
+        border:none;
+        color: #FFFFFF;
+        &.focus, &:focus, &.hover, &:hover {
+            background-color: #34a1b6;
+            color: #FFFFFF;
+        }
+    }
+}
+.l-btn {
+    .datagrid-toolbar & {
+        border-radius: 2px;
+        background: #FFF;
+        border: 1px solid #e3e4e8;
+        transition: .3s all ease;
+        padding: 3px 8px;
+        & .l-btn-text {
+            font-size: 14px;
+        }
+        &:hover {
+            background: $colorCyan;
+            border-color: $colorCyan;
+            color: #FFF;
+            padding: 3px 8px;
+        }
+        &:focus {
+            outline: none;
+        }
+        &:active {
+            background-color: #248fa3;
+            border-color: #248fa3;
+            color: #FFFFFF;
+            outline: none;
+        }
+        &.textbox-button {
+            border: none;
+            border-right: 1px solid #e3e4e8;
+            padding: 4px 8px;
+            border-radius:2px 0 0 2px;
+            color: #999; 
+            &:hover {
+                padding: 4px 8px;
+                background: #e3e4e8;
+                color: #444;
+            }
+        }
+    }
+}

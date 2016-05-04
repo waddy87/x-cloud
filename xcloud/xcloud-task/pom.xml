@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.sugon.cloudview.cloudmanager</groupId>
+		<artifactId>cloudmanager</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>cloudmanager-taskMgmt</artifactId>
+	<packaging>pom</packaging>
+	<name>Cloudview :: CloudManager :: taskMgmt :: POM</name>
+	<description>Cloudview :: CloudManager :: taskMgmt :: POM :: Description</description>
+
+	<modules>
+		<module>cloudmanager-taskMgmt-api</module>
+		<module>cloudmanager-taskMgmt-service</module>
+		<module>cloudmanager-taskMgmt-serviceImpl</module>
+	</modules>
+</project>

@@ -1,0 +1,4 @@
+2016-05-04 13:32:56,551 INFO [com.sugon.cloudview.cloudmanager.org.api.OrgApi:63] 收到查询组织请求: {search= {"id":null,"name":%%,"address":null,"remarks":null,"ower":null,"creator":null,"create_time":null,"status":NORMAL},page=1,per_page=10}
+2016-05-04 13:32:56,751 INFO [com.sugon.cloudview.cloudmanager.org.api.OrgApi:73] 完成查询组织请求
+2016-05-04 13:40:41,659 INFO [com.sugon.cloudview.cloudmanager.org.api.OrgApi:63] 收到查询组织请求: {search= {"id":null,"name":%%,"address":null,"remarks":null,"ower":null,"creator":null,"create_time":null,"status":NORMAL},page=1,per_page=10}
+2016-05-04 13:40:41,694 INFO [com.sugon.cloudview.cloudmanager.org.api.OrgApi:73] 完成查询组织请求

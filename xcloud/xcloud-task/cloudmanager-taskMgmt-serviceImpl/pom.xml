@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.sugon.cloudview.cloudmanager</groupId>
+		<artifactId>cloudmanager-taskMgmt</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>cloudmanager-taskMgmt-serviceImpl</artifactId>
+	<name>cloudmanager-taskMgmt-serviceImpl</name>
+	<dependencies>
+		<dependency>
+			<groupId>com.sugon.cloudview.cloudmanager</groupId>
+			<artifactId>cloudmanager-common-dboperation</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sugon.cloudview.cloudmanager</groupId>
+			<artifactId>cloudmanager-taskMgmt-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!-- 获得用户信息 -->
+		<dependency>
+			<groupId>com.sugon.cloudview.cloudmanager</groupId>
+			<artifactId>cloudmanager-userMgmt-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!-- 定时器 -->
+		<dependency>
+			<groupId>org.opensymphony.quartz</groupId>
+			<artifactId>quartz</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+		<!-- vijava -->
+		<dependency>
+			<groupId>com.sugon.cloudview.cloudmanager</groupId>
+			<artifactId>cloudmanager-vijava-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!-- org多表关联 -->
+		<dependency>
+			<groupId>com.sugon.cloudview.cloudmanager</groupId>
+			<artifactId>cloudmanager-org-serviceImpl</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>

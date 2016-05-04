@@ -1,0 +1,156 @@
+2016-05-04 11:50:56,141 DEBUG [com.sugon.cloudview.cloudmanager.event.impl.DirectEventController:89] DirectEventController: 127.0.0.1
+2016-05-04 11:50:56,397 DEBUG [com.sugon.cloudview.cloudmanager.event.impl.TopicEventController:89] TopicEventController: 127.0.0.1
+2016-05-04 11:51:59,976 INFO [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$EventMainThread:101] adding mthred 4ea482d0-82a1-47fe-8f49-32e4a988504d......
+2016-05-04 11:52:02,977 INFO [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$MutliThread:144] VMEvent got vsphere connection ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk 
+2016-05-04 11:52:03,121 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$MutliThread:154] 
+After Latest Page:
+2016-05-04 11:52:04,522 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1:249] processing event com.sugon.vim25.VmRemovedEvent
+2016-05-04 11:52:04,522 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1:251] task result success
+2016-05-04 11:52:04,523 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1:258] send Msg:------------------------------
+VmOperatorSuccess [taskId=task-828, createdTime=Wed May 04 11:45:59 CST 2016, entityName=wchch-test2, result=success, operatorType=Destroy, vmId=vm-210, desc=null]
+2016-05-04 11:52:04,586 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1:249] processing event com.sugon.vim25.VmRemovedEvent
+2016-05-04 11:52:04,586 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1:251] task result success
+2016-05-04 11:52:04,587 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1:258] send Msg:------------------------------
+VmOperatorSuccess [taskId=task-829, createdTime=Wed May 04 11:46:03 CST 2016, entityName=wchch-test, result=success, operatorType=Destroy, vmId=vm-209, desc=null]
+2016-05-04 11:52:04,673 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1:249] processing event com.sugon.vim25.VmRemovedEvent
+2016-05-04 11:52:04,674 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1:251] task result success
+2016-05-04 11:52:04,674 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1:258] send Msg:------------------------------
+VmOperatorSuccess [taskId=task-831, createdTime=Wed May 04 11:50:15 CST 2016, entityName=wchch-test, result=success, operatorType=Destroy, vmId=vm-211, desc=null]
+2016-05-04 11:52:05,105 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1:249] processing event com.sugon.vim25.VmBeingDeployedEvent
+2016-05-04 11:52:05,105 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1:249] processing event com.sugon.vim25.VmReconfiguredEvent
+2016-05-04 11:52:05,105 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1:249] processing event com.sugon.vim25.VmDeployedEvent
+2016-05-04 11:52:05,106 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1:251] task result success
+2016-05-04 11:52:05,106 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1:258] send Msg:------------------------------
+VmOperatorSuccess [taskId=task-830, createdTime=Wed May 04 11:46:14 CST 2016, entityName=目前最好用模板, result=success, operatorType=CloneVM, vmId=vm-211, desc=null]
+2016-05-04 11:52:05,995 ERROR [com.sugon.cloudview.cloudmanager.event.impl.TopicEventController:184] send event fail. Event Message : [VmOperatorSuccess [taskId=task-829, createdTime=Wed May 04 11:46:03 CST 2016, entityName=wchch-test, result=success, operatorType=Destroy, vmId=vm-209, desc=null]]
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:58) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:286) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:506) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$1.createConnection(ConnectionFactoryUtils.java:85) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:135) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:71) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1278) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1271) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.send(RabbitTemplate.java:619) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:687) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:683) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at com.sugon.cloudview.cloudmanager.event.impl.TopicEventController.send(TopicEventController.java:182) ~[classes/:na]
+	at com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1.run(VMEvent.java:259) [classes/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_60]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_60]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_60]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_60]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_60]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_60]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_60]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_60]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_60]
+	at com.rabbitmq.client.impl.FrameHandlerFactory.create(FrameHandlerFactory.java:32) ~[amqp-client-3.5.7.jar:na]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:645) ~[amqp-client-3.5.7.jar:na]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:694) ~[amqp-client-3.5.7.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:277) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	... 12 common frames omitted
+2016-05-04 11:52:07,197 ERROR [com.sugon.cloudview.cloudmanager.event.impl.TopicEventController:184] send event fail. Event Message : [VmOperatorSuccess [taskId=task-830, createdTime=Wed May 04 11:46:14 CST 2016, entityName=目前最好用模板, result=success, operatorType=CloneVM, vmId=vm-211, desc=null]]
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:58) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:286) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:506) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$1.createConnection(ConnectionFactoryUtils.java:85) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:135) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:71) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1278) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1271) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.send(RabbitTemplate.java:619) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:687) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:683) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at com.sugon.cloudview.cloudmanager.event.impl.TopicEventController.send(TopicEventController.java:182) ~[classes/:na]
+	at com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1.run(VMEvent.java:259) [classes/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_60]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_60]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_60]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_60]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_60]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_60]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_60]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_60]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_60]
+	at com.rabbitmq.client.impl.FrameHandlerFactory.create(FrameHandlerFactory.java:32) ~[amqp-client-3.5.7.jar:na]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:645) ~[amqp-client-3.5.7.jar:na]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:694) ~[amqp-client-3.5.7.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:277) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	... 12 common frames omitted
+2016-05-04 11:52:08,309 ERROR [com.sugon.cloudview.cloudmanager.event.impl.TopicEventController:184] send event fail. Event Message : [VmOperatorSuccess [taskId=task-828, createdTime=Wed May 04 11:45:59 CST 2016, entityName=wchch-test2, result=success, operatorType=Destroy, vmId=vm-210, desc=null]]
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:58) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:286) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:506) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$1.createConnection(ConnectionFactoryUtils.java:85) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:135) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:71) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1278) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1271) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.send(RabbitTemplate.java:619) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:687) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:683) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at com.sugon.cloudview.cloudmanager.event.impl.TopicEventController.send(TopicEventController.java:182) ~[classes/:na]
+	at com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1.run(VMEvent.java:259) [classes/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_60]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_60]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_60]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_60]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_60]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_60]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_60]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_60]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_60]
+	at com.rabbitmq.client.impl.FrameHandlerFactory.create(FrameHandlerFactory.java:32) ~[amqp-client-3.5.7.jar:na]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:645) ~[amqp-client-3.5.7.jar:na]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:694) ~[amqp-client-3.5.7.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:277) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	... 12 common frames omitted
+2016-05-04 11:52:09,318 ERROR [com.sugon.cloudview.cloudmanager.event.impl.TopicEventController:184] send event fail. Event Message : [VmOperatorSuccess [taskId=task-831, createdTime=Wed May 04 11:50:15 CST 2016, entityName=wchch-test, result=success, operatorType=Destroy, vmId=vm-211, desc=null]]
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:58) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:286) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:506) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$1.createConnection(ConnectionFactoryUtils.java:85) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:135) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:71) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1278) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1271) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.send(RabbitTemplate.java:619) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:687) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:683) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	at com.sugon.cloudview.cloudmanager.event.impl.TopicEventController.send(TopicEventController.java:182) ~[classes/:na]
+	at com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$1.run(VMEvent.java:259) [classes/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_60]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_60]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_60]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_60]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_60]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_60]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_60]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_60]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_60]
+	at com.rabbitmq.client.impl.FrameHandlerFactory.create(FrameHandlerFactory.java:32) ~[amqp-client-3.5.7.jar:na]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:645) ~[amqp-client-3.5.7.jar:na]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:694) ~[amqp-client-3.5.7.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:277) ~[spring-rabbit-1.5.3.RELEASE.jar:na]
+	... 12 common frames omitted
+2016-05-04 13:21:27,545 DEBUG [com.sugon.cloudview.cloudmanager.event.impl.DirectEventController:89] DirectEventController: 127.0.0.1
+2016-05-04 13:21:27,868 DEBUG [com.sugon.cloudview.cloudmanager.event.impl.TopicEventController:89] TopicEventController: 127.0.0.1
+2016-05-04 13:22:31,669 INFO [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$EventMainThread:101] adding mthred 4ea482d0-82a1-47fe-8f49-32e4a988504d......
+2016-05-04 13:22:34,669 INFO [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$MutliThread:144] VMEvent got vsphere connection ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk 
+2016-05-04 13:22:34,792 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$MutliThread:154] 
+After Latest Page:
+2016-05-04 14:00:21,550 DEBUG [com.sugon.cloudview.cloudmanager.event.impl.DirectEventController:89] DirectEventController: 127.0.0.1
+2016-05-04 14:00:21,769 DEBUG [com.sugon.cloudview.cloudmanager.event.impl.TopicEventController:89] TopicEventController: 127.0.0.1
+2016-05-04 14:01:26,252 INFO [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$EventMainThread:101] adding mthred 4ea482d0-82a1-47fe-8f49-32e4a988504d......
+2016-05-04 14:01:29,286 INFO [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$MutliThread:144] VMEvent got vsphere connection ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk 
+2016-05-04 14:01:30,438 DEBUG [com.sugon.cloudview.cloudmanager.event.vmEvent.VMEvent$MutliThread:154] 
+After Latest Page:

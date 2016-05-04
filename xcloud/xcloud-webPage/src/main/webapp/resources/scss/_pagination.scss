@@ -1,0 +1,48 @@
+.vm-pagination {
+    text-align: right;
+    vertical-align: middle;
+    & .dataTables_length {
+        display: inline-block;
+        margin: 20px 10px;
+        vertical-align: middle;
+        & label {
+            margin: 0;
+            font-size: 14px;
+            color: #999999;
+            line-height: 32px;
+            font-weight: normal;
+            & .form-control {
+                width: 60px;
+                display: inline-block;
+                border: 1px solid #e3e4e8;
+                border-radius: 2px;
+                vertical-align: top;
+            }
+        }
+    }
+    & .pagination {
+        vertical-align: middle;
+        border: none;
+        border-radius: 2px;
+        & > li:first-child > a, & > li:first-child > span {
+            border-bottom-left-radius:2px;
+            border-top-left-radius:2px;
+        }
+        & > li > a, & > li > span {
+            border:1px solid #e3e4e8;
+            color:#666;
+        }
+        & > li:last-child > a, & > li:last-child > span {
+            border-bottom-right-radius:2px;
+            border-top-right-radius:2px;
+        }
+        & > .active > a, & > .active > a:focus, & > .active > a:hover, & > .active > span, & > .active > span:focus, & > .active > span:hover {
+            background-color:$colorCyan;
+            color:#ffffff;
+            border: 1px solid $colorCyan;
+        }
+        & > .disabled > a, & > .disabled > a:focus, & > .disabled > a:hover, & > .disabled > span, & > .disabled > span:focus, & > .disabled > span:hover {
+            color: #DDD;
+        }
+    }
+}

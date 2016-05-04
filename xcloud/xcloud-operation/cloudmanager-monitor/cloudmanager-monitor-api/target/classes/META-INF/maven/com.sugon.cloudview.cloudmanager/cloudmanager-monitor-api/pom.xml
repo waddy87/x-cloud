@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.sugon.cloudview.cloudmanager</groupId>
+        <artifactId>cloudmanager-monitor</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <artifactId>cloudmanager-monitor-api</artifactId>
+    <name>Cloudview :: CloudManager :: Monitor :: Api</name>
+    <description>Cloudview :: CloudManager :: Monitor :: Api</description>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-monitor-serviceImpl</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-common-base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.sugon.cloudview.cloudmanager</groupId>
+            <artifactId>cloudmanager-org-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        
+    </dependencies>
+</project>

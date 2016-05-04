@@ -1,0 +1,17 @@
+.btn-group {
+    margin-right: 10px;
+    & .btn {
+        min-width: auto;
+        font-size: 12px;
+        &.btn-defalut {
+            border: 1px solid #e3e4e8;
+            background: #FFF;
+            &.active {
+                background: $colorCyan;
+                color: #FFF;
+                box-shadow: none;
+                border: 1px solid $colorCyan;
+            }
+        }
+    }
+}

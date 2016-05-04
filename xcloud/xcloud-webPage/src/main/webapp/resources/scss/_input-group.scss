@@ -1,0 +1,13 @@
+.input-group {
+    .datagrid & {
+        & .input-group-addon {
+            padding: 4px 10px;
+            font-size: 12px;
+        }
+        & .form-control {
+            height: 32px;
+            padding: 4px 10px;
+            font-size: 12px;
+        }
+    }
+}

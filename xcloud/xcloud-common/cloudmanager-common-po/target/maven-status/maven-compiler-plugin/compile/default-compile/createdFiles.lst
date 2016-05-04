@@ -1,0 +1,5 @@
+com\sugon\cloudview\cloudmanager\project\dao\entity\ProjectVM.class
+com\sugon\cloudview\cloudmanager\usermgmt\serviceimpl\dao\entity\RoleE.class
+com\sugon\cloudview\cloudmanager\project\dao\entity\ProjectE.class
+com\sugon\cloudview\cloudmanager\usermgmt\serviceimpl\dao\entity\UserE.class
+com\sugon\cloudview\cloudmanager\usermgmt\serviceimpl\dao\entity\ResourceE.class
