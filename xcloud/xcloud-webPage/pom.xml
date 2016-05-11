@@ -110,24 +110,7 @@
             <artifactId>xcloud-alert-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>runtime</scope>
-        </dependency>      
-		<!-- apply-->
-		<dependency>
-            <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-apply-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
-		<dependency>
-            <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-apply-api</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-		<!--account-->
- 		<dependency>
-			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-account-api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 		<!-- taskMgmt -->
         <dependency>
             <groupId>org.waddys.xcloud</groupId>
