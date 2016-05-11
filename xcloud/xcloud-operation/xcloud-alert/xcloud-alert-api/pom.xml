@@ -10,8 +10,8 @@
     </parent>
 
     <artifactId>xcloud-alert-api</artifactId>
-    <name>Cloudview :: CloudManager :: Alert :: Api</name>
-    <description>Cloudview :: CloudManager :: Alert :: Api </description>
+    
+    
 
     <dependencies>
         <dependency>

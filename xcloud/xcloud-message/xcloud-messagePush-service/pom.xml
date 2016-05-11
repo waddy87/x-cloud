@@ -7,8 +7,8 @@
 		<version>0.1.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>xcloud-messagePush-service</artifactId>
-	<name>Cloudview :: CloudManager :: MessagePush :: Service</name>
-	<description>Cloudview :: CloudManager :: MessagePush :: Service :: Description</description>
+	
+	
 
 	<dependencies>
 		<dependency>

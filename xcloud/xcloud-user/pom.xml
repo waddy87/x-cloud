@@ -7,13 +7,13 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>xcloud-userMgmt</artifactId>
+    <artifactId>xcloud-user</artifactId>
     <packaging>pom</packaging>
-    <name>Cloudview :: CloudManager :: UserMgmt :: POM</name>
-    <description>Cloudview :: CloudManager :: UserMgmt :: POM :: Description</description>
+    
+    
     <modules>
-        <module>xcloud-userMgmt-service</module>
-        <module>xcloud-userMgmt-serviceImpl</module>
-        <module>xcloud-userMgmt-api</module>
+        <module>xcloud-user-service</module>
+        <module>xcloud-user-serviceImpl</module>
+        <module>xcloud-user-api</module>
     </modules>
 </project>

@@ -6,8 +6,8 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>xcloud-managedvm-serviceImpl</artifactId>
-  <name>Cloudview :: CloudManager :: Managedvm :: Service :: Impl</name>
-  <description>Cloudview :: CloudManager :: Managedvm :: Service :: Impl :: Description</description>
+  
+  
   
   <dependencies>
     <dependency>

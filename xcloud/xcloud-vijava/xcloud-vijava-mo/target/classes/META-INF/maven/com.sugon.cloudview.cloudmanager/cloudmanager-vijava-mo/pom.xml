@@ -8,8 +8,8 @@
 	</parent>
 
 	<artifactId>xcloud-vijava-mo</artifactId>
-	<name>Cloudview :: CloudManager :: vijava :: MO</name>
-	<description>Cloudview :: CloudManager :: vijava :: MO</description>
+	
+	
 
 	<dependencies>
 		<dependency>

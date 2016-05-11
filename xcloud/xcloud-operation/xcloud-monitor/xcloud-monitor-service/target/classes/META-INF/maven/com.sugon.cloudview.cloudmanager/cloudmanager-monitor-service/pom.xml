@@ -7,8 +7,8 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>xcloud-monitor-service</artifactId>
-	<name>Cloudview :: CloudManager :: Monitor :: Service</name>
-	<description>Cloudview :: CloudManager :: Monitor :: Service</description>
+	
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>

@@ -56,22 +56,22 @@
 		</dependency>
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-resourceMgmt-service</artifactId>
+			<artifactId>xcloud-resource-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-resourceMgmt-serviceImpl</artifactId>
+			<artifactId>xcloud-resource-serviceImpl</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-userMgmt-service</artifactId>
+			<artifactId>xcloud-user-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-userMgmt-serviceImpl</artifactId>
+			<artifactId>xcloud-user-serviceImpl</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		        <dependency>

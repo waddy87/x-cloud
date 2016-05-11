@@ -10,8 +10,8 @@
 	<artifactId>xcloud-messagePush</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Cloudview :: CloudManager :: MessagePush</name>
-	<description>Cloudview :: CloudManager :: MessagePush :: Description</description>
+	
+	
 
 	<modules>
 		<module>xcloud-messagePush-api</module>

@@ -7,8 +7,8 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>xcloud-common-web</artifactId>
-	<name>Cloudview :: CloudManager :: Common :: Web</name>
-	<description>Cloudview :: CloudManager :: Common :: Web :: Description</description>
+	
+	
 
 	<dependencies>
         <dependency>

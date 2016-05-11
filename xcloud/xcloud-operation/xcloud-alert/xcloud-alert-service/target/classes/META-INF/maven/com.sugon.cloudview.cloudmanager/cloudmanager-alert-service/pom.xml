@@ -10,6 +10,6 @@
     </parent>
 
     <artifactId>xcloud-alert-service</artifactId>
-    <name>Cloudview :: Cloudmanager :: Alert :: Service</name>
-    <description>Cloudview :: Cloudmanager :: Alert :: Service</description>
+    
+    
 </project>

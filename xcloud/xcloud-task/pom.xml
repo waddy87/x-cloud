@@ -7,14 +7,14 @@
 		<artifactId>xcloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>xcloud-taskMgmt</artifactId>
+	<artifactId>xcloud-task</artifactId>
 	<packaging>pom</packaging>
-	<name>Cloudview :: CloudManager :: taskMgmt :: POM</name>
-	<description>Cloudview :: CloudManager :: taskMgmt :: POM :: Description</description>
+	
+	
 
 	<modules>
-		<module>xcloud-taskMgmt-api</module>
-		<module>xcloud-taskMgmt-service</module>
-		<module>xcloud-taskMgmt-serviceImpl</module>
+		<module>xcloud-task-api</module>
+		<module>xcloud-task-service</module>
+		<module>xcloud-task-serviceImpl</module>
 	</modules>
 </project>

@@ -10,8 +10,8 @@
   
   <packaging>pom</packaging>
   <artifactId>xcloud-alert</artifactId>
-  <name>Cloudview :: CloudManager :: Alert</name>
-  <description>Cloudview :: CloudManager :: Alert ::Description</description>
+  
+  
 
   <modules>
   	<module>xcloud-alert-api</module>

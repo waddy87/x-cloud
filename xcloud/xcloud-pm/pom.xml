@@ -5,13 +5,13 @@
     <artifactId>xcloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>xcloud-pmmgmt</artifactId>
+  <artifactId>xcloud-pm</artifactId>
   <packaging>pom</packaging>
-  <name>Cloudview :: CloudManager :: PmMgmt</name>
-  <description>Cloudview :: CloudManager :: PmMgmt :: Description</description>
+  
+  
   <modules>
-  	<module>xcloud-pmmgmt-serviceimpl</module>
-  	<module>xcloud-pmmgmt-service</module>
-  	<module>xcloud-pmmgmt-api</module>
+  	<module>xcloud-pm-serviceimpl</module>
+  	<module>xcloud-pm-service</module>
+  	<module>xcloud-pm-api</module>
   </modules>
 </project>

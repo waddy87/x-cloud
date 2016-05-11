@@ -10,8 +10,8 @@
 	<artifactId>xcloud-cloudoperation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Cloudview :: CloudManager :: CloudOperation</name>
-	<description>Cloudview :: CloudManager :: CloudOperation :: Descriptioni</description>
+	
+	
 
 	<modules>
 	    <module>xcloud-monitor</module>

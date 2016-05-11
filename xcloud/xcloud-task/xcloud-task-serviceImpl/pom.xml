@@ -5,11 +5,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.waddys.xcloud</groupId>
-		<artifactId>xcloud-taskMgmt</artifactId>
+		<artifactId>xcloud-task</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>xcloud-taskMgmt-serviceImpl</artifactId>
-	<name>xcloud-taskMgmt-serviceImpl</name>
+	<artifactId>xcloud-task-serviceImpl</artifactId>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
@@ -18,13 +18,13 @@
 		</dependency>
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-taskMgmt-service</artifactId>
+			<artifactId>xcloud-task-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- 获得用户信息 -->
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-userMgmt-service</artifactId>
+			<artifactId>xcloud-user-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- 定时器 -->

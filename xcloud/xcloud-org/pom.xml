@@ -10,8 +10,8 @@
 
 	<artifactId>xcloud-org</artifactId>
     <packaging>pom</packaging>
-    <name>Cloudview :: CloudManager :: Org :: POM</name>
-    <description>Cloudview :: CloudManager :: Org :: POM :: Description</description>
+    
+    
 
     <modules>
         <module>xcloud-org-common</module>

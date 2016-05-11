@@ -8,8 +8,8 @@
 	</parent>
 
 	<artifactId>xcloud-common-dboperation</artifactId>
-	<name>Cloudview :: CloudManager :: Common :: DbOperation</name>
-	<description>Cloudview :: CloudManager :: Common :: DbOperation</description>
+	
+	
 
 	<dependencies>
 		<dependency>

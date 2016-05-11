@@ -58,12 +58,12 @@
     <distributionManagement>
         <repository>
             <id>${distributionManagement-repository-id}</id>
-            <name>${distributionManagement-repository-id}</name>
+            
             <url> ${distributionManagement-repository-url} </url>
         </repository>
         <snapshotRepository>
             <id>${distributionManagement-snapshotRepository-id}</id>
-            <name>${distributionManagement-snapshotRepository-id}</name>
+            
             <url> ${distributionManagement-snapshotRepository-url} </url>
         </snapshotRepository>
     </distributionManagement>
@@ -142,7 +142,7 @@
     <repositories>
         <repository>
             <id>sugon-nexus-mirror</id>
-            <name>Sugon Nexus Mirror</name>
+            
             <url>http://10.0.33.190:8080/nexus/content/groups/public</url>
             <releases>
                 <enabled>true</enabled>
@@ -156,7 +156,7 @@
     <pluginRepositories>
         <pluginRepository>
             <id>sugon-nexus-mirror</id>
-            <name>Sugon Nexus Mirror</name>
+            
             <url>http://10.0.33.190:8080/nexus/content/groups/public</url>
             <releases>
                 <enabled>true</enabled>

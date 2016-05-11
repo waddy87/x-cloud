@@ -47,18 +47,18 @@
 		</dependency>
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-userMgmt-service</artifactId>
+			<artifactId>xcloud-user-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- taskMgmt -->
         <dependency>
             <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-taskMgmt-service</artifactId>
+            <artifactId>xcloud-task-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
          <dependency>
             <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-taskMgmt-serviceImpl</artifactId>
+            <artifactId>xcloud-task-serviceImpl</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 	</dependencies>

@@ -9,7 +9,7 @@
 	<groupId>org.waddys.xcloud</groupId>
 	<artifactId>xcloud-templet-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>xcloud-templet-api</name>
+	
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,7 +32,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-userMgmt-service</artifactId>
+			<artifactId>xcloud-user-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>

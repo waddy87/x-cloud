@@ -8,8 +8,8 @@
 	</parent>
 
 	<artifactId>xcloud-vijava-impl</artifactId>
-	<name>Cloudview :: CloudManager :: vijava :: Impl</name>
-	<description>Cloudview :: CloudManager :: vijava :: Impl</description>
+	
+	
 
 	<dependencies>
 		<dependency>

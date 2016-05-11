@@ -8,8 +8,8 @@
 	</parent>
 	<artifactId>xcloud-templet</artifactId>
 	<packaging>pom</packaging>
-	<name>Cloudview :: CloudManager :: Templet :: POM</name>
-	<description>Cloudview :: CloudManager :: Templet :: POM :: Description</description>
+	
+	
 	<modules>
 		<module>xcloud-templet-api</module>
 		<module>xcloud-templet-service</module>

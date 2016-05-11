@@ -9,8 +9,8 @@
 
 	<artifactId>xcloud-common</artifactId>
 	<packaging>pom</packaging>
-	<name>Cloudview :: CloudManager :: Common</name>
-	<description>Cloudview :: CloudManager :: Common</description>
+	
+	
 
 	<modules>
 		<module>xcloud-common-base</module>

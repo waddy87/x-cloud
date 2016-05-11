@@ -9,8 +9,8 @@
   </parent>
   
   <artifactId>xcloud-alert-serviceImpl</artifactId>
-  <name>Cloudview :: Cloudmanager :: Alert :: ServiceImpl</name>
- <description> Cloudview :: Cloudmanager :: Alert :: ServiceImpl </description>
+  
+ 
 
   <dependencies>
   <dependency>

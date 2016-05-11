@@ -7,14 +7,14 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>xcloud-resourceMgmt</artifactId>
+    <artifactId>xcloud-resource</artifactId>
     <packaging>pom</packaging>
-    <name>Cloudview :: CloudManager :: ResourceMgmt :: POM</name>
-    <description>Cloudview :: CloudManager :: ResourceMgmt :: POM :: Description</description>
+    
+    
 
     <modules>
-        <module>xcloud-resourceMgmt-api</module>
-        <module>xcloud-resourceMgmt-service</module>
-        <module>xcloud-resourceMgmt-serviceImpl</module>
+        <module>xcloud-resource-api</module>
+        <module>xcloud-resource-service</module>
+        <module>xcloud-resource-serviceImpl</module>
     </modules>
 </project>

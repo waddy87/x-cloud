@@ -9,8 +9,8 @@
   <artifactId>xcloud-managedvm</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Cloudview :: CloudManager :: ManagedVM</name>
-  <description>Cloudview :: CloudManager :: ManagedVM :: Description</description>
+  
+  
   <modules>
   	<module>xcloud-managedvm-api</module>
   	<module>xcloud-managedvm-service</module>

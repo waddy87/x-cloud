@@ -7,8 +7,8 @@
   </parent>
   <artifactId>xcloud-monitor</artifactId>
   <packaging>pom</packaging>
-  <name>Cloudview :: CloudManager :: Monitor</name>
-  <description>Cloudview :: CloudManager :: Monitor :: Description</description>
+  
+  
   <modules>
       <module>xcloud-monitor-service</module>
       <module>xcloud-monitor-serviceImpl</module>

@@ -8,8 +8,8 @@
     </parent>
 
     <artifactId>xcloud-common-base</artifactId>
-    <name>Cloudview :: CloudManager :: Common :: Base</name>
-    <description>Cloudview :: CloudManager :: Common :: Base</description>
+    
+    
 
     <dependencies>
         <!-- COMMON LIB -->

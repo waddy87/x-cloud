@@ -7,8 +7,8 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>xcloud-monitor-serviceImpl</artifactId>
-	<name>Cloudview :: CloudManager :: Monitor :: ServiceImpl</name>
-	<description>Cloudview :: CloudManager :: Monitor :: ServiceImpl</description>
+	
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>

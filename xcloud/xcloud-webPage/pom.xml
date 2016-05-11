@@ -9,8 +9,8 @@
 
 	<artifactId>xcloud-webPage</artifactId>
 	<packaging>war</packaging>
-	<name>Cloudview :: CloudManager :: WebPage</name>
-	<description>Cloudview :: CloudManager :: WebPage :: Description</description>
+	
+	
 
 	<dependencies>
 		<!-- common -->
@@ -44,7 +44,7 @@
 		<!-- resourceMgmt -->
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-resourceMgmt-api</artifactId>
+			<artifactId>xcloud-resource-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- template -->
@@ -68,12 +68,12 @@
 		<!-- userMgmt -->
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-userMgmt-service</artifactId>
+			<artifactId>xcloud-user-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-userMgmt-api</artifactId>
+			<artifactId>xcloud-user-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>runtime</scope>
 		</dependency>
@@ -87,13 +87,13 @@
 		<!-- pmmgmt -->
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-pmmgmt-api</artifactId>
+			<artifactId>xcloud-pm-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-pmmgmt-service</artifactId>
+			<artifactId>xcloud-pm-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>runtime</scope>
 		</dependency>
@@ -111,32 +111,32 @@
             <version>0.0.1-SNAPSHOT</version>
             <scope>runtime</scope>
         </dependency>      
-		<!-- applyMgmt-->
+		<!-- apply-->
 		<dependency>
             <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-applyMgmt-service</artifactId>
+            <artifactId>xcloud-apply-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 		<dependency>
             <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-applyMgmt-api</artifactId>
+            <artifactId>xcloud-apply-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-		<!--accountMgmt-->
+		<!--account-->
  		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-accountMgmt-api</artifactId>
+			<artifactId>xcloud-account-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- taskMgmt -->
         <dependency>
             <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-taskMgmt-api</artifactId>
+            <artifactId>xcloud-task-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-taskMgmt-service</artifactId>
+            <artifactId>xcloud-task-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 	</dependencies>

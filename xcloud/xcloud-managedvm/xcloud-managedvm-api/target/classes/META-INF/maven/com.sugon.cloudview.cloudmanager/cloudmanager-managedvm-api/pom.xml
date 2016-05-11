@@ -7,8 +7,8 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>xcloud-managedvm-api</artifactId>
-	<name>Cloudview :: CloudManager :: Managedvm :: API</name>
-	<description>Cloudview :: CloudManager :: Managedvm :: API :: Description</description>
+	
+	
 
 	<dependencies>
 		<dependency>
@@ -37,7 +37,7 @@
 
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-userMgmt-serviceImpl</artifactId>
+			<artifactId>xcloud-user-serviceImpl</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

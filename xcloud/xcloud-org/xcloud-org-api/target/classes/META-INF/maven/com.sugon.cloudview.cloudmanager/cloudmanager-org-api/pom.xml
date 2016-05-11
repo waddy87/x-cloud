@@ -44,14 +44,14 @@
 		<!-- 用户服务 -->
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-userMgmt-service</artifactId>
+			<artifactId>xcloud-user-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		
 		<!-- 资源服务 -->
         <dependency>
             <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-resourceMgmt-service</artifactId>
+            <artifactId>xcloud-resource-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         

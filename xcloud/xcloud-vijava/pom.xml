@@ -10,8 +10,8 @@
 
 	<artifactId>xcloud-vijava</artifactId>
 	<packaging>pom</packaging>
-	<name>Cloudview :: CloudManager :: vijava :: POM</name>
-	<description>Cloudview :: CloudManager :: vijava :: POM</description>
+	
+	
 
 	<modules>
 		<module>xcloud-vijava-mo</module>

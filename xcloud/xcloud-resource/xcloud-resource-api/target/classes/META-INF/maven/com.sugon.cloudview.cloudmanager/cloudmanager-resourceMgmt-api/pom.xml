@@ -3,13 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.waddys.xcloud</groupId>
-        <artifactId>xcloud-resourceMgmt</artifactId>
+        <artifactId>xcloud-resource</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>xcloud-resourceMgmt-api</artifactId>
-    <name>Cloudview :: CloudManger :: ResourceMgmt :: API</name>
-    <description>Cloudview :: CloudManger :: ResourceMgmt :: API :: Description</description>
+    <artifactId>xcloud-resource-api</artifactId>
+    
+    
     <dependencies>
         <dependency>
             <groupId>org.waddys.xcloud</groupId>
@@ -33,7 +33,7 @@
         </dependency>
         <dependency>
             <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-resourceMgmt-serviceImpl</artifactId>
+            <artifactId>xcloud-resource-serviceImpl</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
             <!-- log -->
