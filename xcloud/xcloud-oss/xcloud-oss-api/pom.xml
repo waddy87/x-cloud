@@ -2,15 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.waddys.xcloud</groupId>
-    <artifactId>xcloud</artifactId>
+    <artifactId>xcloud-oss</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>xcloud-oss</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>xcloud-oss-bo</module>
-  	<module>xcloud-oss-po</module>
-  	<module>xcloud-oss-service</module>
-  	<module>xcloud-oss-api</module>
-  </modules>
+  <artifactId>xcloud-oss-api</artifactId>
 </project>

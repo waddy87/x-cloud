@@ -9,7 +9,9 @@
 	<artifactId>xcloud-bss</artifactId>
 	<packaging>pom</packaging>
 	<modules>
-		<module>xcloud-bss/xcloud-bss-bo</module>
-		<module>xcloud-bss/xcloud-bss-po</module>
+		<module>xcloud-bss-bo</module>
+		<module>xcloud-bss-po</module>
+		<module>xcloud-bss-service</module>
+		<module>xcloud-bss-api</module>
 	</modules>
 </project>
