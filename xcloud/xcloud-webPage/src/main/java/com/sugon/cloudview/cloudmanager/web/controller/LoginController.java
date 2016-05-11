@@ -41,7 +41,7 @@ import com.sugon.cloudview.cloudmanager.resource.api.common.DateJsonValueProcess
 import com.sugon.cloudview.cloudmanager.shiro.RetryLimitHashedCredentialsMatcher;
 import com.sugon.cloudview.cloudmanager.taskMgmt.service.bo.TaskInfo;
 import com.sugon.cloudview.cloudmanager.taskMgmt.service.exception.TaskinfoException;
-import com.sugon.cloudview.cloudmanager.taskMgmt.service.service.TaskInfoService;
+//import com.sugon.cloudview.cloudmanager.taskMgmt.service.service.TaskInfoService;
 import com.sugon.cloudview.cloudmanager.usermgmt.service.bo.User;
 import com.sugon.cloudview.cloudmanager.web.validatecode.ValidateCode;
 
@@ -52,8 +52,8 @@ public class LoginController {
 
     @Autowired
     private RetryLimitHashedCredentialsMatcher retryLimitHashedCredentialsMatcher;
-    @Autowired
-    private TaskInfoService taskInfoService;
+//    @Autowired
+//    private TaskInfoService taskInfoService;
 
     @RequestMapping(value = "/checkValidateCode", method = RequestMethod.POST)
     public @ResponseBody String checkValidateCode(
@@ -176,23 +176,23 @@ public class LoginController {
                 User user = (User) subject.getPrincipal();
                 session.setAttribute("currentUser", user);
                 modelView.addObject("currentUser", user);
-                /*
-                 * gaohj 读取最近任务
-                 */
-                try {
-                    logger.debug("开始获取最近运行中的任务..........");
-                    List<TaskInfo> taskInfos = taskInfoService
-                            .findAllRecentTask();
-                    JsonConfig config = new JsonConfig();
-                    config.registerJsonValueProcessor(Date.class,
-                            new DateJsonValueProcessor("yyyy-MM-dd hh:mm:ss"));
-                    modelView.addObject("taskInfos",
-                            JSONArray.fromObject(taskInfos, config));
-                    logger.debug("最近运行中的任务有：" + taskInfos.size() + ","
-                            + taskInfos);
-                } catch (TaskinfoException e1) {
-                    logger.error("读取最近任务失败", e1);
-                }
+//                /*
+//                 * gaohj 读取最近任务
+//                 */
+//                try {
+//                    logger.debug("开始获取最近运行中的任务..........");
+//                    List<TaskInfo> taskInfos = taskInfoService
+//                            .findAllRecentTask();
+//                    JsonConfig config = new JsonConfig();
+//                    config.registerJsonValueProcessor(Date.class,
+//                            new DateJsonValueProcessor("yyyy-MM-dd hh:mm:ss"));
+//                    modelView.addObject("taskInfos",
+//                            JSONArray.fromObject(taskInfos, config));
+//                    logger.debug("最近运行中的任务有：" + taskInfos.size() + ","
+//                            + taskInfos);
+//                } catch (TaskinfoException e1) {
+//                    logger.error("读取最近任务失败", e1);
+//                }
             } else {
                 token.clear();
             }
@@ -203,22 +203,22 @@ public class LoginController {
     /**
      * 任务定时
      */
-    @RequestMapping(value = "/getTask", method = RequestMethod.POST)
-    public String getTask(ModelMap model) {
-        try {
-            logger.debug("开始获取最近运行中的任务..........");
-            List<TaskInfo> taskInfos = taskInfoService.findAllRecentTask();
-            logger.debug("最近运行中的任务有：" + taskInfos.size());
-            JsonConfig config = new JsonConfig();
-            config.registerJsonValueProcessor(Date.class,
-                    new DateJsonValueProcessor("yyyy-MM-dd hh:mm:ss"));
-            model.put("taskInfos", JSONArray.fromObject(taskInfos, config));
-            logger.debug("最近运行中的任务有：" + taskInfos.size() + "," + taskInfos);
-        } catch (TaskinfoException e1) {
-            logger.error("读取最近任务失败", e1);
-        }
-        return "taskRecent";
-    }
+//    @RequestMapping(value = "/getTask", method = RequestMethod.POST)
+//    public String getTask(ModelMap model) {
+//        try {
+//            logger.debug("开始获取最近运行中的任务..........");
+//            List<TaskInfo> taskInfos = taskInfoService.findAllRecentTask();
+//            logger.debug("最近运行中的任务有：" + taskInfos.size());
+//            JsonConfig config = new JsonConfig();
+//            config.registerJsonValueProcessor(Date.class,
+//                    new DateJsonValueProcessor("yyyy-MM-dd hh:mm:ss"));
+//            model.put("taskInfos", JSONArray.fromObject(taskInfos, config));
+//            logger.debug("最近运行中的任务有：" + taskInfos.size() + "," + taskInfos);
+//        } catch (TaskinfoException e1) {
+//            logger.error("读取最近任务失败", e1);
+//        }
+//        return "taskRecent";
+//    }
 
     /**
      * 用户登出

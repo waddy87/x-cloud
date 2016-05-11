@@ -2,17 +2,17 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager</artifactId>
+		<groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>cloudmanager-templet</artifactId>
+	<artifactId>xcloud-templet</artifactId>
 	<packaging>pom</packaging>
 	<name>Cloudview :: CloudManager :: Templet :: POM</name>
 	<description>Cloudview :: CloudManager :: Templet :: POM :: Description</description>
 	<modules>
-		<module>cloudmanager-templet-api</module>
-		<module>cloudmanager-templet-service</module>
-		<module>cloudmanager-templet-serviceImpl</module>
+		<module>xcloud-templet-api</module>
+		<module>xcloud-templet-service</module>
+		<module>xcloud-templet-serviceImpl</module>
 	</modules>
 </project>

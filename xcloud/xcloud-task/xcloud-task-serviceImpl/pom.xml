@@ -4,27 +4,27 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager-taskMgmt</artifactId>
+		<groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud-taskMgmt</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>cloudmanager-taskMgmt-serviceImpl</artifactId>
-	<name>cloudmanager-taskMgmt-serviceImpl</name>
+	<artifactId>xcloud-taskMgmt-serviceImpl</artifactId>
+	<name>xcloud-taskMgmt-serviceImpl</name>
 	<dependencies>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-common-dboperation</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-common-dboperation</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-taskMgmt-service</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-taskMgmt-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- 获得用户信息 -->
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-userMgmt-service</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-userMgmt-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- 定时器 -->
@@ -35,14 +35,14 @@
 		</dependency>
 		<!-- vijava -->
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-vijava-api</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-vijava-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- org多表关联 -->
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-org-serviceImpl</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-org-serviceImpl</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

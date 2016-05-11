@@ -2,40 +2,40 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.sugon.cloudview.cloudmanager</groupId>
-        <artifactId>cloudmanager-resourceMgmt</artifactId>
+        <groupId>org.waddys.xcloud</groupId>
+        <artifactId>xcloud-resourceMgmt</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>cloudmanager-resourceMgmt-serviceImpl</artifactId>
+    <artifactId>xcloud-resourceMgmt-serviceImpl</artifactId>
     <name>Cloudview :: CloudManager :: ResourceMgmt :: ServiceImpl</name>
     <description>Cloudview :: CloudManager :: ResourceMgmt :: ServiceImpl :: Description</description>
 	<dependencies>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-common-dboperation</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-common-dboperation</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-resourceMgmt-service</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-resourceMgmt-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
           <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-vijava-api</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-vijava-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!-- 模板数据同步 -->
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-templet-service</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-templet-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
          <!-- 利旧虚拟机数据同步 -->
        <dependency>
-                <groupId>com.sugon.cloudview.cloudmanager</groupId>
-                <artifactId>cloudmanager-managedvm-service</artifactId>
+                <groupId>org.waddys.xcloud</groupId>
+                <artifactId>xcloud-managedvm-service</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
                 </dependency>
 	</dependencies>

@@ -2,8 +2,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager</artifactId>
+		<groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
@@ -13,8 +13,8 @@
 	<description>Cloudview :: CloudManager :: Common</description>
 
 	<modules>
-		<module>cloudmanager-common-base</module>
-		<module>cloudmanager-common-dboperation</module>
-		<module>cloudmanager-common-web</module>
+		<module>xcloud-common-base</module>
+		<module>xcloud-common-dboperation</module>
+		<module>xcloud-common-web</module>
 	</modules>
 </project>

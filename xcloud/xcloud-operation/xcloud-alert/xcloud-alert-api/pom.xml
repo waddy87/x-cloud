@@ -4,30 +4,30 @@
     xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.sugon.cloudview.cloudmanager</groupId>
-        <artifactId>cloudmanager-alert</artifactId>
+        <groupId>org.waddys.xcloud</groupId>
+        <artifactId>xcloud-alert</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>cloudmanager-alert-api</artifactId>
+    <artifactId>xcloud-alert-api</artifactId>
     <name>Cloudview :: CloudManager :: Alert :: Api</name>
     <description>Cloudview :: CloudManager :: Alert :: Api </description>
 
     <dependencies>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-common-web</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-common-web</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-alert-service</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-alert-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-alert-serviceImpl</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-alert-serviceImpl</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

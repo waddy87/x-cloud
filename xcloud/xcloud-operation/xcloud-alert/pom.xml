@@ -3,19 +3,19 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.sugon.cloudview.cloudmanager</groupId>
-    <artifactId>cloudmanager-cloudoperation</artifactId>
+    <groupId>org.waddys.xcloud</groupId>
+    <artifactId>xcloud-cloudoperation</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   
   <packaging>pom</packaging>
-  <artifactId>cloudmanager-alert</artifactId>
+  <artifactId>xcloud-alert</artifactId>
   <name>Cloudview :: CloudManager :: Alert</name>
   <description>Cloudview :: CloudManager :: Alert ::Description</description>
 
   <modules>
-  	<module>cloudmanager-alert-api</module>
-  	<module>cloudmanager-alert-service</module>
-  	<module>cloudmanager-alert-serviceImpl</module>
+  	<module>xcloud-alert-api</module>
+  	<module>xcloud-alert-service</module>
+  	<module>xcloud-alert-serviceImpl</module>
   </modules>
 </project>

@@ -2,23 +2,23 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.sugon.cloudview.cloudmanager</groupId>
-        <artifactId>cloudmanager-resourceMgmt</artifactId>
+        <groupId>org.waddys.xcloud</groupId>
+        <artifactId>xcloud-resourceMgmt</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>cloudmanager-resourceMgmt-service</artifactId>
+    <artifactId>xcloud-resourceMgmt-service</artifactId>
     <name>Cloudview :: CloudManager :: ResourceMgmt :: Service</name>
     <description>Cloudview :: CloudManager :: ResourceMgmt :: Service :: Description</description>
 	<dependencies>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-common-base</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-common-base</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-common-dboperation</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-common-dboperation</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

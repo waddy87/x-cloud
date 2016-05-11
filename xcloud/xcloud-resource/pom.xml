@@ -2,19 +2,19 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.sugon.cloudview.cloudmanager</groupId>
-        <artifactId>cloudmanager</artifactId>
+        <groupId>org.waddys.xcloud</groupId>
+        <artifactId>xcloud</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>cloudmanager-resourceMgmt</artifactId>
+    <artifactId>xcloud-resourceMgmt</artifactId>
     <packaging>pom</packaging>
     <name>Cloudview :: CloudManager :: ResourceMgmt :: POM</name>
     <description>Cloudview :: CloudManager :: ResourceMgmt :: POM :: Description</description>
 
     <modules>
-        <module>cloudmanager-resourceMgmt-api</module>
-        <module>cloudmanager-resourceMgmt-service</module>
-        <module>cloudmanager-resourceMgmt-serviceImpl</module>
+        <module>xcloud-resourceMgmt-api</module>
+        <module>xcloud-resourceMgmt-service</module>
+        <module>xcloud-resourceMgmt-serviceImpl</module>
     </modules>
 </project>

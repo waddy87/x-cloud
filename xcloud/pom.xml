@@ -7,12 +7,12 @@
         <version>1.3.2.RELEASE</version>
     </parent>
 
-    <groupId>com.sugon.cloudview.cloudmanager</groupId>
-    <artifactId>cloudmanager</artifactId>
+    <groupId>org.waddys.xcloud</groupId>
+    <artifactId>xcloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Cloudview :: CloudManager :: POM</name>
-    <description>Cloudview :: CloudManager :: POM:: Description</description>
+    
+    
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

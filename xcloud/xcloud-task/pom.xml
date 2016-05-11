@@ -3,18 +3,18 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager</artifactId>
+		<groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>cloudmanager-taskMgmt</artifactId>
+	<artifactId>xcloud-taskMgmt</artifactId>
 	<packaging>pom</packaging>
 	<name>Cloudview :: CloudManager :: taskMgmt :: POM</name>
 	<description>Cloudview :: CloudManager :: taskMgmt :: POM :: Description</description>
 
 	<modules>
-		<module>cloudmanager-taskMgmt-api</module>
-		<module>cloudmanager-taskMgmt-service</module>
-		<module>cloudmanager-taskMgmt-serviceImpl</module>
+		<module>xcloud-taskMgmt-api</module>
+		<module>xcloud-taskMgmt-service</module>
+		<module>xcloud-taskMgmt-serviceImpl</module>
 	</modules>
 </project>

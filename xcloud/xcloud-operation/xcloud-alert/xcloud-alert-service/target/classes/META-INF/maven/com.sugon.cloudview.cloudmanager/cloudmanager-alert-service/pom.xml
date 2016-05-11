@@ -4,12 +4,12 @@
     xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.sugon.cloudview.cloudmanager</groupId>
-        <artifactId>cloudmanager-alert</artifactId>
+        <groupId>org.waddys.xcloud</groupId>
+        <artifactId>xcloud-alert</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>cloudmanager-alert-service</artifactId>
+    <artifactId>xcloud-alert-service</artifactId>
     <name>Cloudview :: Cloudmanager :: Alert :: Service</name>
     <description>Cloudview :: Cloudmanager :: Alert :: Service</description>
 </project>

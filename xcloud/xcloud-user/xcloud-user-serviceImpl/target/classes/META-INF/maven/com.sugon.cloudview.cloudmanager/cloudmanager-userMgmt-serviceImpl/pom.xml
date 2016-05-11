@@ -2,34 +2,34 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.sugon.cloudview.cloudmanager</groupId>
-        <artifactId>cloudmanager-userMgmt</artifactId>
+        <groupId>org.waddys.xcloud</groupId>
+        <artifactId>xcloud-userMgmt</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>cloudmanager-userMgmt-serviceImpl</artifactId>
+    <artifactId>xcloud-userMgmt-serviceImpl</artifactId>
     <name>Cloudview :: CloudManager :: UserMgmt :: ServiceImpl</name>
     <description>Cloudview :: CloudManager :: UserMgmt :: ServiceImpl :: Description</description>
 
     <dependencies>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-common-dboperation</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-common-dboperation</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-userMgmt-service</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-userMgmt-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-common-bo</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-common-bo</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-common-po</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-common-po</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         

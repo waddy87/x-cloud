@@ -2,19 +2,19 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager-vijava</artifactId>
+		<groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud-vijava</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>cloudmanager-vijava-api</artifactId>
+	<artifactId>xcloud-vijava-api</artifactId>
 	<name>Cloudview :: CloudManager :: vijava :: API</name>
 	<description>Cloudview :: CloudManager :: vijava :: API</description>
 
 	<dependencies>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-vijava-mo</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-vijava-mo</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>

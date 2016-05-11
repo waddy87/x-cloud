@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager</artifactId>
+		<groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>cloudmanager-log</artifactId>
+	<artifactId>xcloud-log</artifactId>
 
 	<properties>
 		<subsystem.name>cloudmanager</subsystem.name>
@@ -36,29 +36,29 @@
 			<artifactId>spring-webmvc</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-common-dboperation</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-common-dboperation</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-common-base</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-common-base</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-userMgmt-service</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-userMgmt-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- taskMgmt -->
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-taskMgmt-service</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-taskMgmt-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
          <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-taskMgmt-serviceImpl</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-taskMgmt-serviceImpl</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 	</dependencies>

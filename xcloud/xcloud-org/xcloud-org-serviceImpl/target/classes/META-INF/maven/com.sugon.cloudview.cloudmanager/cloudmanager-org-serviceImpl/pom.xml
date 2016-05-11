@@ -2,46 +2,46 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager-org</artifactId>
+		<groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud-org</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>cloudmanager-org-serviceImpl</artifactId>
+	<artifactId>xcloud-org-serviceImpl</artifactId>
 
 	<dependencies>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-common-bo</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-common-bo</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-common-po</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-common-po</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-common-dboperation</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-common-dboperation</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-org-common</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-org-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-org-driver</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-org-driver</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-org-driver-vmware</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-org-driver-vmware</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-org-service</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-org-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

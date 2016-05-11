@@ -3,25 +3,25 @@
 	<modelVersion>4.0.0</modelVersion>
 	
     <parent>
-        <groupId>com.sugon.cloudview.cloudmanager</groupId>
-        <artifactId>cloudmanager</artifactId>
+        <groupId>org.waddys.xcloud</groupId>
+        <artifactId>xcloud</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-	<artifactId>cloudmanager-org</artifactId>
+	<artifactId>xcloud-org</artifactId>
     <packaging>pom</packaging>
     <name>Cloudview :: CloudManager :: Org :: POM</name>
     <description>Cloudview :: CloudManager :: Org :: POM :: Description</description>
 
     <modules>
-        <module>cloudmanager-org-common</module>
-        <module>cloudmanager-org-service</module>
-        <module>cloudmanager-org-serviceImpl</module>
-        <module>cloudmanager-org-api</module>
-        <module>cloudmanager-org-driver</module>
-        <module>cloudmanager-org-driver-vmware</module>
-        <module>cloudmanager-org-driver-demo</module>
-        <module>cloudmanager-org-action</module>
+        <module>xcloud-org-common</module>
+        <module>xcloud-org-service</module>
+        <module>xcloud-org-serviceImpl</module>
+        <module>xcloud-org-api</module>
+        <module>xcloud-org-driver</module>
+        <module>xcloud-org-driver-vmware</module>
+        <module>xcloud-org-driver-demo</module>
+        <module>xcloud-org-action</module>
     </modules>
 	
 </project>

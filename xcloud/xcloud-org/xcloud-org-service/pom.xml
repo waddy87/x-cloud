@@ -2,16 +2,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-        <groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager-org</artifactId>
+        <groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud-org</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>cloudmanager-org-service</artifactId>
+	<artifactId>xcloud-org-service</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-common-bo</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-common-bo</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -19,27 +19,27 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-org-common</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-org-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <!-- 用户服务 -->
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-userMgmt-service</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-userMgmt-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!-- 资源服务 -->
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-resourceMgmt-service</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-resourceMgmt-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!-- 模板服务 -->
          <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-templet-service</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-templet-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

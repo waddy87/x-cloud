@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager</artifactId>
+		<groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>cloudmanager-event</artifactId>
+	<artifactId>xcloud-event</artifactId>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,14 +17,14 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-vijava-api</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-vijava-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-vijava-impl</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-vijava-impl</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		

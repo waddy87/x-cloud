@@ -2,86 +2,86 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager-org</artifactId>
+		<groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud-org</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>cloudmanager-org-action</artifactId>
+	<artifactId>xcloud-org-action</artifactId>
 
 	<dependencies>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-org-api</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-org-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>	
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-common-bo</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-common-bo</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-monitor-api</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-monitor-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-monitor-service</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-monitor-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-monitor-serviceImpl</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-monitor-serviceImpl</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-org-common</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-org-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-log</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-log</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-templet-service</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-templet-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-templet-serviceImpl</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-templet-serviceImpl</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-resourceMgmt-service</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-resourceMgmt-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-resourceMgmt-serviceImpl</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-resourceMgmt-serviceImpl</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-userMgmt-service</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-userMgmt-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-userMgmt-serviceImpl</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-userMgmt-serviceImpl</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		        <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-vijava-api</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-vijava-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-vijava-impl</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-vijava-impl</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 	</dependencies>

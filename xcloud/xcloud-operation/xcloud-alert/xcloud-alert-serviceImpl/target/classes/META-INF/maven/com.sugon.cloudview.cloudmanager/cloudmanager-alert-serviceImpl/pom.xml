@@ -3,48 +3,48 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.sugon.cloudview.cloudmanager</groupId>
-    <artifactId>cloudmanager-alert</artifactId>
+    <groupId>org.waddys.xcloud</groupId>
+    <artifactId>xcloud-alert</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   
-  <artifactId>cloudmanager-alert-serviceImpl</artifactId>
+  <artifactId>xcloud-alert-serviceImpl</artifactId>
   <name>Cloudview :: Cloudmanager :: Alert :: ServiceImpl</name>
  <description> Cloudview :: Cloudmanager :: Alert :: ServiceImpl </description>
 
   <dependencies>
   <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-common-dboperation</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-common-dboperation</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-org-service</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-org-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         
         <dependency>
-          <groupId>com.sugon.cloudview.cloudmanager</groupId>
-          <artifactId>cloudmanager-alert-service</artifactId>
+          <groupId>org.waddys.xcloud</groupId>
+          <artifactId>xcloud-alert-service</artifactId>
           <version>0.0.1-SNAPSHOT</version>
         </dependency> 
         
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-vijava-api</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-vijava-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-vijava-impl</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-vijava-impl</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         
         <dependency>
-            <groupId>com.sugon.cloudview.cloudmanager</groupId>
-            <artifactId>cloudmanager-messagePush-api</artifactId>
+            <groupId>org.waddys.xcloud</groupId>
+            <artifactId>xcloud-messagePush-api</artifactId>
             <version>0.1.0-SNAPSHOT</version>
         </dependency> 
         

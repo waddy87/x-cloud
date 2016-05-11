@@ -4,16 +4,16 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager-taskMgmt</artifactId>
+		<groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud-taskMgmt</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>cloudmanager-taskMgmt-service</artifactId>
-	<name>cloudmanager-taskMgmt-service</name>
+	<artifactId>xcloud-taskMgmt-service</artifactId>
+	<name>xcloud-taskMgmt-service</name>
 	<dependencies>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-common-base</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-common-base</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

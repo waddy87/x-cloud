@@ -2,19 +2,19 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager</artifactId>
+		<groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>cloudmanager-cloudoperation</artifactId>
+	<artifactId>xcloud-cloudoperation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Cloudview :: CloudManager :: CloudOperation</name>
 	<description>Cloudview :: CloudManager :: CloudOperation :: Descriptioni</description>
 
 	<modules>
-	    <module>cloudmanager-monitor</module>
-	    <module>cloudmanager-alert</module>
+	    <module>xcloud-monitor</module>
+	    <module>xcloud-alert</module>
 	</modules>
 </project>

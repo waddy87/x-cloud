@@ -2,18 +2,18 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.sugon.cloudview.cloudmanager</groupId>
-        <artifactId>cloudmanager</artifactId>
+        <groupId>org.waddys.xcloud</groupId>
+        <artifactId>xcloud</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>cloudmanager-userMgmt</artifactId>
+    <artifactId>xcloud-userMgmt</artifactId>
     <packaging>pom</packaging>
     <name>Cloudview :: CloudManager :: UserMgmt :: POM</name>
     <description>Cloudview :: CloudManager :: UserMgmt :: POM :: Description</description>
     <modules>
-        <module>cloudmanager-userMgmt-service</module>
-        <module>cloudmanager-userMgmt-serviceImpl</module>
-        <module>cloudmanager-userMgmt-api</module>
+        <module>xcloud-userMgmt-service</module>
+        <module>xcloud-userMgmt-serviceImpl</module>
+        <module>xcloud-userMgmt-api</module>
     </modules>
 </project>

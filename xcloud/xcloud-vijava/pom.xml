@@ -3,21 +3,21 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager</artifactId>
+		<groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>cloudmanager-vijava</artifactId>
+	<artifactId>xcloud-vijava</artifactId>
 	<packaging>pom</packaging>
 	<name>Cloudview :: CloudManager :: vijava :: POM</name>
 	<description>Cloudview :: CloudManager :: vijava :: POM</description>
 
 	<modules>
-		<module>cloudmanager-vijava-mo</module>
-		<module>cloudmanager-vijava-api</module>
-		<module>cloudmanager-vijava-impl</module>
-		<module>cloudmanager-vijava-demo</module>
+		<module>xcloud-vijava-mo</module>
+		<module>xcloud-vijava-api</module>
+		<module>xcloud-vijava-impl</module>
+		<module>xcloud-vijava-demo</module>
 	</modules>
 
 	<build>

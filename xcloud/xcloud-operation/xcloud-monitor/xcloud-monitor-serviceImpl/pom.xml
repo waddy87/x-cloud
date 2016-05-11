@@ -2,11 +2,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager-monitor</artifactId>
+		<groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud-monitor</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>cloudmanager-monitor-serviceImpl</artifactId>
+	<artifactId>xcloud-monitor-serviceImpl</artifactId>
 	<name>Cloudview :: CloudManager :: Monitor :: ServiceImpl</name>
 	<description>Cloudview :: CloudManager :: Monitor :: ServiceImpl</description>
 	<properties>
@@ -14,8 +14,8 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>com.sugon.cloudview.cloudmanager</groupId>
-			<artifactId>cloudmanager-monitor-service</artifactId>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-monitor-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		

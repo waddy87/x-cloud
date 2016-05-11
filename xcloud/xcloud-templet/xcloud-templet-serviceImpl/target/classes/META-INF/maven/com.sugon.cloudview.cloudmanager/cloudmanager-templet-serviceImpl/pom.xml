@@ -3,37 +3,37 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.sugon.cloudview.cloudmanager</groupId>
-    <artifactId>cloudmanager-templet</artifactId>
+    <groupId>org.waddys.xcloud</groupId>
+    <artifactId>xcloud-templet</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.sugon.cloudview.cloudmanager</groupId>
-  <artifactId>cloudmanager-templet-serviceImpl</artifactId>
+  <groupId>org.waddys.xcloud</groupId>
+  <artifactId>xcloud-templet-serviceImpl</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>cloudmanager-templet-serviceImpl</name>
+  <name>xcloud-templet-serviceImpl</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
  	 <dependency>
-       <groupId>com.sugon.cloudview.cloudmanager</groupId>
-       <artifactId>cloudmanager-common-dboperation</artifactId>
+       <groupId>org.waddys.xcloud</groupId>
+       <artifactId>xcloud-common-dboperation</artifactId>
        <version>0.0.1-SNAPSHOT</version>
     </dependency>
      <dependency>
-       <groupId>com.sugon.cloudview.cloudmanager</groupId>
-       <artifactId>cloudmanager-templet-service</artifactId>
+       <groupId>org.waddys.xcloud</groupId>
+       <artifactId>xcloud-templet-service</artifactId>
        <version>0.0.1-SNAPSHOT</version>
     </dependency>
      <dependency>
-       <groupId>com.sugon.cloudview.cloudmanager</groupId>
-       <artifactId>cloudmanager-vijava-api</artifactId>
+       <groupId>org.waddys.xcloud</groupId>
+       <artifactId>xcloud-vijava-api</artifactId>
        <version>0.0.1-SNAPSHOT</version>
     </dependency>
   <!--    <dependency>
-       <groupId>com.sugon.cloudview.cloudmanager</groupId>
-       <artifactId>cloudmanager-vijava-impl</artifactId>
+       <groupId>org.waddys.xcloud</groupId>
+       <artifactId>xcloud-vijava-impl</artifactId>
        <version>0.0.1-SNAPSHOT</version>
     </dependency> -->
     <dependency>

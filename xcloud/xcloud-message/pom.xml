@@ -2,20 +2,20 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.sugon.cloudview.cloudmanager</groupId>
-		<artifactId>cloudmanager</artifactId>
+		<groupId>org.waddys.xcloud</groupId>
+		<artifactId>xcloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>cloudmanager-messagePush</artifactId>
+	<artifactId>xcloud-messagePush</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Cloudview :: CloudManager :: MessagePush</name>
 	<description>Cloudview :: CloudManager :: MessagePush :: Description</description>
 
 	<modules>
-		<module>cloudmanager-messagePush-api</module>
-		<module>cloudmanager-messagePush-service</module>
-		<module>cloudmanager-messagePush-serviceImpl</module>
+		<module>xcloud-messagePush-api</module>
+		<module>xcloud-messagePush-service</module>
+		<module>xcloud-messagePush-serviceImpl</module>
 	</modules>
 </project>
