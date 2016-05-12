@@ -32,13 +32,13 @@
 		<!-- log -->
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-log</artifactId>
+			<artifactId>xcloud-common-log</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- event -->
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-event</artifactId>
+			<artifactId>xcloud-common-event</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- resourceMgmt -->

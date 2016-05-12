@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- 
+	<bean id="logImpl" class="com.sugon.cloudview.cloudmanager.log.impl.LogImpl" >
+		<property name="rootLogLevel" value="ERROR"/>
+		<property name="customLogLevel">
+           <map>
+              <entry key="com.sugon.webapps.service.log.export" value="TRACE" />
+           </map>
+       </property>
+	</bean>
+	
+	<bean id="logInterceptor"
+		class="com.sugon.cloudview.cloudmanager.log.spring.LogInterceptor">
+		<property name="logAPI" ref="logImpl" />
+	</bean>
+
+	<bean
+		class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping">
+		<property name="interceptors">
+			<list>
+				<ref bean="logInterceptor" />
+			</list>
+		</property>
+	</bean>
+  -->
+</beans>
