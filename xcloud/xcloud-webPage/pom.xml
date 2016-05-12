@@ -41,22 +41,16 @@
 			<artifactId>xcloud-common-event</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		<!-- resourceMgmt -->
+		<!-- oss -->
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-resource-api</artifactId>
+			<artifactId>xcloud-oss-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		<!-- template -->
+		<!-- bss -->
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-templet-api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<!-- org -->
-		<dependency>
-			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-org-action</artifactId>
+			<artifactId>xcloud-bss-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- vijava -->

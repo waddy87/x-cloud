@@ -31,12 +31,12 @@
         </dependency>
         <dependency>
             <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-org-driver</artifactId>
+            <artifactId>xcloud-driver</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-org-driver-vmware</artifactId>
+            <artifactId>xcloud-driver-vmware</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 		<dependency>

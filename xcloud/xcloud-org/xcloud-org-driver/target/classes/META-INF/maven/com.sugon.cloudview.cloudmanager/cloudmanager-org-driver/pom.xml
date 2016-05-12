@@ -6,7 +6,7 @@
 		<artifactId>xcloud-org</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>xcloud-org-driver</artifactId>
+	<artifactId>xcloud-driver</artifactId>
 	
 	<dependencies>
         <dependency>

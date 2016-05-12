@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
-Implementation-Title: Cloudview :: CloudManager :: Monitor :: Api
+Implementation-Title: xcloud-monitor-api
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: zhangdapeng
-Implementation-Vendor-Id: com.sugon.cloudview.cloudmanager
+Implementation-Vendor-Id: org.waddys.xcloud
 Build-Jdk: 1.8.0_60
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.

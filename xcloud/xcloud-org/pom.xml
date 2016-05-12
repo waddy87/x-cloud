@@ -18,9 +18,9 @@
         <module>xcloud-org-service</module>
         <module>xcloud-org-serviceImpl</module>
         <module>xcloud-org-api</module>
-        <module>xcloud-org-driver</module>
-        <module>xcloud-org-driver-vmware</module>
-        <module>xcloud-org-driver-demo</module>
+        <module>xcloud-driver</module>
+        <module>xcloud-driver-vmware</module>
+        <module>xcloud-driver-demo</module>
         <module>xcloud-org-action</module>
     </modules>
 	

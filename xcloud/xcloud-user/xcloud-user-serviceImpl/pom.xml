@@ -24,12 +24,12 @@
         </dependency>
         <dependency>
             <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-common-bo</artifactId>
+            <artifactId>xcloud-bss-bo</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-common-po</artifactId>
+            <artifactId>xcloud-bss-po</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         

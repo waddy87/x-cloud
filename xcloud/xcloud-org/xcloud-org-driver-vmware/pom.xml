@@ -6,7 +6,7 @@
 		<artifactId>xcloud-org</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>xcloud-org-driver-vmware</artifactId>
+	<artifactId>xcloud-driver-vmware</artifactId>
 	
 	<dependencies>
         <dependency>
@@ -15,7 +15,7 @@
         </dependency>
         <dependency>
             <groupId>org.waddys.xcloud</groupId>
-            <artifactId>xcloud-org-driver</artifactId>
+            <artifactId>xcloud-driver</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>

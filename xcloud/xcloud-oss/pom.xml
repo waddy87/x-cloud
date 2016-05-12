@@ -13,5 +13,6 @@
   	<module>xcloud-oss-service</module>
   	<module>xcloud-oss-api</module>
   	<module>xcloud-oss-dom</module>
+  	<module>xcloud-oss-job</module>
   </modules>
 </project>
