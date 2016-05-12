@@ -13,5 +13,6 @@
 		<module>xcloud-bss-po</module>
 		<module>xcloud-bss-service</module>
 		<module>xcloud-bss-api</module>
+		<module>xcloud-bss-dom</module>
 	</modules>
 </project>

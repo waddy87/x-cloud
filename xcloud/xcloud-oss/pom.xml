@@ -12,5 +12,6 @@
   	<module>xcloud-oss-po</module>
   	<module>xcloud-oss-service</module>
   	<module>xcloud-oss-api</module>
+  	<module>xcloud-oss-dom</module>
   </modules>
 </project>
