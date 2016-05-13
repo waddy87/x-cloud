@@ -1,0 +1,2 @@
+2016-05-13 15:38:19,863 INFO [com.sugon.cloudview.cloudmanager.vm.action.VmManagementController:147] 查询接口
+2016-05-13 15:38:19,865 INFO [com.sugon.cloudview.cloudmanager.vm.api.VmApi:136] 收到客户端查询请求：{id=null,name=%%,orgId=null,cpool=null,spool=null,template=null,status=A,creater=null}

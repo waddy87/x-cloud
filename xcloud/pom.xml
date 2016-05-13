@@ -33,26 +33,22 @@
     <modules>
     	<!-- 公共组件 -->
         <module>xcloud-common</module>
-        <module>xcloud-log</module>
-		<module>xcloud-task</module>
-        <module>xcloud-event</module>
-        <module>xcloud-message</module>
-        
-        <!-- 运维子系统 -->
-        <module>xcloud-operation</module>
-        <module>xcloud-resource</module>
-        <module>xcloud-templet</module>
-        <module>xcloud-managedvm</module>
-        <module>xcloud-pm</module>
+
         <!-- 驱动适配器 -->
-        <module>xcloud-vijava</module>
+        <module>xcloud-driver</module>
+        <!-- <module>xcloud-vijava</module> -->
 
 		<!-- 业务子系统 -->        
-        <module>xcloud-org</module>
-        <module>xcloud-user</module>
+        <module>xcloud-bo</module>
+        <module>xcloud-po</module>
+        <module>xcloud-api</module>
+        <module>xcloud-service</module>
+        <module>xcloud-dom</module>
+        <module>xcloud-event</module>
+        <module>xcloud-job</module>
         
         <!-- 展现层 -->
-        <module>xcloud-webPage</module>
+        <module>xcloud-web</module>
     </modules>
 
     <distributionManagement>
