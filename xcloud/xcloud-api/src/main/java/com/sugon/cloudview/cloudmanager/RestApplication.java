@@ -9,6 +9,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.Environment;
 
+import com.sugon.cloudview.cloudmanager.event.type.ConnectionInfo;
 //import com.sugon.cloudview.cloudmanager.event.type.ConnectionInfo;
 import com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl;
 import com.sugon.cloudview.cloudmanager.vijava.environment.ConnectCloudVM.ConnectCloudVMAnswer;
@@ -16,7 +17,7 @@ import com.sugon.cloudview.cloudmanager.vijava.environment.ConnectCloudVM.Connec
 import com.sugon.cloudview.cloudmanager.vijava.exception.VirtException;
 
 @SpringBootApplication
-//@EnableConfigurationProperties({ ConnectionInfo.class })
+@EnableConfigurationProperties({ ConnectionInfo.class })
 public class RestApplication {
     private static final Logger logger = LoggerFactory.getLogger(RestApplication.class);
 
