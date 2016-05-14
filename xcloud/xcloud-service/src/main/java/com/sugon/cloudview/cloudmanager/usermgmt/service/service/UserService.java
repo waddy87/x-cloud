@@ -36,6 +36,6 @@ public interface UserService {
 
     public void updateUserStatusByOrgId(String orgId) throws UserMgmtException;
 
-    public Map<String, Integer> countUserInfo(User user)
-            throws UserMgmtException;
+//    public Map<String, Integer> countUserInfo(User user)
+//            throws UserMgmtException;
 }

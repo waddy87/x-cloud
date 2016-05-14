@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<property name="dev_home" value="./logs" />
+
+	<!-- 公共Appender配置 -->
+	<!-- 标准输出 -->
+	<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+        <!--<Pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</Pattern> -->
+			<Pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</Pattern>
+		</layout>
+	</appender>
+
+    <!-- 打印到文件 -->
+	<appender name="file_out"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${dev_home}/cloudview.log</file>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<Pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n
+			</Pattern>
+		</encoder>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${dev_home}/archived/debug.%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+	</appender>
+
+    <!-- 基于字符串过滤 -->
+	<appender name="file_str"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${dev_home}/str.log</file>
+		<filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+			<evaluator>
+				<expression>message.contains("str")</expression>
+			</evaluator>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>
+        <encoder>
+            <pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n
+            </pattern>
+        </encoder>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${dev_home}/archived/str.%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+	</appender>
+
+	<!-- <appender name="db" class="ch.qos.logback.classic.db.DBAppender"> <connectionSource 
+		class="ch.qos.logback.core.db.DriverManagerConnectionSource"> <dataSource 
+		class="org.apache.commons.dbcp.BasicDataSource"> <driverClassName>com.mysql.jdbc.Driver</driverClassName> 
+		<url>jdbc:mysql://192.168.56.50:3306/logbackdb</url> <username>root</username> 
+		<password>lsc@nk68</password> </dataSource> </connectionSource> <sqlDialect 
+		class="ch.qos.logback.core.db.dialect.MySQLDialect" /> </appender> -->
+
+    <!-- 基于线程打印日志 -->
+	<!-- MDC.put('logFileName', "head0"); MDC.remove('logFileName'); -->
+	<appender name="file_thread" class="ch.qos.logback.classic.sift.SiftingAppender">
+		<discriminator>
+			<key>logFileName</key>
+			<defaultValue>head0</defaultValue>
+		</discriminator>
+		<sift>
+			<appender name="file-${logFileName}"
+				class="ch.qos.logback.core.rolling.RollingFileAppender">
+				<file>${dev_home}/${logFileName}.log</file>
+				<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+					<Pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n </Pattern>
+				</encoder>
+				<rollingPolicy
+					class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+					<FileNamePattern>${dev_home}/${logFileName}.%i.log.zip </FileNamePattern>
+					<MinIndex>1</MinIndex>
+					<MaxIndex>10</MaxIndex>
+				</rollingPolicy>
+				<triggeringPolicy
+					class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+					<MaxFileSize>10MB</MaxFileSize>
+				</triggeringPolicy>
+			</appender>
+		</sift>
+	</appender>
+    <!-- 公共Appender配置 -->
+
+	<!-- ROOT 配置 -->
+	<root level="ERROR">
+		<appender-ref ref="file_out" />
+		<appender-ref ref="stdout" />
+	</root>
+
+    <!-- 公共Logger配置 -->
+    <!-- <logger name="org.springframework" level="INFO" /> -->
+    <!-- <logger name="org.apache" level="INFO" /> -->
+    <!-- <logger name="org.hibernate" level="INFO" /> -->
+    <!-- <logger name="org.apache.shiro" level="DEBUG" /> -->
+
+    <!-- Cloudview -->
+    <logger name="com.sugon.cloudview.cloudmanager"
+        level="debug">
+        <appender-ref ref="file_out" />
+        <!-- <appender-ref ref="stdout" /> -->
+    </logger>
+    
+	<!-- ORG 模块配置 -->
+	<appender name="file_orgmgmt"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${dev_home}/orgmgmt.log</file>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<!-- <Pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</Pattern> -->
+			<Pattern>%date %level [%class:%line] %msg%n</Pattern>
+		</encoder>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${dev_home}/archived/debug.%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+	</appender>
+    <logger name="com.sugon.cloudview.cloudmanager.org"
+        level="info">
+        <appender-ref ref="file_orgmgmt" />
+        <!-- <appender-ref ref="stdout" /> -->
+    </logger>
+
+    <!-- Project 模块配置 -->
+    <appender name="file_projectmgmt"
+        class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${dev_home}/projectmgmt.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!-- <Pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</Pattern> -->
+            <Pattern>%date %level [%class:%line] %msg%n</Pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${dev_home}/archived/debug.%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+    <logger name="com.sugon.cloudview.cloudmanager.project"
+        level="info">
+        <appender-ref ref="file_projectmgmt" />
+        <!-- <appender-ref ref="stdout" /> -->
+    </logger>
+
+    <!-- Project 模块配置 -->
+    <appender name="file_vm"
+        class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${dev_home}/vm.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!-- <Pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</Pattern> -->
+            <Pattern>%date %level [%class:%line] %msg%n</Pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${dev_home}/archived/debug.%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+    <logger name="com.sugon.cloudview.cloudmanager.vm"
+        level="info">
+        <appender-ref ref="file_vm" />
+        <!-- <appender-ref ref="stdout" /> -->
+    </logger>
+
+    <!-- Driver 模块配置 -->
+    <appender name="file_driver"
+        class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${dev_home}/driver.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!-- <Pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</Pattern> -->
+            <Pattern>%date %level [%class:%line] %msg%n</Pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${dev_home}/archived/debug.%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+    <logger name="com.sugon.cloudview.cloudmanager.vm"
+        level="debug">
+        <appender-ref ref="file_driver" />
+    </logger>
+
+</configuration>

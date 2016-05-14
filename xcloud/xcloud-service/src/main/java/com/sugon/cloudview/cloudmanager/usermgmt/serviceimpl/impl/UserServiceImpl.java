@@ -44,8 +44,8 @@ public class UserServiceImpl implements UserService {
     private PasswordHelper passwordHelper;
     @Autowired
     private RoleDaoService roleDaoServiceImpl;
-    @Autowired
-    private SessionDAO sessionDAO;
+//    @Autowired
+//    private SessionDAO sessionDAO;
 
     @Override
     public User save(User user) throws UserMgmtException {
@@ -271,40 +271,40 @@ public class UserServiceImpl implements UserService {
         return userList;
     }
 
-    @Override
-    public Map<String, Integer> countUserInfo(User user)
-            throws UserMgmtException {
-        Map<String, Integer> map = new HashMap<String, Integer>();
-        Integer total = 0;
-        Integer onlineNum = 0;
-        try {
-            if (null != user) {
-                Mapper mapper = new DozerBeanMapper();
-                UserE userE = mapper.map(user, UserE.class);
-                List<UserE> userList = userDaoServiceImpl.findAllUsers(userE);
-                total = userList.size();
-                Collection<Session> sessions = sessionDAO.getActiveSessions();
-                for (UserE userFor : userList) {
-                    for (Session session : sessions) {
-                        PrincipalCollection p = (PrincipalCollection) session
-                                .getAttribute(DefaultSubjectContext.PRINCIPALS_SESSION_KEY);
-                        if (p != null) {
-                            if (userFor.getUsername().equals(
-                                    ((User) p.getPrimaryPrincipal())
-                                            .getUsername())) {
-                                onlineNum = onlineNum + 1;
-                            }
-                        }
-                    }
-                }
-            }
-        } catch (Exception e) {
-            logger.error(e.getMessage(), e);
-            throw new UserMgmtException("查询用户详情失败！");
-        }
-        map.put("total", total);
-        map.put("onlineNum", onlineNum);
-        return map;
-    }
+//    @Override
+//    public Map<String, Integer> countUserInfo(User user)
+//            throws UserMgmtException {
+//        Map<String, Integer> map = new HashMap<String, Integer>();
+//        Integer total = 0;
+//        Integer onlineNum = 0;
+//        try {
+//            if (null != user) {
+//                Mapper mapper = new DozerBeanMapper();
+//                UserE userE = mapper.map(user, UserE.class);
+//                List<UserE> userList = userDaoServiceImpl.findAllUsers(userE);
+//                total = userList.size();
+//                Collection<Session> sessions = sessionDAO.getActiveSessions();
+//                for (UserE userFor : userList) {
+//                    for (Session session : sessions) {
+//                        PrincipalCollection p = (PrincipalCollection) session
+//                                .getAttribute(DefaultSubjectContext.PRINCIPALS_SESSION_KEY);
+//                        if (p != null) {
+//                            if (userFor.getUsername().equals(
+//                                    ((User) p.getPrimaryPrincipal())
+//                                            .getUsername())) {
+//                                onlineNum = onlineNum + 1;
+//                            }
+//                        }
+//                    }
+//                }
+//            }
+//        } catch (Exception e) {
+//            logger.error(e.getMessage(), e);
+//            throw new UserMgmtException("查询用户详情失败！");
+//        }
+//        map.put("total", total);
+//        map.put("onlineNum", onlineNum);
+//        return map;
+//    }
 
 }

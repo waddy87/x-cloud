@@ -70,4 +70,6 @@ public interface TaskInfoService {
 	 * @throws TaskinfoException
 	 */
 	public List<TaskInfo> findAllRecentTask()throws TaskinfoException;
+
+	public void updateTaskInfo() throws TaskinfoException;
 }

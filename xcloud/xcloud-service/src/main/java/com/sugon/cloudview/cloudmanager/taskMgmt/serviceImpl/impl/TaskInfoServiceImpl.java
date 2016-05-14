@@ -114,8 +114,8 @@ public class TaskInfoServiceImpl implements TaskInfoService {
 	 * 
 	 * @throws VirtException
 	 */
-	@Scheduled(cron = "0 */1 *  * * * ")
-	//@Scheduled(cron = "0/15 * * * * * ")
+	//@Scheduled(cron = "0 */1 *  * * * ")
+	@Override
 	public void updateTaskInfo() throws TaskinfoException {
 		logger.debug("step into method updateTaskInfo()定时更新表中任务数据......");
 		List<TaskInfo> taskInfolst = findByStatus("running");

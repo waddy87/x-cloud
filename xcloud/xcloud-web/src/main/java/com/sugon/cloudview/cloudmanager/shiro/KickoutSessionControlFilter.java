@@ -81,13 +81,15 @@ public class KickoutSessionControlFilter extends AccessControlFilter {
 
         Session session = subject.getSession();
         User user = (User) subject.getPrincipal();
+//        String username = (String) subject.getPrincipal();
+        String username = user.getUsername();
         Serializable sessionId = session.getId();
 
         // TODO 同步控制
-        Deque<Serializable> deque = cache.get(user.getUsername());
+        Deque<Serializable> deque = cache.get(username);
         if (deque == null) {
             deque = new LinkedList<Serializable>();
-            cache.put(user.getUsername(), deque);
+            cache.put(username, deque);
         }
 
         // 如果队列里没有此sessionId，且用户没有被踢出；放入队列

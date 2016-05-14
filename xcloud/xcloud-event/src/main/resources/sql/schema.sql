@@ -1,0 +1,1 @@
+create table bbb(name varchar(10));

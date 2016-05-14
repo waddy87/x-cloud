@@ -1,0 +1,1 @@
+create table aaa(name varchar(10));
