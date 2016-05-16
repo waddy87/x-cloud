@@ -466,6 +466,24 @@ public class VmHostServiceImpl implements VmService {
         return result;
     }
 
+	@Override
+	public String getVncUrl(String id) throws Exception {
+        logger.info("开始刷新虚机：" + id);
+        String vncUrl = "";
+        // 参数校验
+        VmHost vmHost = vmHostDaoService.findById(id);
+        if (vmHost == null)
+            throw new Exception("目标虚机不存在！");
+        String vmId = vmHost.getInternalId();
+        if (StringUtils.isEmpty(vmId)) {
+        	throw new Exception("虚机内部标识不存在！");
+        }
+        // 物理操作
+        vncUrl = vmDriver.getVncUrl(vmId);
+        logger.debug("get vncUrl: "+vncUrl);
+        return vncUrl;
+	}
+
     @Override
     public void assign(String id, String userId) throws Exception {
         logger.info("开始分配虚机：" + id);

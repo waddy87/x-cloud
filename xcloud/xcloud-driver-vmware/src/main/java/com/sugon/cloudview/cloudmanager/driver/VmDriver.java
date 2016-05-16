@@ -30,6 +30,8 @@ import com.sugon.cloudview.cloudmanager.vijava.vm.QueryTask.QueryTaskAnswer.Quer
 import com.sugon.cloudview.cloudmanager.vijava.vm.QueryTask.QueryTaskCmd;
 import com.sugon.cloudview.cloudmanager.vijava.vm.QueryVM.QueryVMAnswer;
 import com.sugon.cloudview.cloudmanager.vijava.vm.QueryVM.QueryVMCmd;
+import com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMConsole.QueryVMConsoleAnswer;
+import com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMConsole.QueryVMConsoleCmd;
 import com.sugon.cloudview.cloudmanager.vijava.vm.ReconfigVM.ReconfigVMAnswer;
 import com.sugon.cloudview.cloudmanager.vijava.vm.ReconfigVM.ReconfigVMCmd;
 import com.sugon.cloudview.cloudmanager.vijava.vm.ReconfigVMTask;
@@ -832,4 +834,20 @@ public class VmDriver implements IVmDriver {
         // 检查执行结果
         return parseResult(answer);
     }
+    
+    @Override
+    public String getVncUrl(String vmId) throws Exception {
+    	String vncUrl = "";
+		try {
+			QueryVMConsoleCmd queryVMConsoleCmd = new QueryVMConsoleCmd();
+			queryVMConsoleCmd.setVmId(vmId);
+			QueryVMConsoleAnswer answer = cloudviewExecutor.execute(queryVMConsoleCmd);
+			vncUrl = answer.getConsoleURL();
+		} catch (Exception e) {
+			logger.error("获取vnc地址失败："+e.getMessage(),e);
+			throw new Exception("获取vnc地址失败："+e.getMessage(),e);
+		}    	
+    	return vncUrl;
+    }
+    
 }

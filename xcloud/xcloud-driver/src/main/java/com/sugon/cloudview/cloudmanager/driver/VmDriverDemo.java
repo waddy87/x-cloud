@@ -123,4 +123,10 @@ public class VmDriverDemo implements IVmDriver {
         return null;
     }
 
+	@Override
+	public String getVncUrl(String vmId) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

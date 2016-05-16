@@ -138,7 +138,7 @@ public class VMTempletDaoServiceImpl implements VMTempletDaoService{
 					expressions.add(cb.like(root.get("os"), "%" + vmTempletE.getOs() + "%"));
 				}
 				expressions.add(cb.equal(root.get("visible"), "0"));
-				query.orderBy(cb.desc(root.get("createTime")));
+//				query.orderBy(cb.desc(root.get("createTime")));
 				return predicate;
 			}
 		}, pageable);

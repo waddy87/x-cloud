@@ -117,7 +117,7 @@ public class Session {
 	 * getInstanceByToken(String token) or getInstance(String ip, String
 	 * userName, String passWord, String token) instead。
 	 */
-	private synchronized static ServiceInstance getInstance() throws Exception {
+	private static ServiceInstance getInstance() throws Exception {
 
 		ServerConnection conn = null;
 		ServiceInstance serviceInstance = null;
@@ -161,7 +161,7 @@ public class Session {
 	 * @return
 	 * @throws Exception
 	 */
-	public synchronized static ServiceInstance getInstance(String ip,
+	public static ServiceInstance getInstance(String ip,
 			String userName, String passWord) throws Exception {
 
 		__vcenter_ip = ip;
@@ -189,7 +189,7 @@ public class Session {
 	 *             getInstanceByToken(String token) or getInstance(String ip,
 	 *             String userName, String passWord, String token) instead。
 	 */
-	public synchronized static ServiceInstance getInstanceByIP(String ip)
+	public static ServiceInstance getInstanceByIP(String ip)
 			throws Exception {
 
 		ServiceInstance serviceInstance = null;
@@ -216,7 +216,7 @@ public class Session {
 		return serviceInstance;
 	}
 
-	public synchronized static ServiceInstance getInstanceByToken(String token)
+	public static ServiceInstance getInstanceByToken(String token)
 			throws Exception {
 
 		// 1.如果token是空的 调用过时的getInstance()接口

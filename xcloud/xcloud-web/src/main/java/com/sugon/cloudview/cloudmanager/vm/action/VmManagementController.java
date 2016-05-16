@@ -441,23 +441,18 @@ public class VmManagementController  {
 
 
 	@SuppressWarnings("static-access")
-	@RequestMapping(value = "/toVNCPage", method = RequestMethod.GET)
+	@RequestMapping(value = "/vnc", method = RequestMethod.GET)
 	public ModelAndView toVNCPage(HttpServletRequest request,
-			@RequestParam(value = "internalId", required = true) String  internalId
+			@RequestParam(value = "vmId", required = true) String  vmId
 			) {
 		ModelAndView mav=new ModelAndView();
 		mav.setViewName("vmManagement/vnc");
 		try {
-			QueryVMConsoleCmd queryVMConsoleCmd = new QueryVMConsoleCmd();
-			queryVMConsoleCmd.setVmId(internalId);
-			QueryVMConsoleTask task = new QueryVMConsoleTask(queryVMConsoleCmd);
-			QueryVMConsoleAnswer answer = task.execute();
-			System.out.println(answer);
-			System.out.println("=================");
-			System.out.println(answer.getConsoleURL());
-			mav.addObject("url",answer.getConsoleURL());
+			String vncUrl = vc.vnc(vmId);
+			//model.put("vncUrl", vncUrl);
+			mav.addObject("vncUrl", vncUrl);
 		} catch (Exception e) {
-
+			logger.error(""+e.getMessage(),e);
 		}
 		/* return "protected/resourcepool/pool_add";*/
 		return mav;

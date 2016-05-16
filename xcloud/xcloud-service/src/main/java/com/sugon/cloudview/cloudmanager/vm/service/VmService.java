@@ -117,6 +117,14 @@ public interface VmService {
     public VmTask resetPassword(String id) throws Exception;
 
     /**
+     * 获取指定虚机的VNC地址
+     * @param id
+     * @return
+     * @throws Exception
+     */
+	public String getVncUrl(String id) throws Exception;
+
+    /**
      * 启动虚机
      * 
      * @param id

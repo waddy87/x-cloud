@@ -154,4 +154,13 @@ public interface IVmDriver {
      */
     public List<VmDisk> listDisk(String vmId) throws Exception;
 
+    /**
+     * 获取指定虚机的VNC地址
+     * @param vmId
+     *            虚机内部唯一标识
+     * @return
+     * @throws Exception
+     */
+	public String getVncUrl(String vmId) throws Exception;
+
 }

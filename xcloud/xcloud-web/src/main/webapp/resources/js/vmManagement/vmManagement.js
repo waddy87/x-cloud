@@ -504,7 +504,7 @@ cloudmanager.vmManagement={
 				'<a class="btn btn-link" onclick="cloudmanager.vmManagement.startVm(\''+row.id+'\',\''+row.name+'\',\''+row.runStatus+'\')">启动</a>'+
 				'<a class="btn btn-link" onclick="cloudmanager.vmManagement.stopVm(\''+row.id+'\',\''+row.name+'\',\''+row.runStatus+'\')">停止</a>'+
 				'<a class="btn btn-link" onclick="cloudmanager.vmManagement.refreshVm(\''+row.id+'\',\''+row.name+'\',this)">刷新</a>'+
-				'<a class="btn btn-link" onclick="cloudmanager.vmManagement.goToVNC(\''+row.internalId+'\',\''+row.runStatus+'\')">VNC</a>'
+				'<a class="btn btn-link" onclick="cloudmanager.vmManagement.goToVNC(\''+row.id+'\',\''+row.runStatus+'\')">VNC</a>'
 				;
 			if(role==='operation_manager'){
 				operation=operation+
@@ -607,7 +607,7 @@ cloudmanager.vmManagement={
 			});
 
 		},
-		goToVNC:function(internalId,runStatus){
+		goToVNC:function(id,runStatus){
 			if(runStatus==="CREATING"){
 				toastr.error("创建中的虚拟机不允许操作");
 			}
@@ -615,7 +615,7 @@ cloudmanager.vmManagement={
 				toastr.error("创建失败的虚拟机不允许操作");
 			}
 			else{
-				window.open(sugon.rootURL+'/oldvm/vmVnc?vmId='+internalId);
+				window.open(sugon.rootURL+'/action/vm/vnc?vmId='+id);
 			}
 			/*			var _this=this;
 			var params={internalId:internalId};

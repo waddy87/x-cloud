@@ -323,6 +323,19 @@ public class VmApi {
         return vmHost;
     }
 
+    @RequestMapping(value = "/{id}/vnc", method = RequestMethod.GET)
+    public String vnc(@PathVariable("id") String vmId) throws ApiException {
+        logger.info("收到查询虚机网络列表请求：vmId=" + vmId);
+        String vncUrl = "";
+        try {
+        	vncUrl = vmService.getVncUrl(vmId);
+        } catch (Exception e) {
+            logger.error("查询虚机网络列表失败！" + e.getMessage(), e);
+            throw new ApiException("查询虚机网络列表失败！" + e.getMessage(), e);
+        }
+        return vncUrl;
+    }
+
     @RequestMapping(value = "/{id}/nets", method = RequestMethod.GET)
     public Page<VmNet> listNet(@PathVariable("id") String vmId) throws ApiException {
         logger.info("收到查询虚机网络列表请求：vmId=" + vmId);
