@@ -1,8 +1,0 @@
-@echo off
-set rpctool="C:/Program Files/VMware/VMware Tools/rpctool.exe"
-for /f "tokens=2 delims=:" %%a in ('%rpctool% machine.id.get') do (
-    net user Administrator %%a
-    echo net user Administrator %%a >> c:\\cvconfig\\cloudview_config.log
-	echo Set up static ip done! >> c:\\cvconfig\\cloudview_config.log
-)
-

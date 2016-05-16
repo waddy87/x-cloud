@@ -36,6 +36,7 @@
 
         <!-- 驱动适配器 -->
         <module>xcloud-driver</module>
+        <module>xcloud-driver-vmware</module>
         <!-- <module>xcloud-vijava</module> -->
 
 		<!-- 业务子系统 -->        

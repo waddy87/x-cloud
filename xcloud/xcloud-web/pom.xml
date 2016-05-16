@@ -62,7 +62,7 @@
 		<!-- vijava -->
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-vijava-impl</artifactId>
+			<artifactId>xcloud-vijava</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

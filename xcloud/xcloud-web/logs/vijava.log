@@ -1,8 +1,166 @@
-2016-05-13 15:28:32,301 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2016-05-13 15:28:32,303 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] TestConnectInfoCmd [name=null, ip=10.0.31.251, username=admin, userpwd=pf12!@]
-2016-05-13 15:32:58,642 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2016-05-13 15:32:58,645 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] TestConnectInfoCmd [name=null, ip=10.0.33.71, username=administrator, userpwd=Sugon!!123]
-2016-05-13 15:33:50,166 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2016-05-13 15:33:50,174 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] TestConnectInfoCmd [name=null, ip=10.0.31.251, username=admin, userpwd=pf12!@]
-2016-05-13 15:34:22,096 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-2016-05-13 15:34:22,097 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] TestConnectInfoCmd [name=null, ip=10.0.31.251, username=admin, userpwd=pf12!@]
+2016-05-16 14:38:06,470 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 14:38:06,479 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] TestConnectInfoCmd [name=null, ip=10.0.33.71, username=admin, userpwd=Sugon!!123]
+2016-05-16 14:42:25,342 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 14:42:25,343 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] TestConnectInfoCmd [name=null, ip=10.0.33.71, username=admin, userpwd=Sugon!!123]
+2016-05-16 14:52:47,373 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 14:52:47,376 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] TestConnectInfoCmd [name=null, ip=10.0.33.71, username=admin, userpwd=123456]
+2016-05-16 15:09:26,926 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 15:09:28,827 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] TestConnectInfoCmd [name=null, ip=10.0.33.71, username=administrator, userpwd=Sugon!!123]
+2016-05-16 15:15:52,572 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 15:17:46,264 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] TestConnectInfoCmd [name=null, ip=10.0.33.71, username=administrator, userpwd=Sugon!!123]
+2016-05-16 15:20:44,664 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 15:20:44,664 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] TestConnectInfoCmd [name=null, ip=10.0.33.71, username=administrator, userpwd=Sugon!!123]
+2016-05-16 15:21:24,105 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:58] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2016-05-16 15:21:24,125 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:59] TestConnectInfoAnswer [result=true]
+2016-05-16 15:26:41,372 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:58] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2016-05-16 15:26:41,388 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:59] TestConnectInfoAnswer [result=true]
+2016-05-16 15:26:52,779 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:58] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2016-05-16 15:26:52,789 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:59] TestConnectInfoAnswer [result=true]
+2016-05-16 15:27:16,138 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 15:27:16,139 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] ConnectCloudVMCmd [ip=10.0.33.71, username=administrator]
+2016-05-16 15:30:05,519 DEBUG [com.sugon.cloudview.cloudmanager.vijava.util.LoadSystemPropertyJYaml:118] delete all connection info: null
+2016-05-16 15:30:05,529 DEBUG [com.sugon.cloudview.cloudmanager.vijava.util.LoadSystemPropertyJYaml:112] add connection info: CloudVMConfig [configDate=16/05/2016, vcenterInfo=[Lcom.sugon.cloudview.cloudmanager.vijava.util.CloudVMConfig$ConnectionInfo;@3b55d4ac]
+2016-05-16 15:30:06,229 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:58] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2016-05-16 15:30:06,229 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:59] ConnectCloudVMAnswer [sucess=true, version=VMware vSphere 6 Enterprise Plus, token=4ea482d0-82a1-47fe-8f49-32e4a988504d]
+2016-05-16 15:30:06,329 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 15:30:06,345 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] Cmd [cmdDesc=com.sugon.cloudview.cloudmanager.vijava.environment.QueryNetPool$QueryNetPoolCmd, token=]
+2016-05-16 15:30:07,223 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 15:30:07,225 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] TestConnectInfoCmd [name=null, ip=10.0.33.71, username=administrator, userpwd=Sugon!!123]
+2016-05-16 15:30:17,771 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:58] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2016-05-16 15:30:17,800 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:59] TestConnectInfoAnswer [result=true]
+2016-05-16 15:30:18,497 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:58] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2016-05-16 15:30:18,498 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:59] isSucess:trueid:network-164
+name:VM Network 2
+vlan:0
+id:network-165
+name:VM Network 3
+vlan:0
+id:network-171
+name:VM Network 4
+vlan:0
+id:network-172
+name:VM Network 5
+vlan:0
+id:network-173
+name:VM Network 6
+vlan:0
+id:network-174
+name:VM Network 7
+vlan:0
+id:network-175
+name:VM Network 8
+vlan:0
+id:network-11
+name:VM Network
+vlan:0
+
+2016-05-16 15:30:18,639 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 15:30:18,639 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] Cmd [cmdDesc=com.sugon.cloudview.cloudmanager.vijava.environment.QueryResources$QueryResourceCmd, token=]
+2016-05-16 15:30:18,824 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.ResourcePoolImpl:37] resource pool is Resources
+2016-05-16 15:30:18,841 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.ResourcePoolImpl:37] resource pool is Resources
+2016-05-16 15:30:19,082 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.ResourcePoolImpl:37] resource pool is Resources
+2016-05-16 15:30:19,088 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.ResourcePoolImpl:37] resource pool is Resources
+2016-05-16 15:30:19,203 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.ResourcePoolImpl:37] resource pool is wchch
+2016-05-16 15:30:19,210 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.ResourcePoolImpl:37] resource pool is wchch
+2016-05-16 15:30:19,265 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:58] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2016-05-16 15:30:19,266 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:59] isSucess:true ,ResPool [id=resgroup-46, name=群集1默认计算池, cpuTotal=132273, cpuUsed=0, cpuAvailable=132273, memoryTotal=121869, memoryUsed=188, menoryAvailable=121681, storagePools={StoragePool [id=datastore-10, name=datastore1 (2), total=271, used=74, available=197] }]ResPool [id=resgroup-14, name=10.0.33.175默认计算池, cpuTotal=82522, cpuUsed=0, cpuAvailable=82522, memoryTotal=114755, memoryUsed=36, menoryAvailable=114719, storagePools={StoragePool [id=datastore-16, name=datastore1, total=271, used=49, available=222] StoragePool [id=datastore-41, name=vsanDatastore, total=0, used=0, available=0] }]ResPool [id=resgroup-62, name=wchch, cpuTotal=82522, cpuUsed=0, cpuAvailable=82522, memoryTotal=114755, memoryUsed=36, menoryAvailable=114719, storagePools={StoragePool [id=datastore-16, name=datastore1, total=271, used=49, available=222] StoragePool [id=datastore-41, name=vsanDatastore, total=0, used=0, available=0] }]
+2016-05-16 15:30:19,389 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 15:30:19,389 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] QueryVMCmd [vmId=null, vmName=null, powerStatus=null, guestOSId=null, ip=null, datastoreName=null, networkName=null, poolName=null, isTemplate=true]
+2016-05-16 15:30:19,390 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTaskFactory:20] 参数cmd=QueryVMCmd [vmId=null, vmName=null, powerStatus=null, guestOSId=null, ip=null, datastoreName=null, networkName=null, poolName=null, isTemplate=true]
+2016-05-16 15:30:19,390 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTaskFactory:30] queryVmCmd is:QueryVMCmd [vmId=null, vmName=null, powerStatus=null, guestOSId=null, ip=null, datastoreName=null, networkName=null, poolName=null, isTemplate=true]
+2016-05-16 15:30:19,410 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTask:84] 查询参数=QueryVMCmd [vmId=null, vmName=null, powerStatus=null, guestOSId=null, ip=null, datastoreName=null, networkName=null, poolName=null, isTemplate=true]
+2016-05-16 15:30:20,280 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTask:236] 满足isTemplate条件的虚拟机列表是[VirtualMachine:vm-85 @ https://10.0.33.71/sdk, VirtualMachine:vm-156 @ https://10.0.33.71/sdk, VirtualMachine:vm-87 @ https://10.0.33.71/sdk]
+2016-05-16 15:30:20,285 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:500] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,vmId=vm-85
+2016-05-16 15:30:20,285 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:271] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,moId=vm-85
+2016-05-16 15:30:20,292 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:277] vm is:rabbitmq(模板备份)
+2016-05-16 15:30:20,569 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:294] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,moId=host-15
+2016-05-16 15:30:20,570 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:299] host is:HostSystem:host-15 @ https://10.0.33.71/sdk
+2016-05-16 15:30:21,172 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTask:406] vMachine is:VMachine [id=vm-85, name=rabbitmq(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null]
+2016-05-16 15:30:21,172 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:500] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,vmId=vm-156
+2016-05-16 15:30:21,172 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:271] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,moId=vm-156
+2016-05-16 15:30:21,190 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:277] vm is:目前最好用模板
+2016-05-16 15:30:21,194 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:294] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,moId=host-15
+2016-05-16 15:30:21,194 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:299] host is:HostSystem:host-15 @ https://10.0.33.71/sdk
+2016-05-16 15:30:21,372 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTask:406] vMachine is:VMachine [id=vm-156, name=目前最好用模板, runningStatus=notRunning, powerStatus=poweredOff, osId=winNetEnterprise64Guest, osName=Microsoft Windows Server 2003 (64 位), cpuNum=1, memSizeMB=1024, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=20, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null]
+2016-05-16 15:30:21,372 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:500] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,vmId=vm-87
+2016-05-16 15:30:21,383 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:271] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,moId=vm-87
+2016-05-16 15:30:21,389 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:277] vm is:cloudmanager(模板备份)
+2016-05-16 15:30:21,393 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:294] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,moId=host-15
+2016-05-16 15:30:21,393 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:299] host is:HostSystem:host-15 @ https://10.0.33.71/sdk
+2016-05-16 15:30:21,572 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTask:406] vMachine is:VMachine [id=vm-87, name=cloudmanager(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null]
+2016-05-16 15:30:21,572 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTask:272] lsVM is:[VMachine [id=vm-85, name=rabbitmq(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null], VMachine [id=vm-156, name=目前最好用模板, runningStatus=notRunning, powerStatus=poweredOff, osId=winNetEnterprise64Guest, osName=Microsoft Windows Server 2003 (64 位), cpuNum=1, memSizeMB=1024, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=20, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null], VMachine [id=vm-87, name=cloudmanager(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null]]
+2016-05-16 15:30:21,572 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTask:275] ret is:QueryVMAnswer [success=true, errMsg=null, vmList=[VMachine [id=vm-85, name=rabbitmq(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null], VMachine [id=vm-156, name=目前最好用模板, runningStatus=notRunning, powerStatus=poweredOff, osId=winNetEnterprise64Guest, osName=Microsoft Windows Server 2003 (64 位), cpuNum=1, memSizeMB=1024, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=20, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null], VMachine [id=vm-87, name=cloudmanager(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null]]]
+2016-05-16 15:30:21,572 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:58] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2016-05-16 15:30:21,572 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:59] QueryVMAnswer [success=true, errMsg=null, vmList=[VMachine [id=vm-85, name=rabbitmq(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null], VMachine [id=vm-156, name=目前最好用模板, runningStatus=notRunning, powerStatus=poweredOff, osId=winNetEnterprise64Guest, osName=Microsoft Windows Server 2003 (64 位), cpuNum=1, memSizeMB=1024, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=20, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null], VMachine [id=vm-87, name=cloudmanager(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null]]]
+2016-05-16 15:30:23,511 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 15:30:23,512 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] ConnectCloudVMCmd [ip=10.0.33.71, username=administrator]
+2016-05-16 15:30:23,643 DEBUG [com.sugon.cloudview.cloudmanager.vijava.util.LoadSystemPropertyJYaml:118] delete all connection info: CloudVMConfig [configDate=16/05/2016, vcenterInfo=[Lcom.sugon.cloudview.cloudmanager.vijava.util.CloudVMConfig$ConnectionInfo;@3b55d4ac]
+2016-05-16 15:30:23,643 DEBUG [com.sugon.cloudview.cloudmanager.vijava.util.LoadSystemPropertyJYaml:112] add connection info: CloudVMConfig [configDate=16/05/2016, vcenterInfo=[Lcom.sugon.cloudview.cloudmanager.vijava.util.CloudVMConfig$ConnectionInfo;@11d298c9]
+2016-05-16 15:30:23,694 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:58] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2016-05-16 15:30:23,695 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:59] ConnectCloudVMAnswer [sucess=true, version=VMware vSphere 6 Enterprise Plus, token=4ea482d0-82a1-47fe-8f49-32e4a988504d]
+2016-05-16 15:30:23,709 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 15:30:23,709 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] Cmd [cmdDesc=com.sugon.cloudview.cloudmanager.vijava.environment.QueryNetPool$QueryNetPoolCmd, token=]
+2016-05-16 15:30:34,293 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:58] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2016-05-16 15:30:34,293 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:59] isSucess:trueid:network-164
+name:VM Network 2
+vlan:0
+id:network-165
+name:VM Network 3
+vlan:0
+id:network-171
+name:VM Network 4
+vlan:0
+id:network-172
+name:VM Network 5
+vlan:0
+id:network-173
+name:VM Network 6
+vlan:0
+id:network-174
+name:VM Network 7
+vlan:0
+id:network-175
+name:VM Network 8
+vlan:0
+id:network-11
+name:VM Network
+vlan:0
+
+2016-05-16 15:30:34,330 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 15:30:34,330 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] Cmd [cmdDesc=com.sugon.cloudview.cloudmanager.vijava.environment.QueryResources$QueryResourceCmd, token=]
+2016-05-16 15:30:34,413 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.ResourcePoolImpl:37] resource pool is Resources
+2016-05-16 15:30:34,413 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.ResourcePoolImpl:37] resource pool is Resources
+2016-05-16 15:30:34,616 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.ResourcePoolImpl:37] resource pool is Resources
+2016-05-16 15:30:34,645 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.ResourcePoolImpl:37] resource pool is Resources
+2016-05-16 15:30:34,778 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.ResourcePoolImpl:37] resource pool is wchch
+2016-05-16 15:30:34,786 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.ResourcePoolImpl:37] resource pool is wchch
+2016-05-16 15:30:34,830 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:58] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2016-05-16 15:30:34,830 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:59] isSucess:true ,ResPool [id=resgroup-46, name=群集1默认计算池, cpuTotal=132273, cpuUsed=0, cpuAvailable=132273, memoryTotal=121869, memoryUsed=188, menoryAvailable=121681, storagePools={StoragePool [id=datastore-10, name=datastore1 (2), total=271, used=74, available=197] }]ResPool [id=resgroup-14, name=10.0.33.175默认计算池, cpuTotal=82522, cpuUsed=0, cpuAvailable=82522, memoryTotal=114755, memoryUsed=36, menoryAvailable=114719, storagePools={StoragePool [id=datastore-16, name=datastore1, total=271, used=49, available=222] StoragePool [id=datastore-41, name=vsanDatastore, total=0, used=0, available=0] }]ResPool [id=resgroup-62, name=wchch, cpuTotal=82522, cpuUsed=0, cpuAvailable=82522, memoryTotal=114755, memoryUsed=36, menoryAvailable=114719, storagePools={StoragePool [id=datastore-16, name=datastore1, total=271, used=49, available=222] StoragePool [id=datastore-41, name=vsanDatastore, total=0, used=0, available=0] }]
+2016-05-16 15:30:34,848 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:55] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2016-05-16 15:30:34,848 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:56] QueryVMCmd [vmId=null, vmName=null, powerStatus=null, guestOSId=null, ip=null, datastoreName=null, networkName=null, poolName=null, isTemplate=true]
+2016-05-16 15:30:34,848 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTaskFactory:20] 参数cmd=QueryVMCmd [vmId=null, vmName=null, powerStatus=null, guestOSId=null, ip=null, datastoreName=null, networkName=null, poolName=null, isTemplate=true]
+2016-05-16 15:30:34,848 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTaskFactory:30] queryVmCmd is:QueryVMCmd [vmId=null, vmName=null, powerStatus=null, guestOSId=null, ip=null, datastoreName=null, networkName=null, poolName=null, isTemplate=true]
+2016-05-16 15:30:34,848 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTask:84] 查询参数=QueryVMCmd [vmId=null, vmName=null, powerStatus=null, guestOSId=null, ip=null, datastoreName=null, networkName=null, poolName=null, isTemplate=true]
+2016-05-16 15:30:35,100 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTask:236] 满足isTemplate条件的虚拟机列表是[VirtualMachine:vm-85 @ https://10.0.33.71/sdk, VirtualMachine:vm-156 @ https://10.0.33.71/sdk, VirtualMachine:vm-87 @ https://10.0.33.71/sdk]
+2016-05-16 15:30:35,100 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:500] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,vmId=vm-85
+2016-05-16 15:30:35,100 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:271] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,moId=vm-85
+2016-05-16 15:30:35,100 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:277] vm is:rabbitmq(模板备份)
+2016-05-16 15:30:35,115 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:294] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,moId=host-15
+2016-05-16 15:30:35,115 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:299] host is:HostSystem:host-15 @ https://10.0.33.71/sdk
+2016-05-16 15:30:35,248 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTask:406] vMachine is:VMachine [id=vm-85, name=rabbitmq(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null]
+2016-05-16 15:30:35,248 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:500] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,vmId=vm-156
+2016-05-16 15:30:35,248 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:271] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,moId=vm-156
+2016-05-16 15:30:35,280 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:277] vm is:目前最好用模板
+2016-05-16 15:30:35,286 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:294] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,moId=host-15
+2016-05-16 15:30:35,287 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:299] host is:HostSystem:host-15 @ https://10.0.33.71/sdk
+2016-05-16 15:30:35,432 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTask:406] vMachine is:VMachine [id=vm-156, name=目前最好用模板, runningStatus=notRunning, powerStatus=poweredOff, osId=winNetEnterprise64Guest, osName=Microsoft Windows Server 2003 (64 位), cpuNum=1, memSizeMB=1024, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=20, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null]
+2016-05-16 15:30:35,432 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:500] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,vmId=vm-87
+2016-05-16 15:30:35,433 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:271] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,moId=vm-87
+2016-05-16 15:30:35,439 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:277] vm is:cloudmanager(模板备份)
+2016-05-16 15:30:35,445 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:294] params is:si=ServiceInstance:ServiceInstance @ https://10.0.33.71/sdk,moId=host-15
+2016-05-16 15:30:35,446 DEBUG [com.sugon.cloudview.cloudmanager.vijava.impl.VirtualMachineImpl:299] host is:HostSystem:host-15 @ https://10.0.33.71/sdk
+2016-05-16 15:30:35,588 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTask:406] vMachine is:VMachine [id=vm-87, name=cloudmanager(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null]
+2016-05-16 15:30:35,589 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTask:272] lsVM is:[VMachine [id=vm-85, name=rabbitmq(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null], VMachine [id=vm-156, name=目前最好用模板, runningStatus=notRunning, powerStatus=poweredOff, osId=winNetEnterprise64Guest, osName=Microsoft Windows Server 2003 (64 位), cpuNum=1, memSizeMB=1024, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=20, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null], VMachine [id=vm-87, name=cloudmanager(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null]]
+2016-05-16 15:30:35,589 DEBUG [com.sugon.cloudview.cloudmanager.vijava.vm.QueryVMTask:275] ret is:QueryVMAnswer [success=true, errMsg=null, vmList=[VMachine [id=vm-85, name=rabbitmq(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null], VMachine [id=vm-156, name=目前最好用模板, runningStatus=notRunning, powerStatus=poweredOff, osId=winNetEnterprise64Guest, osName=Microsoft Windows Server 2003 (64 位), cpuNum=1, memSizeMB=1024, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=20, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null], VMachine [id=vm-87, name=cloudmanager(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null]]]
+2016-05-16 15:30:35,590 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:58] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2016-05-16 15:30:35,590 DEBUG [com.sugon.cloudview.cloudmanager.vijava.base.CloudviewExecutorImpl:59] QueryVMAnswer [success=true, errMsg=null, vmList=[VMachine [id=vm-85, name=rabbitmq(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null], VMachine [id=vm-156, name=目前最好用模板, runningStatus=notRunning, powerStatus=poweredOff, osId=winNetEnterprise64Guest, osName=Microsoft Windows Server 2003 (64 位), cpuNum=1, memSizeMB=1024, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=20, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null], VMachine [id=vm-87, name=cloudmanager(模板备份), runningStatus=notRunning, powerStatus=poweredOff, osId=centos64Guest, osName=CentOS 4/5/6/7 (64 位), cpuNum=2, memSizeMB=4096, diskInfos=[VMDiskInfo [diskId=null, name=硬盘 1, datastoreId=null, diskMode=null, thinProvisioned=null, diskSizeGB=80, diskOperation=null]], networkInfos=[], clusterId=null, clusterName=null, isTemplate=true, vmTaskStatus=null]]]
