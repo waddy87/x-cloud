@@ -28,4 +28,6 @@ public interface VmNetDaoService {
 
     public Page<VmNet> findByBO(VmNet vmNet, PageRequest pageable);
 
+	public VmNet findByVmAndNet(String vmId, String netId);
+
 }

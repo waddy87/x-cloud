@@ -30,14 +30,14 @@ public class ConnectCloudVMTask extends BaseTask<ConnectCloudVMAnswer> {
 	String token;
 
 	public ConnectCloudVMTask(ConnectCloudVMCmd cmd) {
-
 		super();
 		this.setCmd(cmd);
 		try {
-
-			this.setSi(Session.getInstance(cmd.getIp(), cmd.getUsername(),
-					cmd.getUserpwd()));
-			this.setToken(si.getAboutInfo().getInstanceUuid());
+			ServiceInstance si =Session.getInstance(cmd.getIp(), cmd.getUsername(),
+					cmd.getUserpwd());
+			String token = si.getAboutInfo().getInstanceUuid();
+			this.setSi(si);
+			this.setToken(token);
 		} catch (Exception e) {
 			logger.error("连接失败，原因" + e.getMessage());
 		}
@@ -160,18 +160,18 @@ public class ConnectCloudVMTask extends BaseTask<ConnectCloudVMAnswer> {
 	public static void main(String[] args) {
 
 		ConnectCloudVMCmd cmd = new ConnectCloudVMCmd();
-		cmd.setIp("10.0.36.121").setUsername("admin").setUserpwd("Sugon!123");
+		cmd.setIp("10.0.33.71").setUsername("administrator").setUserpwd("Sugon!!123");
 		ConnectCloudVMTask task = new ConnectCloudVMTask(cmd);
 		ConnectCloudVMAnswer answer = task.execute();
 		System.out.println(answer);
-		cmd.setIp("10.0.36.128").setUsername("admin").setUserpwd("Sugon!123");
-		task = new ConnectCloudVMTask(cmd);
-		answer = task.execute();
-		System.out.println(answer);
-		cmd.setIp("10.0.31.251").setUsername("admin").setUserpwd("Sugon!123");
-		task = new ConnectCloudVMTask(cmd);
-		answer = task.execute();
-		System.out.println(answer);
+//		cmd.setIp("10.0.36.128").setUsername("admin").setUserpwd("Sugon!123");
+//		task = new ConnectCloudVMTask(cmd);
+//		answer = task.execute();
+//		System.out.println(answer);
+//		cmd.setIp("10.0.31.251").setUsername("admin").setUserpwd("Sugon!123");
+//		task = new ConnectCloudVMTask(cmd);
+//		answer = task.execute();
+//		System.out.println(answer);
 
 	}
 }

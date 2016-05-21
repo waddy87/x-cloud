@@ -18,6 +18,8 @@ public interface VmNetRepository extends JpaRepository<VmNetE, Long>, JpaSpecifi
 
     public VmNetE findById(String id);
 
+    public VmNetE findByVmIdAndNetId(String vmId, String netId);
+
     @Override
     public void delete(VmNetE net);
 

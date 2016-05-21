@@ -199,4 +199,11 @@ public interface ProjectService {
      */
     public Page<Project> pageByBO(Project search, Pageable pageable);
 
+    /**
+     * 根据虚机查询项目
+     * @param vmId
+     * @return
+     */
+	public Project findByVm(String vmId);
+
 }

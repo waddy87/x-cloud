@@ -44,6 +44,7 @@ public class ListAllUsers
 {
   public static void main(String[] args) throws Exception
   {
+	  args= new String[]{"https://10.0.33.71/sdk","administrator","Sugon!!123"};
     if(args.length != 3)
     {
       System.out.println("Usage: java ListAllUsers <url> " 

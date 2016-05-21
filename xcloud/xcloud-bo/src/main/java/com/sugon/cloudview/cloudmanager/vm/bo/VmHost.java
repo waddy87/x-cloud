@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.List;
 
 import com.sugon.cloudview.cloudmanager.org.bo.Organization;
+import com.sugon.cloudview.cloudmanager.project.bo.Project;
 import com.sugon.cloudview.cloudmanager.resource.service.bo.vdc.ProviderVDC;
 import com.sugon.cloudview.cloudmanager.resource.service.bo.vdc.StoragePool;
 import com.sugon.cloudview.cloudmanager.usermgmt.service.bo.User;
@@ -64,6 +65,11 @@ public class VmHost extends Asset {
      */
     private String ownerId;
     private User owner;
+    
+    /**
+     * 关联项目
+     */
+    private Project project;
 
     /**
      * 是否分配给项目：true-已分配、false-未分配
@@ -410,7 +416,15 @@ public class VmHost extends Asset {
         this.owner = owner;
     }
 
-    @Override
+    public Project getProject() {
+		return project;
+	}
+
+	public void setProject(Project project) {
+		this.project = project;
+	}
+
+	@Override
     public String toString() {
         // return JsonUtil.toJson(this);
         // return this == null ? null : JsonUtil.toJson(this);

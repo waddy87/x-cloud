@@ -1088,30 +1088,6 @@ public class VmManagementController  {
 	}
 
 	@SuppressWarnings("static-access")
-	@RequestMapping(value = "/queryVNCUrl", method = RequestMethod.POST)
-	public @ResponseBody String queryVNCUrl(
-			@RequestBody JSONObject params 
-			) {
-		/*		logger.info("传入的虚拟机参数为"+vmId);*/
-		JSONObject jo=new JSONObject();
-		String internalId=params.getString("internalId");
-		try {
-			QueryVMConsoleCmd queryVMConsoleCmd = new QueryVMConsoleCmd();
-			queryVMConsoleCmd.setVmId(internalId);
-			QueryVMConsoleTask task = new QueryVMConsoleTask(queryVMConsoleCmd);
-			QueryVMConsoleAnswer answer = task.execute();
-			System.out.println(answer);
-			System.out.println("=================");
-			System.out.println(answer.getConsoleURL());
-			jo.put("url", answer.getConsoleURL());
-			return jo.toString();
-		} catch (Exception e) {
-
-			return JsonUtil.error(e.getMessage(), e);
-		}
-	}
-
-	@SuppressWarnings("static-access")
 	@RequestMapping(value = "/queryVmTaskStatus", method = RequestMethod.POST)
 	public @ResponseBody String queryVmTaskStatus(
 			@RequestBody VmHost search		

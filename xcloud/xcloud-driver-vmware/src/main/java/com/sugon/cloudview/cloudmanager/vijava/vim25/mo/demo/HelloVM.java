@@ -30,37 +30,51 @@ POSSIBILITY OF SUCH DAMAGE.
 package com.sugon.cloudview.cloudmanager.vijava.vim25.mo.demo;
 
 import java.net.URL;
+
+import com.sugon.cloudview.cloudmanager.util.JsonUtil;
 import com.sugon.vim25.*;
 import com.sugon.vim25.mo.*;
 
 public class HelloVM {
-	
+
 	public static void main(String[] args) throws Exception {
 		long start = System.currentTimeMillis();
-		ServiceInstance si = new ServiceInstance(new URL(
-				"https://10.0.36.128/sdk"), "administrator@vsphere.local",
-				"Sugon@123", true);
+		ServiceInstance si = new ServiceInstance(new URL("https://10.0.33.71/sdk"), "administrator", "Sugon!!123",
+				true);
 		long end = System.currentTimeMillis();
 		System.out.println("time taken:" + (end - start));
 		Folder rootFolder = si.getRootFolder();
 		String name = rootFolder.getName();
 		System.out.println("root:" + name);
-		ManagedEntity[] mes = new InventoryNavigator(rootFolder)
-				.searchManagedEntities("VirtualMachine");
-		if (mes == null || mes.length == 0) {
-			return;
+		//查询存储
+		ManagedEntity[] mes = new InventoryNavigator(rootFolder).searchManagedEntities("Datastore");
+//		for(ManagedEntity entity : mes){
+//			Datastore ds = (Datastore) entity;
+//			DatastoreInfo info = ds.getInfo();
+//			System.out.println(ds.getSummary().type+" - "+JsonUtil.toJson(info));
+//		}
+		//查询网络
+		mes = new InventoryNavigator(rootFolder).searchManagedEntities("Network");
+		for(ManagedEntity entity : mes){
+			Network net = (Network)entity;
+			System.out.println(net.getName()+" - " + net );
 		}
-
-		VirtualMachine vm = (VirtualMachine) mes[0];
-
-		VirtualMachineConfigInfo vminfo = vm.getConfig();
-		VirtualMachineCapability vmc = vm.getCapability();
-
-		vm.getResourcePool();
-		System.out.println("Hello " + vm.getName());
-		System.out.println("GuestOS: " + vminfo.getGuestFullName());
-		System.out.println("Multiple snapshot supported: "
-				+ vmc.isMultipleSnapshotsSupported());
+//		ManagedEntity[] mes = new InventoryNavigator(rootFolder).searchManagedEntities("VirtualMachine");
+//		if (mes == null || mes.length == 0) {
+//			return;
+//		}
+//
+//		System.out.println("vm count："+mes.length);
+//		VirtualMachine vm = (VirtualMachine) mes[0];
+//		//vm = (VirtualMachine) new InventoryNavigator(rootFolder).searchManagedEntity("VirtualMachine", "wchchtest");
+//
+//		VirtualMachineConfigInfo vminfo = vm.getConfig();
+//		VirtualMachineCapability vmc = vm.getCapability();
+//
+//		vm.getResourcePool();
+//		System.out.println("Hello " + vm.getName());
+//		System.out.println("GuestOS: " + vminfo.getGuestFullName());
+//		System.out.println("Multiple snapshot supported: " + vmc.isMultipleSnapshotsSupported());
 
 		si.getServerConnection().logout();
 	}

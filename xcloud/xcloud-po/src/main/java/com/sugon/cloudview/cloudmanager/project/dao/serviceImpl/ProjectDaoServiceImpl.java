@@ -105,6 +105,17 @@ public class ProjectDaoServiceImpl implements ProjectDaoService {
     }
 
     @Override
+    public Project findByVm(String vmId) {
+    	Project result = null;
+    	ProjectE entity = projectRepository.findByVm(vmId);
+    	if(entity!=null){
+    		result = new Project();
+    		BeanUtils.copyProperties(entity, result);
+    	}
+    	return result;
+    }
+
+    @Override
     public void deleteProject(String name) {
         ProjectE project = projectRepository.findByName(name);
         if (null != project) {

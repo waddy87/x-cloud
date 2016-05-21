@@ -23,9 +23,9 @@
 
         <!-- maven repositories url -->
         <distributionManagement-repository-id>cloudview-release</distributionManagement-repository-id>
-        <distributionManagement-repository-url>http://10.0.33.190:8080/nexus/content/repositories/cloudview-release/</distributionManagement-repository-url>
+        <distributionManagement-repository-url>http://192.168.1.1:8080/nexus/content/repositories/cloudview-release/</distributionManagement-repository-url>
         <distributionManagement-snapshotRepository-id>cloudview-snapshot</distributionManagement-snapshotRepository-id>
-        <distributionManagement-snapshotRepository-url>http://10.0.33.190:8080/nexus/content/repositories/cloudview-snapshot/</distributionManagement-snapshotRepository-url>
+        <distributionManagement-snapshotRepository-url>http://192.168.1.1:8080/nexus/content/repositories/cloudview-snapshot/</distributionManagement-snapshotRepository-url>
 
         <shiro.version>1.2.3</shiro.version>
     </properties>
@@ -140,7 +140,7 @@
         <repository>
             <id>sugon-nexus-mirror</id>
             
-            <url>http://10.0.33.190:8080/nexus/content/groups/public</url>
+            <url>http://192.168.1.1:8080/nexus/content/groups/public</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -154,7 +154,7 @@
         <pluginRepository>
             <id>sugon-nexus-mirror</id>
             
-            <url>http://10.0.33.190:8080/nexus/content/groups/public</url>
+            <url>http://192.168.1.1:8080/nexus/content/groups/public</url>
             <releases>
                 <enabled>true</enabled>
             </releases>

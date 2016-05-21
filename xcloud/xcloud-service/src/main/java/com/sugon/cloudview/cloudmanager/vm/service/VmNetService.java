@@ -53,4 +53,15 @@ public interface VmNetService {
      */
     public Page<VmNet> pageByVm(String vmId, PageRequest pageRequest);
 
+    /**
+     * 根据虚机和网络联合查询
+     * 
+     * @param vmId
+     *            虚机业务标识
+     * @param netId
+     *            网络唯一标识
+     * @return
+     */
+    public VmNet findByVmAndNet(String vmId, String netId);
+
 }

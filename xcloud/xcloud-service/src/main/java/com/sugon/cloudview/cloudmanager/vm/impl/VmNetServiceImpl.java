@@ -49,6 +49,12 @@ public class VmNetServiceImpl implements VmNetService {
     }
 
     @Override
+    public VmNet findByVmAndNet(String vmId, String netId) {
+        logger.debug("根据虚拟机分页查询网络列表：vmId=" + vmId);
+        return vmNetDaoService.findByVmAndNet(vmId, netId);
+    }
+
+    @Override
     public List<VmNet> listByVm(String vmId) {
         logger.debug("根据虚机查询网络列表：vmId=" + vmId);
         VmNet search = new VmNet();

@@ -175,6 +175,7 @@ public class VMEvent {
 
     @PostConstruct
     public void sendVMEvent() {
+    	logger.info("=== 启动事件服务器 ===");
         new EventMainThread().start();
     }
 

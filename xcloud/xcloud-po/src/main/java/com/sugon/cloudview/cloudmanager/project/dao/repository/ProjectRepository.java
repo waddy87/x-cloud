@@ -35,6 +35,9 @@ public interface ProjectRepository extends JpaRepository<ProjectE, Long>, JpaSpe
     
     @Query("select p from ProjectE p where p.orgId = ?1")
     public Page<Project> findProjectsByOrgid(String orgid, Pageable pageable);
+    
+    @Query("select p from ProjectE p,ProjectVM pv where pv.projectId=p.id and pv.vmId=?1")
+    public ProjectE findByVm(String vmId);
 
     @Query("select count(distinct p) from ProjectE p where p.orgId = ?1")
     public long findProjectsByOrgid(String orgid);

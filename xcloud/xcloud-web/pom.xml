@@ -59,12 +59,13 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		
-		<!-- vijava -->
+		<!-- vijava 
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
 			<artifactId>xcloud-vijava</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		-->
 	</dependencies>
 	<build>
 		<plugins>

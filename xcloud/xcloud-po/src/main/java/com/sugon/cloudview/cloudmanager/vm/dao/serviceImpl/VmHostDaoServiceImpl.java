@@ -21,6 +21,9 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
+import com.sugon.cloudview.cloudmanager.project.bo.Project;
+import com.sugon.cloudview.cloudmanager.project.dao.entity.ProjectE;
+import com.sugon.cloudview.cloudmanager.project.dao.repository.ProjectRepository;
 import com.sugon.cloudview.cloudmanager.vm.bo.VmHost;
 import com.sugon.cloudview.cloudmanager.vm.constant.VmStatus;
 import com.sugon.cloudview.cloudmanager.vm.dao.entity.VmHostE;
@@ -33,6 +36,9 @@ public class VmHostDaoServiceImpl implements VmHostDaoService {
 
     @Autowired
     private VmHostRepository vmHostRepository;
+
+    @Autowired
+    private ProjectRepository projectRepository;
 
     @Autowired
     public VmHostDaoServiceImpl(VmHostRepository vmHostRepository) {
@@ -269,6 +275,12 @@ public class VmHostDaoServiceImpl implements VmHostDaoService {
             public VmHost convert(VmHostE source) {
                 VmHost target = new VmHost();
                 BeanUtils.copyProperties(source, target);
+                ProjectE pe = projectRepository.findByVm(source.getId());
+                if(pe!=null){
+                	Project p = new Project();
+                	BeanUtils.copyProperties(pe, p);
+                	target.setProject(p);
+                }
                 // String orgId = source.getOrgId();
                 // OrganizationE org = orgRepository.findById(orgId);
                 // if (org != null) {

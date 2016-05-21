@@ -215,6 +215,11 @@ public class ProjectServiceImpl implements ProjectService {
     }
 
     @Override
+    public Project findByVm(String vmId) {
+    	return projectDaoService.findByVm(vmId);
+    }
+
+    @Override
     public Page<Project> list(char status, String name, PageRequest pageRequest) {
         return projectDaoService.ListProjects(status, name, pageRequest);
     }

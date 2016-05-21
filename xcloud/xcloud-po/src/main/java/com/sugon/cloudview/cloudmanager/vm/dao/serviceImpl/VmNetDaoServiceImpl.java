@@ -70,6 +70,13 @@ public class VmNetDaoServiceImpl implements VmNetDaoService {
     }
 
     @Override
+    public VmNet findByVmAndNet(String vmId, String netId) {
+        VmNetE source = vmNetRepository.findByVmIdAndNetId(vmId, netId);
+        VmNet target = po2bo(source);
+        return target;
+    }
+
+    @Override
     public void delete(VmNet net) throws Exception {
         if (net != null) {
             VmNetE entity = bo2po(net);

@@ -34,4 +34,6 @@ public interface ProjectDaoService {
 
     public Long totalByOrg(String oid);
 
+	public Project findByVm(String vmId);
+
 }

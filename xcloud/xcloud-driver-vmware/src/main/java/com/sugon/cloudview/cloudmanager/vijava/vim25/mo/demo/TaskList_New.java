@@ -106,10 +106,15 @@ public class TaskList_New
 
    public static void main(String [] args) throws Exception
    {
-	    CommandLineParser clp = new CommandLineParser(new OptionSpec[]{}, args);
-	   	String urlStr = clp.get_option("url");
-  	    String username = clp.get_option("username");
-	    String password = clp.get_option("password");
+	   args= new String[]{"--url https://10.0.33.71/sdk","--username administrator","--password Sugon!!123"};
+//	    CommandLineParser clp = new CommandLineParser(new OptionSpec[]{}, args);
+//	   	String urlStr = clp.get_option("url");
+//  	    String username = clp.get_option("username");
+//	    String password = clp.get_option("password");
+	    
+	    String urlStr = "https://10.0.33.71/sdk";
+	    String username = "administrator";
+	    String password = "Sugon!!123";
 
 		ServiceInstance si = new ServiceInstance(new URL(urlStr), username, password, true);
 		TaskManager tm = si.getTaskManager();
