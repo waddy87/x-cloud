@@ -7,9 +7,9 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
+		<config>java:org.waddys.xcloud.JobApp</config>
 	</configs>
 	<autoconfigs>
-		<config>java:com.sugon.cloudview.cloudmanager.JobApp</config>
 	</autoconfigs>
 	<configSets>
 	</configSets>

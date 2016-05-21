@@ -70,11 +70,11 @@
 					<target>1.8</target>
 					
 					<excludes><!-- 
-						<exclude>com/sugon/cloudview/cloudmanager/vijava/vim/rest/demo/*.java</exclude>
-						<exclude>com/sugon/cloudview/cloudmanager/vijava/vim25/mo/demo/*.java</exclude>
+						<exclude>org/waddys/xcloud/vijava/vim/rest/demo/*.java</exclude>
+						<exclude>org/waddys/xcloud/vijava/vim25/mo/demo/*.java</exclude>
 						 -->
-						<exclude>com/sugon/cloudview/cloudmanager/vijava/vim25/mo/demo/cluster/*.java</exclude>
-						<exclude>com/sugon/cloudview/cloudmanager/vijava/vim25/mo/demo/ext/*.java</exclude>
+						<exclude>org/waddys/xcloud/vijava/vim25/mo/demo/cluster/*.java</exclude>
+						<exclude>org/waddys/xcloud/vijava/vim25/mo/demo/ext/*.java</exclude>
 					</excludes>
 				</configuration>
 			</plugin>

@@ -45,7 +45,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-common-message</artifactId>
+			<artifactId>xcloud-common-msg</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>

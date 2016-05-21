@@ -13,7 +13,7 @@
 	</bean>
 
 	<!-- Realm实现 -->
-	<bean id="userRealm" class="com.sugon.cloudview.cloudmanager.shiro.UserRealm">
+	<bean id="userRealm" class="org.waddys.xcloud.shiro.UserRealm">
 		<property name="credentialsMatcher" ref="credentialsMatcher"/>
 		<property name="cachingEnabled" value="false" />
 		<property name="authenticationCachingEnabled" value="true" />
@@ -89,7 +89,7 @@
 		<property name="arguments" ref="securityManager" />
 	</bean>
 	<!-- 凭证匹配器 -->
-    <bean id="credentialsMatcher" class="com.sugon.cloudview.cloudmanager.shiro.RetryLimitHashedCredentialsMatcher">
+    <bean id="credentialsMatcher" class="org.waddys.xcloud.shiro.RetryLimitHashedCredentialsMatcher">
 		<constructor-arg ref="cacheManager"/>
         <property name="hashAlgorithmName" value="md5"/>
         <property name="hashIterations" value="2"/>
@@ -121,16 +121,16 @@
 		</property>
 	</bean>
 	<!-- 用于控制并发登录人数-->
-    <bean id="kickoutSessionControlFilter"  class="com.sugon.cloudview.cloudmanager.shiro.KickoutSessionControlFilter">  
+    <bean id="kickoutSessionControlFilter"  class="org.waddys.xcloud.shiro.KickoutSessionControlFilter">  
 	    <property name="cacheManager" ref="cacheManager"/>  
 	    <property name="sessionManager" ref="sessionManager"/>  
 	    <property name="kickoutAfter" value="false"/>  
 	    <property name="maxSession" value="20"/>  
 	    <property name="kickoutUrl" value="/userlogin?kickout=1"/>  
 	</bean>
-<!-- 	<bean id="sysUserFilter" class="com.sugon.cloudview.cloudmanager.shiro.SysUserFilter"/>    -->
+<!-- 	<bean id="sysUserFilter" class="org.waddys.xcloud.shiro.SysUserFilter"/>    -->
 <!-- 	<bean id="baseFormAuthenticationFilter" -->
-<!-- 		class="com.sugon.cloudview.cloudmanager.shiro.BaseFormAuthenticationFilter" > -->
+<!-- 		class="org.waddys.xcloud.shiro.BaseFormAuthenticationFilter" > -->
 <!-- 	</bean> -->
 	<!-- Shiro生命周期处理器 -->
 	<bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor" />

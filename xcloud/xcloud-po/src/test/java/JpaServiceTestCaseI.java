@@ -24,13 +24,12 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.data.domain.Page;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
-
-import com.sugon.cloudview.cloudmanager.Application;
-import com.sugon.cloudview.cloudmanager.project.dao.entity.ProjectE;
-import com.sugon.cloudview.cloudmanager.project.dao.entity.ProjectVM;
-import com.sugon.cloudview.cloudmanager.util.JsonUtil;
-import com.sugon.cloudview.cloudmanager.utils.MockUtils;
-import com.sugon.cloudview.cloudmanager.vm.dao.entity.VmHostE;
+import org.waddys.xcloud.Application;
+import org.waddys.xcloud.project.dao.entity.ProjectE;
+import org.waddys.xcloud.project.dao.entity.ProjectVM;
+import org.waddys.xcloud.util.JsonUtil;
+import org.waddys.xcloud.utils.MockUtils;
+import org.waddys.xcloud.vm.dao.entity.VmHostE;
 
 @Transactional
 @RunWith(SpringJUnit4ClassRunner.class)

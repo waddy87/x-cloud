@@ -87,7 +87,7 @@
     <!-- <logger name="org.apache.shiro" level="DEBUG" /> -->
 
     <!-- 配置写入控制台的日志 -->
-    <logger name="com.sugon.cloudview.cloudmanager" level="DEBUG" />
+    <logger name="org.waddys.xcloud" level="DEBUG" />
 
     <!-- 配置DEMO模块的日志写入文件 -->
     <appender name="file_demo" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -104,7 +104,7 @@
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
     </appender>
-    <logger name="com.sugon.cloudview.cloudmanager.demo" level="info">
+    <logger name="org.waddys.xcloud.demo" level="info">
         <appender-ref ref="file_demo" />
     </logger>
 
@@ -123,7 +123,7 @@
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
     </appender>
-    <logger name="com.sugon.cloudview.cloudmanager.org" level="debug">
+    <logger name="org.waddys.xcloud.org" level="debug">
         <appender-ref ref="file_orgmgmt" />
     </logger>
 
@@ -142,7 +142,7 @@
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
     </appender>
-    <logger name="com.sugon.cloudview.cloudmanager.project" level="debug">
+    <logger name="org.waddys.xcloud.project" level="debug">
         <appender-ref ref="file_projectmgmt" />
     </logger>
 
@@ -161,7 +161,7 @@
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
     </appender>
-    <logger name="com.sugon.cloudview.cloudmanager.vm" level="debug">
+    <logger name="org.waddys.xcloud.vm" level="debug">
         <appender-ref ref="file_vm" />
     </logger>
 
@@ -180,7 +180,7 @@
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
     </appender>
-    <logger name="com.sugon.cloudview.cloudmanager.driver" level="debug">
+    <logger name="org.waddys.xcloud.driver" level="debug">
         <appender-ref ref="file_driver" />
     </logger>
     
@@ -199,7 +199,7 @@
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
     </appender>
-    <logger name="com.sugon.cloudview.cloudmanager.vijava" level="debug">
+    <logger name="org.waddys.xcloud.vijava" level="debug">
         <appender-ref ref="mom_vijava" />
     </logger> 
     
@@ -218,7 +218,7 @@
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
     </appender>
-    <logger name="com.sugon.cloudview.cloudmanager.event" level="debug">
+    <logger name="org.waddys.xcloud.event" level="debug">
         <appender-ref ref="mom_event" />
     </logger>
 

@@ -4,20 +4,22 @@
 
 	<parent>
 		<groupId>org.waddys.xcloud</groupId>
-		<artifactId>xcloud</artifactId>
+		<artifactId>xcloud-common</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>xcloud-common-log</artifactId>
 
 	<properties>
-		<subsystem.name>cloudmanager</subsystem.name>
-		<module.type>service</module.type>
-		<module.name>log</module.name>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.waddys.xcloud</groupId>
+			<artifactId>xcloud-common-base</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
@@ -37,7 +39,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-common-dboperation</artifactId>
+			<artifactId>xcloud-common-db</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

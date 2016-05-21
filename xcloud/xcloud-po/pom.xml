@@ -20,7 +20,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.waddys.xcloud</groupId>
-			<artifactId>xcloud-common-dboperation</artifactId>
+			<artifactId>xcloud-common-db</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
         <dependency>

@@ -5,7 +5,7 @@
 	http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 <!-- 
-	<bean id="logImpl" class="com.sugon.cloudview.cloudmanager.log.impl.LogImpl" >
+	<bean id="logImpl" class="org.waddys.xcloud.log.impl.LogImpl" >
 		<property name="rootLogLevel" value="ERROR"/>
 		<property name="customLogLevel">
            <map>
@@ -15,7 +15,7 @@
 	</bean>
 	
 	<bean id="logInterceptor"
-		class="com.sugon.cloudview.cloudmanager.log.spring.LogInterceptor">
+		class="org.waddys.xcloud.log.spring.LogInterceptor">
 		<property name="logAPI" ref="logImpl" />
 	</bean>
 

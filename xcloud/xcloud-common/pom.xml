@@ -14,10 +14,10 @@
 
 	<modules>
 		<module>xcloud-common-base</module>
-		<module>xcloud-common-dboperation</module>
+		<module>xcloud-common-db</module>
 		<module>xcloud-common-web</module>
 		<module>xcloud-common-event</module>
 		<module>xcloud-common-log</module>
-		<module>xcloud-common-message</module>
+		<module>xcloud-common-msg</module>
 	</modules>
 </project>

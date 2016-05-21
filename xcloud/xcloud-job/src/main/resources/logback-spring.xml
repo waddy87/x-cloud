@@ -100,7 +100,7 @@
     <!-- <logger name="org.apache.shiro" level="DEBUG" /> -->
 
     <!-- Cloudview -->
-    <logger name="com.sugon.cloudview.cloudmanager"
+    <logger name="org.waddys.xcloud"
         level="debug">
         <appender-ref ref="file_out" />
         <!-- <appender-ref ref="stdout" /> -->
@@ -123,7 +123,7 @@
 			</timeBasedFileNamingAndTriggeringPolicy>
 		</rollingPolicy>
 	</appender>
-    <logger name="com.sugon.cloudview.cloudmanager.org"
+    <logger name="org.waddys.xcloud.org"
         level="info">
         <appender-ref ref="file_orgmgmt" />
         <!-- <appender-ref ref="stdout" /> -->
@@ -146,7 +146,7 @@
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
     </appender>
-    <logger name="com.sugon.cloudview.cloudmanager.project"
+    <logger name="org.waddys.xcloud.project"
         level="info">
         <appender-ref ref="file_projectmgmt" />
         <!-- <appender-ref ref="stdout" /> -->
@@ -169,7 +169,7 @@
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
     </appender>
-    <logger name="com.sugon.cloudview.cloudmanager.vm"
+    <logger name="org.waddys.xcloud.vm"
         level="info">
         <appender-ref ref="file_vm" />
         <!-- <appender-ref ref="stdout" /> -->
@@ -192,7 +192,7 @@
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
     </appender>
-    <logger name="com.sugon.cloudview.cloudmanager.vm"
+    <logger name="org.waddys.xcloud.vm"
         level="debug">
         <appender-ref ref="file_driver" />
     </logger>
