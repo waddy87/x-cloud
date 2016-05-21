@@ -2,7 +2,7 @@ package org.waddys.xcloud.vijava.util;
 
 import java.util.Comparator;
 
-import com.sugon.vim25.mo.Datastore;
+import com.vmware.vim25.mo.Datastore;
 
 public class DatastoreSpaceComparator implements Comparator<Datastore> {
 

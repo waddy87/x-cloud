@@ -31,12 +31,12 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.network;
 
 import java.net.URL;
 
-import com.sugon.vim25.HostConfigFault;
-import com.sugon.vim25.HostVirtualNic;
-import com.sugon.vim25.NotFound;
-import com.sugon.vim25.mo.*;
-import com.sugon.vim25.mo.util.*;
-import com.sugon.vim25.ws.*;
+import com.vmware.vim25.HostConfigFault;
+import com.vmware.vim25.HostVirtualNic;
+import com.vmware.vim25.NotFound;
+import com.vmware.vim25.mo.*;
+import com.vmware.vim25.mo.util.*;
+import com.vmware.vim25.ws.*;
 
 /**
 *<pre>

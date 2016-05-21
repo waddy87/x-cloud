@@ -31,9 +31,9 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.security;
 
 import java.net.URL;
 
-import com.sugon.vim25.UserSearchResult;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.UserDirectory;
+import com.vmware.vim25.UserSearchResult;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.UserDirectory;
 
 /**
  * http://vijava.sf.net

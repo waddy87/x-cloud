@@ -9,32 +9,32 @@ import java.util.List;
 
 import org.waddys.xcloud.monitor.service.exception.CloudViewPerfException;
 
-import com.sugon.vim25.ManagedObjectReference;
-import com.sugon.vim25.TaskFilterSpec;
-import com.sugon.vim25.TaskFilterSpecByTime;
-import com.sugon.vim25.TaskFilterSpecByUsername;
-import com.sugon.vim25.TaskFilterSpecTimeOption;
-import com.sugon.vim25.TaskInfo;
-import com.sugon.vim25.VirtualDevice;
-import com.sugon.vim25.mo.Alarm;
-import com.sugon.vim25.mo.ClusterComputeResource;
-import com.sugon.vim25.mo.Datacenter;
-import com.sugon.vim25.mo.Datastore;
-import com.sugon.vim25.mo.DistributedVirtualPortgroup;
-import com.sugon.vim25.mo.DistributedVirtualSwitch;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ManagedEntity;
-import com.sugon.vim25.mo.Network;
-import com.sugon.vim25.mo.ResourcePool;
-import com.sugon.vim25.mo.ServerConnection;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.Task;
-import com.sugon.vim25.mo.TaskHistoryCollector;
-import com.sugon.vim25.mo.TaskManager;
-import com.sugon.vim25.mo.VirtualMachine;
-import com.sugon.vim25.mo.VmwareDistributedVirtualSwitch;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.TaskFilterSpec;
+import com.vmware.vim25.TaskFilterSpecByTime;
+import com.vmware.vim25.TaskFilterSpecByUsername;
+import com.vmware.vim25.TaskFilterSpecTimeOption;
+import com.vmware.vim25.TaskInfo;
+import com.vmware.vim25.VirtualDevice;
+import com.vmware.vim25.mo.Alarm;
+import com.vmware.vim25.mo.ClusterComputeResource;
+import com.vmware.vim25.mo.Datacenter;
+import com.vmware.vim25.mo.Datastore;
+import com.vmware.vim25.mo.DistributedVirtualPortgroup;
+import com.vmware.vim25.mo.DistributedVirtualSwitch;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.Network;
+import com.vmware.vim25.mo.ResourcePool;
+import com.vmware.vim25.mo.ServerConnection;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.Task;
+import com.vmware.vim25.mo.TaskHistoryCollector;
+import com.vmware.vim25.mo.TaskManager;
+import com.vmware.vim25.mo.VirtualMachine;
+import com.vmware.vim25.mo.VmwareDistributedVirtualSwitch;
 
 
 /**

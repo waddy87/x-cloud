@@ -3,9 +3,9 @@ package org.waddys.xcloud.vijava.api;
 import java.util.List;
 import java.util.Map;
 
-import com.sugon.vim25.mo.ClusterComputeResource;
-import com.sugon.vim25.mo.ResourcePool;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.ClusterComputeResource;
+import com.vmware.vim25.mo.ResourcePool;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * 集群操作接口

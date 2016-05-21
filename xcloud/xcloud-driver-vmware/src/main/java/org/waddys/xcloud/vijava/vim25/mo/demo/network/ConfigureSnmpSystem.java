@@ -31,13 +31,13 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.network;
 
 import java.net.URL;
 
-import com.sugon.vim25.HostSnmpConfigSpec;
-import com.sugon.vim25.HostSnmpDestination;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.HostSnmpSystem;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.HostSnmpConfigSpec;
+import com.vmware.vim25.HostSnmpDestination;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostSnmpSystem;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * http://vijava.sf.net

@@ -31,9 +31,9 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.lic;
 
 import java.net.URL;
 
-import com.sugon.vim25.LicenseServerSource;
-import com.sugon.vim25.mo.LicenseManager;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.LicenseServerSource;
+import com.vmware.vim25.mo.LicenseManager;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * http://vijava.sf.net

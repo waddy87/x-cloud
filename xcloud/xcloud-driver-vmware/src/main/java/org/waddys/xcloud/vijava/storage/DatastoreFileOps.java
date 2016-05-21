@@ -13,8 +13,8 @@ import javax.net.ssl.HttpsURLConnection;
 import org.waddys.xcloud.vijava.impl.Session;
 import org.waddys.xcloud.vijava.util.HttpsConnectionUtil;
 
-import com.sugon.vim25.VimPortType;
-import com.sugon.vim25.mo.*;
+import com.vmware.vim25.VimPortType;
+import com.vmware.vim25.mo.*;
 
 public class DatastoreFileOps { 
 	 

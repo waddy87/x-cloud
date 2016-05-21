@@ -31,26 +31,26 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.storage;
 
 import java.net.URL;
 
-import com.sugon.vim25.HostFileSystemMountInfo;
-import com.sugon.vim25.HostFileSystemVolume;
-import com.sugon.vim25.HostFileSystemVolumeInfo;
-import com.sugon.vim25.HostHostBusAdapter;
-import com.sugon.vim25.HostMountInfo;
-import com.sugon.vim25.HostMultipathInfo;
-import com.sugon.vim25.HostMultipathInfoLogicalUnit;
-import com.sugon.vim25.HostMultipathInfoLogicalUnitPolicy;
-import com.sugon.vim25.HostMultipathInfoPath;
-import com.sugon.vim25.HostScsiTopology;
-import com.sugon.vim25.HostScsiTopologyInterface;
-import com.sugon.vim25.HostScsiTopologyLun;
-import com.sugon.vim25.HostScsiTopologyTarget;
-import com.sugon.vim25.HostStorageDeviceInfo;
-import com.sugon.vim25.ScsiLun;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.HostStorageSystem;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.HostFileSystemMountInfo;
+import com.vmware.vim25.HostFileSystemVolume;
+import com.vmware.vim25.HostFileSystemVolumeInfo;
+import com.vmware.vim25.HostHostBusAdapter;
+import com.vmware.vim25.HostMountInfo;
+import com.vmware.vim25.HostMultipathInfo;
+import com.vmware.vim25.HostMultipathInfoLogicalUnit;
+import com.vmware.vim25.HostMultipathInfoLogicalUnitPolicy;
+import com.vmware.vim25.HostMultipathInfoPath;
+import com.vmware.vim25.HostScsiTopology;
+import com.vmware.vim25.HostScsiTopologyInterface;
+import com.vmware.vim25.HostScsiTopologyLun;
+import com.vmware.vim25.HostScsiTopologyTarget;
+import com.vmware.vim25.HostStorageDeviceInfo;
+import com.vmware.vim25.ScsiLun;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostStorageSystem;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * http://vijava.sf.net

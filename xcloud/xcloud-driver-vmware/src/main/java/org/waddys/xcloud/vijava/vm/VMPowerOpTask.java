@@ -11,10 +11,10 @@ import org.waddys.xcloud.vijava.vm.VMPowerOperate.PowerOPType;
 import org.waddys.xcloud.vijava.vm.VMPowerOperate.VMPowerOpAnswer;
 import org.waddys.xcloud.vijava.vm.VMPowerOperate.VMPowerOpCmd;
 
-import com.sugon.vim25.VirtualMachinePowerState;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.Task;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.VirtualMachinePowerState;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.Task;
+import com.vmware.vim25.mo.VirtualMachine;
 
 public class VMPowerOpTask extends BaseTask<VMPowerOpAnswer> {
 

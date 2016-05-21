@@ -13,7 +13,7 @@ import org.waddys.xcloud.monitor.serviceImpl.entity.Host;
 import org.waddys.xcloud.monitor.serviceImpl.entity.VM;
 import org.waddys.xcloud.monitor.serviceImpl.util.Connection;
 
-import com.sugon.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.ManagedEntity;
 
 import net.sf.json.JSONObject;
 

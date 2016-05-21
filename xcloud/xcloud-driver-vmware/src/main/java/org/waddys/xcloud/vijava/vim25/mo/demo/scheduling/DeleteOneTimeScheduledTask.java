@@ -31,8 +31,8 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.scheduling;
 
 import java.net.URL;
 
-import com.sugon.vim25.mo.*;
-import com.sugon.vim25.mo.util.*;
+import com.vmware.vim25.mo.*;
+import com.vmware.vim25.mo.util.*;
 
 /**
 *<pre>

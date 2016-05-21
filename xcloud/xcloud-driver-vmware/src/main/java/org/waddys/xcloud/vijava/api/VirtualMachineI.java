@@ -3,18 +3,18 @@ package org.waddys.xcloud.vijava.api;
 import java.rmi.RemoteException;
 import java.util.List;
 
-import com.sugon.vim25.CustomizationSpec;
-import com.sugon.vim25.OptionValue;
-import com.sugon.vim25.RuntimeFault;
-import com.sugon.vim25.VirtualMachineCloneSpec;
-import com.sugon.vim25.VirtualMachineConfigSpec;
-import com.sugon.vim25.VirtualMachineRelocateSpec;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.ResourcePool;
-import com.sugon.vim25.mo.Task;
-import com.sugon.vim25.mo.VirtualMachine;
-import com.sugon.vim25.mo.VirtualMachineSnapshot;
+import com.vmware.vim25.CustomizationSpec;
+import com.vmware.vim25.OptionValue;
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.VirtualMachineCloneSpec;
+import com.vmware.vim25.VirtualMachineConfigSpec;
+import com.vmware.vim25.VirtualMachineRelocateSpec;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.ResourcePool;
+import com.vmware.vim25.mo.Task;
+import com.vmware.vim25.mo.VirtualMachine;
+import com.vmware.vim25.mo.VirtualMachineSnapshot;
 
 /**
  * 虚拟机操作接口

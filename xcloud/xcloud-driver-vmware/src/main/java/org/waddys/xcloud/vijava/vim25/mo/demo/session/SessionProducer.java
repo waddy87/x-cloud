@@ -31,9 +31,9 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.session;
 
 import java.net.URL;
 
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.util.CommandLineParser;
-import com.sugon.vim25.mo.util.OptionSpec;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.util.CommandLineParser;
+import com.vmware.vim25.mo.util.OptionSpec;
 
 /**
  * This demo shows how to get the session ID.

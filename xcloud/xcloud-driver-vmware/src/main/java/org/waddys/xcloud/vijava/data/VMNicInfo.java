@@ -1,6 +1,6 @@
 package org.waddys.xcloud.vijava.data;
 
-import com.sugon.vim25.VirtualDeviceConfigSpecOperation;
+import com.vmware.vim25.VirtualDeviceConfigSpecOperation;
 
 public class VMNicInfo {
 	

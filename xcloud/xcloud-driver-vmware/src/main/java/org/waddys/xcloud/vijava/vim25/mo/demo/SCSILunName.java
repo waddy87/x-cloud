@@ -30,9 +30,10 @@ POSSIBILITY OF SUCH DAMAGE.
 package org.waddys.xcloud.vijava.vim25.mo.demo;
 
 import java.net.URL;
-import com.sugon.vim25.*;
-import com.sugon.vim25.mo.*;
-import com.sugon.vim25.mo.util.*;
+
+import com.vmware.vim25.*;
+import com.vmware.vim25.mo.*;
+import com.vmware.vim25.mo.util.*;
 
 /**
 *<Pre>This demo displays the CanonicalName,Vendor,Model,Data,Namespace and NamespaceId of the host

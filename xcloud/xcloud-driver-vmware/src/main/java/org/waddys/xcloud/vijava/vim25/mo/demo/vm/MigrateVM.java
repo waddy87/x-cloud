@@ -31,17 +31,17 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.vm;
 
 import java.net.URL;
 
-import com.sugon.vim25.HostVMotionCompatibility;
-import com.sugon.vim25.TaskInfo;
-import com.sugon.vim25.VirtualMachineMovePriority;
-import com.sugon.vim25.VirtualMachinePowerState;
-import com.sugon.vim25.mo.ComputeResource;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.Task;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.HostVMotionCompatibility;
+import com.vmware.vim25.TaskInfo;
+import com.vmware.vim25.VirtualMachineMovePriority;
+import com.vmware.vim25.VirtualMachinePowerState;
+import com.vmware.vim25.mo.ComputeResource;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.Task;
+import com.vmware.vim25.mo.VirtualMachine;
 
 /**
  * http://vijava.sf.net

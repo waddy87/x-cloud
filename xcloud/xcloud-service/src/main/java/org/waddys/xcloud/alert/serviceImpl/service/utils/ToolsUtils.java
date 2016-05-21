@@ -6,11 +6,11 @@ import java.util.Map;
 import org.waddys.xcloud.alert.service.bo.AlertSenderUI;
 import org.waddys.xcloud.alert.serviceImpl.entity.AlertSender;
 
-import com.sugon.vim25.HostSystemConnectionState;
-import com.sugon.vim25.HostSystemPowerState;
-import com.sugon.vim25.ManagedEntityStatus;
-import com.sugon.vim25.PerfCounterInfo;
-import com.sugon.vim25.VirtualMachinePowerState;
+import com.vmware.vim25.HostSystemConnectionState;
+import com.vmware.vim25.HostSystemPowerState;
+import com.vmware.vim25.ManagedEntityStatus;
+import com.vmware.vim25.PerfCounterInfo;
+import com.vmware.vim25.VirtualMachinePowerState;
 
 /**
  * @author yangkun

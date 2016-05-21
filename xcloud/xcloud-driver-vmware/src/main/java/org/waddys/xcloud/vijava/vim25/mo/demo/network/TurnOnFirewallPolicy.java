@@ -31,15 +31,15 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.network;
 
 import java.net.URL;
 
-import com.sugon.vim25.HostFirewallDefaultPolicy;
-import com.sugon.vim25.HostFirewallInfo;
-import com.sugon.vim25.HostFirewallRule;
-import com.sugon.vim25.HostFirewallRuleset;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.HostFirewallSystem;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.HostFirewallDefaultPolicy;
+import com.vmware.vim25.HostFirewallInfo;
+import com.vmware.vim25.HostFirewallRule;
+import com.vmware.vim25.HostFirewallRuleset;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostFirewallSystem;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * http://vijava.sf.net

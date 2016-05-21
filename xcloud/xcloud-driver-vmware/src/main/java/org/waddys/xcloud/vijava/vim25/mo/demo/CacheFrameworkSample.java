@@ -1,16 +1,16 @@
 package org.waddys.xcloud.vijava.vim25.mo.demo;
-import static com.sugon.vim.cf.NullObject.NULL;
+import static com.vmware.vim.cf.NullObject.NULL;
 
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.sugon.vim.cf.CacheInstance;
-import com.sugon.vim25.VirtualMachineSummary;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ManagedEntity;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim.cf.CacheInstance;
+import com.vmware.vim25.VirtualMachineSummary;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.ServiceInstance;
 
 public class CacheFrameworkSample
 {

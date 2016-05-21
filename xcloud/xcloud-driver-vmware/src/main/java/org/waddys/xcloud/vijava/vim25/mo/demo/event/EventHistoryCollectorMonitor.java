@@ -29,13 +29,13 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package org.waddys.xcloud.vijava.vim25.mo.demo.event;
 
-import com.sugon.vim25.Event;
-import com.sugon.vim25.EventFilterSpec;
-import com.sugon.vim25.mo.*;
-import com.sugon.vim25.mo.util.*;
-import com.sugon.vim25.ws.*;
-
 import java.net.URL;
+
+import com.vmware.vim25.Event;
+import com.vmware.vim25.EventFilterSpec;
+import com.vmware.vim25.mo.*;
+import com.vmware.vim25.mo.util.*;
+import com.vmware.vim25.ws.*;
 
 
 /**

@@ -13,21 +13,21 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.waddys.xcloud.alert.service.bo.AlarmEntity;
 
-import com.sugon.vim25.AlarmExpression;
-import com.sugon.vim25.AlarmInfo;
-import com.sugon.vim25.AlarmState;
-import com.sugon.vim25.AndAlarmExpression;
-import com.sugon.vim25.EventAlarmExpression;
-import com.sugon.vim25.MetricAlarmExpression;
-import com.sugon.vim25.OrAlarmExpression;
-import com.sugon.vim25.PerfCounterInfo;
-import com.sugon.vim25.StateAlarmExpression;
-import com.sugon.vim25.mo.Alarm;
-import com.sugon.vim25.mo.AlarmManager;
-import com.sugon.vim25.mo.ManagedEntity;
-import com.sugon.vim25.mo.PerformanceManager;
-import com.sugon.vim25.mo.ServerConnection;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.AlarmExpression;
+import com.vmware.vim25.AlarmInfo;
+import com.vmware.vim25.AlarmState;
+import com.vmware.vim25.AndAlarmExpression;
+import com.vmware.vim25.EventAlarmExpression;
+import com.vmware.vim25.MetricAlarmExpression;
+import com.vmware.vim25.OrAlarmExpression;
+import com.vmware.vim25.PerfCounterInfo;
+import com.vmware.vim25.StateAlarmExpression;
+import com.vmware.vim25.mo.Alarm;
+import com.vmware.vim25.mo.AlarmManager;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.PerformanceManager;
+import com.vmware.vim25.mo.ServerConnection;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * 功能名: 请填写功能名

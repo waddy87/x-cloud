@@ -10,8 +10,8 @@ import org.waddys.xcloud.vijava.util.ParamValidator;
 import org.waddys.xcloud.vijava.vm.QueryVMConsole.QueryVMConsoleAnswer;
 import org.waddys.xcloud.vijava.vm.QueryVMConsole.QueryVMConsoleCmd;
 
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.VirtualMachine;
 
 public class QueryVMConsoleTask extends BaseTask<QueryVMConsoleAnswer> {
 

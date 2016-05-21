@@ -31,21 +31,21 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.alarm;
 
 import java.net.URL;
 
-import com.sugon.vim25.Action;
-import com.sugon.vim25.AlarmAction;
-import com.sugon.vim25.AlarmSetting;
-import com.sugon.vim25.AlarmSpec;
-import com.sugon.vim25.AlarmTriggeringAction;
-import com.sugon.vim25.GroupAlarmAction;
-import com.sugon.vim25.MethodAction;
-import com.sugon.vim25.MethodActionArgument;
-import com.sugon.vim25.SendEmailAction;
-import com.sugon.vim25.StateAlarmExpression;
-import com.sugon.vim25.StateAlarmOperator;
-import com.sugon.vim25.mo.AlarmManager;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.Action;
+import com.vmware.vim25.AlarmAction;
+import com.vmware.vim25.AlarmSetting;
+import com.vmware.vim25.AlarmSpec;
+import com.vmware.vim25.AlarmTriggeringAction;
+import com.vmware.vim25.GroupAlarmAction;
+import com.vmware.vim25.MethodAction;
+import com.vmware.vim25.MethodActionArgument;
+import com.vmware.vim25.SendEmailAction;
+import com.vmware.vim25.StateAlarmExpression;
+import com.vmware.vim25.StateAlarmOperator;
+import com.vmware.vim25.mo.AlarmManager;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.VirtualMachine;
 
 /**
  * http://vijava.sf.net

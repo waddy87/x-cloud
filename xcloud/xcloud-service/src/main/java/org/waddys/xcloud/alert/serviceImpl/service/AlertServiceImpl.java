@@ -33,11 +33,11 @@ import org.waddys.xcloud.alert.serviceImpl.service.utils.Connection;
 import org.waddys.xcloud.alert.serviceImpl.service.utils.ToolsUtils;
 import org.waddys.xcloud.alert.serviceImpl.service.utils.VCenterManageUtils;
 
-import com.sugon.vim25.mo.ClusterComputeResource;
-import com.sugon.vim25.mo.Datastore;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.ManagedEntity;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.mo.ClusterComputeResource;
+import com.vmware.vim25.mo.Datastore;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.VirtualMachine;
 
 /**
  * 功能名: 请填写功能名 功能描述: 请简要描述功能的要点 Copyright: Copyright (c) 2016 公司: 曙光云计算技术有限公司

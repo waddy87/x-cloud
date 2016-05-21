@@ -31,11 +31,11 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.storage;
 
 import java.net.URL;
 
-import com.sugon.vim25.mo.Datacenter;
-import com.sugon.vim25.mo.FileManager;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.Task;
+import com.vmware.vim25.mo.Datacenter;
+import com.vmware.vim25.mo.FileManager;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.Task;
 
 /**
  * http://vijava.sf.net

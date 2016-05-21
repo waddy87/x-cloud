@@ -5,12 +5,12 @@ import java.util.Map;
 
 import org.waddys.xcloud.vijava.api.ClusterI;
 
-import com.sugon.vim25.ManagedObjectReference;
-import com.sugon.vim25.mo.ClusterComputeResource;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.ResourcePool;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.util.MorUtil;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.mo.ClusterComputeResource;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.ResourcePool;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.util.MorUtil;
 
 public class ClusterImpl implements ClusterI {
 

@@ -31,12 +31,12 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.network;
 
 import java.net.URL;
 
-import com.sugon.vim25.InvalidArgument;
-import com.sugon.vim25.NotFound;
-import com.sugon.vim25.ResourceInUse;
-import com.sugon.vim25.mo.*;
-import com.sugon.vim25.mo.util.*;
-import com.sugon.vim25.ws.*;
+import com.vmware.vim25.InvalidArgument;
+import com.vmware.vim25.NotFound;
+import com.vmware.vim25.ResourceInUse;
+import com.vmware.vim25.mo.*;
+import com.vmware.vim25.mo.util.*;
+import com.vmware.vim25.ws.*;
 
 
 /**

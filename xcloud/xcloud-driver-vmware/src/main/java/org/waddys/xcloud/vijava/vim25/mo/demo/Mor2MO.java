@@ -31,9 +31,10 @@ package org.waddys.xcloud.vijava.vim25.mo.demo;
 
 import java.net.URL;
 import java.util.*;
-import com.sugon.vim25.*;
-import com.sugon.vim25.mo.*;
-import com.sugon.vim25.mo.util.*;
+
+import com.vmware.vim25.*;
+import com.vmware.vim25.mo.*;
+import com.vmware.vim25.mo.util.*;
 
 /**
  * This demo shows how to create managed object from managed object reference.

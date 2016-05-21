@@ -8,8 +8,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.waddys.xcloud.vijava.base.Answer;
 
-import com.sugon.vim25.TaskInfo;
-import com.sugon.vim25.mo.Task;
+import com.vmware.vim25.TaskInfo;
+import com.vmware.vim25.mo.Task;
 
 public class TaskAnswerConvert {
 	 private static Logger logger = LoggerFactory.getLogger(TaskAnswerConvert.class);

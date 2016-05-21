@@ -31,14 +31,14 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.vm;
 
 import java.net.URL;
 
-import com.sugon.vim25.AutoStartDefaults;
-import com.sugon.vim25.HostAutoStartManagerConfig;
-import com.sugon.vim25.mo.HostAutoStartManager;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.util.CommandLineParser;
-import com.sugon.vim25.mo.util.OptionSpec;
+import com.vmware.vim25.AutoStartDefaults;
+import com.vmware.vim25.HostAutoStartManagerConfig;
+import com.vmware.vim25.mo.HostAutoStartManager;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.util.CommandLineParser;
+import com.vmware.vim25.mo.util.OptionSpec;
 
 /**
  * http://vijava.sf.net

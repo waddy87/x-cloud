@@ -8,7 +8,7 @@ import org.waddys.xcloud.vijava.environment.QueryCluster.QueryClusterCmd;
 import org.waddys.xcloud.vijava.exception.VirtException;
 import org.waddys.xcloud.vijava.impl.Session;
 
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.ServiceInstance;
 
 public class QueryClusterTask extends BaseTask<QueryClusterAnswer> {
 	private static Logger logger = LoggerFactory

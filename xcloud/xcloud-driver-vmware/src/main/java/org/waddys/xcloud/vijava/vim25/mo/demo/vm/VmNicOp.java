@@ -31,26 +31,26 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.vm;
 
 import java.net.URL;
 
-import com.sugon.vim25.ConfigTarget;
-import com.sugon.vim25.ManagedObjectReference;
-import com.sugon.vim25.NetworkSummary;
-import com.sugon.vim25.VirtualDevice;
-import com.sugon.vim25.VirtualDeviceConfigSpec;
-import com.sugon.vim25.VirtualDeviceConfigSpecOperation;
-import com.sugon.vim25.VirtualEthernetCard;
-import com.sugon.vim25.VirtualEthernetCardNetworkBackingInfo;
-import com.sugon.vim25.VirtualMachineConfigInfo;
-import com.sugon.vim25.VirtualMachineConfigSpec;
-import com.sugon.vim25.VirtualMachineNetworkInfo;
-import com.sugon.vim25.VirtualMachineRuntimeInfo;
-import com.sugon.vim25.VirtualPCNet32;
-import com.sugon.vim25.mo.EnvironmentBrowser;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.Task;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.ConfigTarget;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.NetworkSummary;
+import com.vmware.vim25.VirtualDevice;
+import com.vmware.vim25.VirtualDeviceConfigSpec;
+import com.vmware.vim25.VirtualDeviceConfigSpecOperation;
+import com.vmware.vim25.VirtualEthernetCard;
+import com.vmware.vim25.VirtualEthernetCardNetworkBackingInfo;
+import com.vmware.vim25.VirtualMachineConfigInfo;
+import com.vmware.vim25.VirtualMachineConfigSpec;
+import com.vmware.vim25.VirtualMachineNetworkInfo;
+import com.vmware.vim25.VirtualMachineRuntimeInfo;
+import com.vmware.vim25.VirtualPCNet32;
+import com.vmware.vim25.mo.EnvironmentBrowser;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.Task;
+import com.vmware.vim25.mo.VirtualMachine;
 
 /**
  * http://vijava.sf.net

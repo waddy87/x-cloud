@@ -31,11 +31,11 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.vm;
 
 import java.net.URL;
 
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.VirtualMachine;
-import com.sugon.vim25.mox.VirtualMachineDeviceManager;
-import com.sugon.vim25.mox.VirtualMachineDeviceManager.VirtualNetworkAdapterType;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.VirtualMachine;
+import com.vmware.vim25.mox.VirtualMachineDeviceManager;
+import com.vmware.vim25.mox.VirtualMachineDeviceManager.VirtualNetworkAdapterType;
 
 public class VMDeviceMgmt
 {

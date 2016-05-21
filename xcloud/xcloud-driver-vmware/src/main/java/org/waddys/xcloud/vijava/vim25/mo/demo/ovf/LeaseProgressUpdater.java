@@ -28,7 +28,7 @@ POSSIBILITY OF SUCH DAMAGE.
 ================================================================================*/
 package org.waddys.xcloud.vijava.vim25.mo.demo.ovf;
 
-import com.sugon.vim25.mo.HttpNfcLease;
+import com.vmware.vim25.mo.HttpNfcLease;
 
 /**
  * http://vijava.sf.net

@@ -40,19 +40,19 @@ import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLSession;
 
-import com.sugon.vim25.HttpNfcLeaseDeviceUrl;
-import com.sugon.vim25.HttpNfcLeaseInfo;
-import com.sugon.vim25.HttpNfcLeaseState;
-import com.sugon.vim25.OvfCreateDescriptorParams;
-import com.sugon.vim25.OvfCreateDescriptorResult;
-import com.sugon.vim25.OvfFile;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.HttpNfcLease;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ManagedEntity;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.VirtualApp;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.HttpNfcLeaseDeviceUrl;
+import com.vmware.vim25.HttpNfcLeaseInfo;
+import com.vmware.vim25.HttpNfcLeaseState;
+import com.vmware.vim25.OvfCreateDescriptorParams;
+import com.vmware.vim25.OvfCreateDescriptorResult;
+import com.vmware.vim25.OvfFile;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.HttpNfcLease;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.VirtualApp;
+import com.vmware.vim25.mo.VirtualMachine;
 
 /**
  * Exports VMDK(s) and OVF Descriptor for a VM or a vApp.

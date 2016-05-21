@@ -31,9 +31,9 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.security;
 
 import java.net.URL;
 
-import com.sugon.vim25.Permission;
-import com.sugon.vim25.mo.AuthorizationManager;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.Permission;
+import com.vmware.vim25.mo.AuthorizationManager;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * http://vijava.sf.net

@@ -29,23 +29,24 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package org.waddys.xcloud.vijava.vim25.mo.demo.vm;
 
-import com.sugon.vim25.HostListSummaryQuickStats;
-import com.sugon.vim25.HostRuntimeInfo;
-import com.sugon.vim25.ObjectSpec;
-import com.sugon.vim25.ObjectUpdate;
-import com.sugon.vim25.PropertyChange;
-import com.sugon.vim25.PropertyChangeOp;
-import com.sugon.vim25.PropertyFilterSpec;
-import com.sugon.vim25.PropertyFilterUpdate;
-import com.sugon.vim25.PropertySpec;
-import com.sugon.vim25.UpdateSet;
-import com.sugon.vim25.VirtualMachineQuickStats;
-import com.sugon.vim25.VirtualMachineRuntimeInfo;
-import com.sugon.vim25.mo.*;
-import com.sugon.vim25.mo.util.*;
-import com.sugon.vim25.ws.*;
-
 import java.util.*;
+
+import com.vmware.vim25.HostListSummaryQuickStats;
+import com.vmware.vim25.HostRuntimeInfo;
+import com.vmware.vim25.ObjectSpec;
+import com.vmware.vim25.ObjectUpdate;
+import com.vmware.vim25.PropertyChange;
+import com.vmware.vim25.PropertyChangeOp;
+import com.vmware.vim25.PropertyFilterSpec;
+import com.vmware.vim25.PropertyFilterUpdate;
+import com.vmware.vim25.PropertySpec;
+import com.vmware.vim25.UpdateSet;
+import com.vmware.vim25.VirtualMachineQuickStats;
+import com.vmware.vim25.VirtualMachineRuntimeInfo;
+import com.vmware.vim25.mo.*;
+import com.vmware.vim25.mo.util.*;
+import com.vmware.vim25.ws.*;
+
 import java.io.*;
 import java.net.URL;
 

@@ -7,11 +7,11 @@ import org.slf4j.LoggerFactory;
 import org.waddys.xcloud.vijava.api.ResourcePoolI;
 import org.waddys.xcloud.vijava.vm.CreateVMTask;
 
-import com.sugon.vim25.ManagedObjectReference;
-import com.sugon.vim25.mo.ClusterComputeResource;
-import com.sugon.vim25.mo.ResourcePool;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.util.MorUtil;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.mo.ClusterComputeResource;
+import com.vmware.vim25.mo.ResourcePool;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.util.MorUtil;
 
 public class ResourcePoolImpl implements ResourcePoolI {
 	private static Logger logger = LoggerFactory.getLogger(ResourcePoolImpl.class);

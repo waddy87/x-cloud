@@ -31,17 +31,17 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.lic;
 
 import java.net.URL;
 
-import com.sugon.vim25.EvaluationLicenseSource;
-import com.sugon.vim25.LicenseAvailabilityInfo;
-import com.sugon.vim25.LicenseDiagnostics;
-import com.sugon.vim25.LicenseFeatureInfo;
-import com.sugon.vim25.LicenseReservationInfo;
-import com.sugon.vim25.LicenseServerSource;
-import com.sugon.vim25.LicenseSource;
-import com.sugon.vim25.LicenseUsageInfo;
-import com.sugon.vim25.LocalLicenseSource;
-import com.sugon.vim25.mo.LicenseManager;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.EvaluationLicenseSource;
+import com.vmware.vim25.LicenseAvailabilityInfo;
+import com.vmware.vim25.LicenseDiagnostics;
+import com.vmware.vim25.LicenseFeatureInfo;
+import com.vmware.vim25.LicenseReservationInfo;
+import com.vmware.vim25.LicenseServerSource;
+import com.vmware.vim25.LicenseSource;
+import com.vmware.vim25.LicenseUsageInfo;
+import com.vmware.vim25.LocalLicenseSource;
+import com.vmware.vim25.mo.LicenseManager;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * http://vijava.sf.net

@@ -31,8 +31,8 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.session;
 
 import java.net.URL;
 
-import com.sugon.vim25.*;
-import com.sugon.vim25.mo.*;
+import com.vmware.vim25.*;
+import com.vmware.vim25.mo.*;
 
 /**
  * This demo shows how to use the session ID to login.

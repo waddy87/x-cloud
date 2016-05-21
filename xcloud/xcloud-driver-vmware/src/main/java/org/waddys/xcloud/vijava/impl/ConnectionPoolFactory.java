@@ -8,8 +8,8 @@ import org.apache.commons.pool.impl.GenericKeyedObjectPool;
 import org.waddys.xcloud.vijava.util.LoadSystemPropertyJYaml;
 import org.waddys.xcloud.vijava.util.CloudVMConfig.ConnectionInfo;
 
-import com.sugon.vim25.mo.ServerConnection;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.ServerConnection;
+import com.vmware.vim25.mo.ServiceInstance;
 
 public class ConnectionPoolFactory extends BaseKeyedPoolableObjectFactory<String, ServerConnection> {
 

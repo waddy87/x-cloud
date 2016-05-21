@@ -31,7 +31,7 @@ package org.waddys.xcloud.vijava.vim25.mo.demo;
 
 import java.net.URL;
 
-import com.sugon.vim25.mo.*;
+import com.vmware.vim25.mo.*;
 
 /**
  * Sample code to show how to use the Managed Object APIs.

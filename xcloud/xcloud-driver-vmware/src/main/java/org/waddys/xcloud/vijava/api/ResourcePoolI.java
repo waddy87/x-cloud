@@ -2,10 +2,10 @@ package org.waddys.xcloud.vijava.api;
 
 import java.rmi.RemoteException;
 
-import com.sugon.vim25.InvalidProperty;
-import com.sugon.vim25.RuntimeFault;
-import com.sugon.vim25.mo.ResourcePool;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.InvalidProperty;
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.mo.ResourcePool;
+import com.vmware.vim25.mo.ServiceInstance;
 /**
  * 资源池操作接口
  * 

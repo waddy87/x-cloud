@@ -15,13 +15,13 @@ import org.waddys.xcloud.vijava.impl.DatastoreImpl;
 import org.waddys.xcloud.vijava.impl.Session;
 import org.waddys.xcloud.vijava.util.VmConvertUtils;
 
-import com.sugon.vim25.InvalidProperty;
-import com.sugon.vim25.RuntimeFault;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ManagedEntity;
-import com.sugon.vim25.mo.ResourcePool;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.InvalidProperty;
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.ResourcePool;
+import com.vmware.vim25.mo.ServiceInstance;
 
 public class QueryResourceTask extends BaseTask<QueryResourceAnswer> {
 	private static Logger logger = LoggerFactory

@@ -21,14 +21,14 @@ import org.waddys.xcloud.monitor.serviceImpl.util.PerfUtils;
 import org.waddys.xcloud.monitor.serviceImpl.util.ToolsUtils;
 import org.waddys.xcloud.monitor.serviceImpl.util.VCenterManageUtils;
 
-import com.sugon.vim25.DatastoreSummary;
-import com.sugon.vim25.HostHardwareInfo;
-import com.sugon.vim25.HostListSummary;
-import com.sugon.vim25.ManagedEntityStatus;
-import com.sugon.vim25.mo.ClusterComputeResource;
-import com.sugon.vim25.mo.Datastore;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.DatastoreSummary;
+import com.vmware.vim25.HostHardwareInfo;
+import com.vmware.vim25.HostListSummary;
+import com.vmware.vim25.ManagedEntityStatus;
+import com.vmware.vim25.mo.ClusterComputeResource;
+import com.vmware.vim25.mo.Datastore;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.VirtualMachine;
 
 
 @Service("monitor-clusterServiceImpl")

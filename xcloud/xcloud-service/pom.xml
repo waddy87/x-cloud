@@ -33,13 +33,14 @@
 			<artifactId>xcloud-driver-vmware</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		
-		
         <dependency>
             <groupId>org.waddys.xcloud</groupId>
             <artifactId>xcloud-vijava</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/../lib/xcloud-vijava-0.0.1-SNAPSHOT.jar</systemPath>
         </dependency>
+		
         
 	</dependencies>
 </project>

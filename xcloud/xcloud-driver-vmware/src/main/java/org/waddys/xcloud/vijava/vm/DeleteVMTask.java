@@ -10,10 +10,10 @@ import org.waddys.xcloud.vijava.util.TaskAnswerConvert;
 import org.waddys.xcloud.vijava.vm.DeleteVM.DeleteVMAnswer;
 import org.waddys.xcloud.vijava.vm.DeleteVM.DeleteVMCmd;
 
-import com.sugon.vim25.VirtualMachinePowerState;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.Task;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.VirtualMachinePowerState;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.Task;
+import com.vmware.vim25.mo.VirtualMachine;
 
 public class DeleteVMTask extends BaseTask<DeleteVMAnswer> {
 

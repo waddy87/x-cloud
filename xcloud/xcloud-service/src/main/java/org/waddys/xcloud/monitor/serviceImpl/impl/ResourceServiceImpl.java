@@ -25,20 +25,20 @@ import org.waddys.xcloud.monitor.serviceImpl.util.PerfUtils;
 import org.waddys.xcloud.monitor.serviceImpl.util.ToolsUtils;
 import org.waddys.xcloud.monitor.serviceImpl.util.VCenterManageUtils;
 
-import com.sugon.vim25.DatastoreSummary;
-import com.sugon.vim25.HostCpuInfo;
-import com.sugon.vim25.HostHardwareInfo;
-import com.sugon.vim25.HostListSummary;
-import com.sugon.vim25.HostVirtualNic;
-import com.sugon.vim25.ManagedEntityStatus;
-import com.sugon.vim25.VirtualHardware;
-import com.sugon.vim25.VirtualMachineConfigInfo;
-import com.sugon.vim25.VirtualMachineSummary;
-import com.sugon.vim25.mo.ClusterComputeResource;
-import com.sugon.vim25.mo.Datastore;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.ManagedEntity;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.DatastoreSummary;
+import com.vmware.vim25.HostCpuInfo;
+import com.vmware.vim25.HostHardwareInfo;
+import com.vmware.vim25.HostListSummary;
+import com.vmware.vim25.HostVirtualNic;
+import com.vmware.vim25.ManagedEntityStatus;
+import com.vmware.vim25.VirtualHardware;
+import com.vmware.vim25.VirtualMachineConfigInfo;
+import com.vmware.vim25.VirtualMachineSummary;
+import com.vmware.vim25.mo.ClusterComputeResource;
+import com.vmware.vim25.mo.Datastore;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.VirtualMachine;
 
 @Service("monitor-resourceServiceImpl")
 public class ResourceServiceImpl implements ResourceServiceI {

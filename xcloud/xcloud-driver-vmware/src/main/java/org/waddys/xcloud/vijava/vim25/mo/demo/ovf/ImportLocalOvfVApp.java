@@ -33,13 +33,13 @@ import java.net.*;
 
 import javax.net.ssl.*;
 
-import com.sugon.vim25.*;
-import com.sugon.vim25.mo.ComputeResource;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.HttpNfcLease;
-import com.sugon.vim25.mo.ResourcePool;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.*;
+import com.vmware.vim25.mo.ComputeResource;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.HttpNfcLease;
+import com.vmware.vim25.mo.ResourcePool;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * Deploy VM or vApp from local disk to an ESX(i) server

@@ -31,12 +31,12 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.perf;
 
 import java.net.URL;
 
-import com.sugon.vim25.ElementDescription;
-import com.sugon.vim25.PerfCounterInfo;
-import com.sugon.vim25.PerfInterval;
-import com.sugon.vim25.PerformanceDescription;
-import com.sugon.vim25.mo.PerformanceManager;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.ElementDescription;
+import com.vmware.vim25.PerfCounterInfo;
+import com.vmware.vim25.PerfInterval;
+import com.vmware.vim25.PerformanceDescription;
+import com.vmware.vim25.mo.PerformanceManager;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * http://vijava.sf.net

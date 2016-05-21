@@ -33,11 +33,11 @@ import java.text.DateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import com.sugon.vim25.KeyAnyValue;
-import com.sugon.vim25.LicenseManagerEvaluationInfo;
-import com.sugon.vim25.LicenseManagerLicenseInfo;
-import com.sugon.vim25.mo.LicenseManager;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.KeyAnyValue;
+import com.vmware.vim25.LicenseManagerEvaluationInfo;
+import com.vmware.vim25.LicenseManagerLicenseInfo;
+import com.vmware.vim25.mo.LicenseManager;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * This demo shows how to get the expiration dates of licenses.

@@ -7,7 +7,7 @@ import org.waddys.xcloud.monitor.service.bo.AlarmEntity;
 import org.waddys.xcloud.monitor.service.bo.AlertEvent;
 import org.waddys.xcloud.monitor.service.bo.MetricValue;
 
-import com.sugon.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.ManagedEntity;
 
 
 public interface HistoryPerfAndAlertServiceI {

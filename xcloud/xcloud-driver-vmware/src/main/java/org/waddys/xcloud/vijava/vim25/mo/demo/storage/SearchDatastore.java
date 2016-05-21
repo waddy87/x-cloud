@@ -31,22 +31,22 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.storage;
 
 import java.net.URL;
 
-import com.sugon.vim25.ArrayOfHostDatastoreBrowserSearchResults;
-import com.sugon.vim25.DatastoreInfo;
-import com.sugon.vim25.FileInfo;
-import com.sugon.vim25.FileQuery;
-import com.sugon.vim25.FileQueryFlags;
-import com.sugon.vim25.HostDatastoreBrowserSearchResults;
-import com.sugon.vim25.HostDatastoreBrowserSearchSpec;
-import com.sugon.vim25.VmDiskFileInfo;
-import com.sugon.vim25.VmDiskFileQuery;
-import com.sugon.vim25.mo.Datastore;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.HostDatastoreBrowser;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.Task;
+import com.vmware.vim25.ArrayOfHostDatastoreBrowserSearchResults;
+import com.vmware.vim25.DatastoreInfo;
+import com.vmware.vim25.FileInfo;
+import com.vmware.vim25.FileQuery;
+import com.vmware.vim25.FileQueryFlags;
+import com.vmware.vim25.HostDatastoreBrowserSearchResults;
+import com.vmware.vim25.HostDatastoreBrowserSearchSpec;
+import com.vmware.vim25.VmDiskFileInfo;
+import com.vmware.vim25.VmDiskFileQuery;
+import com.vmware.vim25.mo.Datastore;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostDatastoreBrowser;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.Task;
 
 /**
  * http://vijava.sf.net

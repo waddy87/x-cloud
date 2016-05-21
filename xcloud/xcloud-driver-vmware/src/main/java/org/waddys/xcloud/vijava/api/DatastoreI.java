@@ -4,16 +4,16 @@ import java.util.List;
 
 import org.waddys.xcloud.vijava.data.StoragePool;
 
-import com.sugon.vim25.DynamicData;
-import com.sugon.vim25.FileFault;
-import com.sugon.vim25.InvalidProperty;
-import com.sugon.vim25.RuntimeFault;
-import com.sugon.vim25.VirtualDiskSpec;
-import com.sugon.vim25.mo.ClusterComputeResource;
-import com.sugon.vim25.mo.Datacenter;
-import com.sugon.vim25.mo.Datastore;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.DynamicData;
+import com.vmware.vim25.FileFault;
+import com.vmware.vim25.InvalidProperty;
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.VirtualDiskSpec;
+import com.vmware.vim25.mo.ClusterComputeResource;
+import com.vmware.vim25.mo.Datacenter;
+import com.vmware.vim25.mo.Datastore;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.ServiceInstance;
 /**
  * 存储操作接口
  * 

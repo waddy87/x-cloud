@@ -31,15 +31,15 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.alarm;
 
 import java.net.URL;
 
-import com.sugon.vim25.AlarmDescription;
-import com.sugon.vim25.AlarmExpression;
-import com.sugon.vim25.ElementDescription;
-import com.sugon.vim25.MetricAlarmExpression;
-import com.sugon.vim25.ScheduledTaskDetail;
-import com.sugon.vim25.StateAlarmExpression;
-import com.sugon.vim25.TypeDescription;
-import com.sugon.vim25.mo.AlarmManager;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.AlarmDescription;
+import com.vmware.vim25.AlarmExpression;
+import com.vmware.vim25.ElementDescription;
+import com.vmware.vim25.MetricAlarmExpression;
+import com.vmware.vim25.ScheduledTaskDetail;
+import com.vmware.vim25.StateAlarmExpression;
+import com.vmware.vim25.TypeDescription;
+import com.vmware.vim25.mo.AlarmManager;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * http://vijava.sf.net

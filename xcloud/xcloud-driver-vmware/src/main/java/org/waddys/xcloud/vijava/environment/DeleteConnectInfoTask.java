@@ -8,7 +8,7 @@ import org.waddys.xcloud.vijava.environment.DeleteConnectInfo.DeleteConnectInfoC
 import org.waddys.xcloud.vijava.exception.VirtException;
 import org.waddys.xcloud.vijava.impl.Session;
 
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.ServiceInstance;
 
 public class DeleteConnectInfoTask extends BaseTask<DeleteConnectInfoAnswer> {
 

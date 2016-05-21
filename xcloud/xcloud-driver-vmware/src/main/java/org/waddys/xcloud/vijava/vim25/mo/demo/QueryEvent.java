@@ -31,13 +31,13 @@ package org.waddys.xcloud.vijava.vim25.mo.demo;
 
 import java.net.URL;
 
-import com.sugon.vim25.Event;
-import com.sugon.vim25.EventFilterSpec;
-import com.sugon.vim25.mo.EventHistoryCollector;
-import com.sugon.vim25.mo.EventManager;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.util.CommandLineParser;
-import com.sugon.vim25.mo.util.OptionSpec;
+import com.vmware.vim25.Event;
+import com.vmware.vim25.EventFilterSpec;
+import com.vmware.vim25.mo.EventHistoryCollector;
+import com.vmware.vim25.mo.EventManager;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.util.CommandLineParser;
+import com.vmware.vim25.mo.util.OptionSpec;
 
 /**
  * This demo shows you how to get filtered events from VC

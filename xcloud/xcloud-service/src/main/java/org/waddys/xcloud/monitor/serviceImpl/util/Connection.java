@@ -4,8 +4,8 @@ import java.rmi.RemoteException;
 import org.springframework.stereotype.Service;
 import org.waddys.xcloud.vijava.impl.Session;
 
-import com.sugon.vim25.RuntimeFault;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.mo.ServiceInstance;
 
 
 @Service("monitor-connection")

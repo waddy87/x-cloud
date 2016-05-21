@@ -31,25 +31,25 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.vm;
 
 import java.net.URL;
 
-import com.sugon.vim25.Description;
-import com.sugon.vim25.VirtualDeviceConfigSpec;
-import com.sugon.vim25.VirtualDeviceConfigSpecFileOperation;
-import com.sugon.vim25.VirtualDeviceConfigSpecOperation;
-import com.sugon.vim25.VirtualDisk;
-import com.sugon.vim25.VirtualDiskFlatVer2BackingInfo;
-import com.sugon.vim25.VirtualEthernetCard;
-import com.sugon.vim25.VirtualEthernetCardNetworkBackingInfo;
-import com.sugon.vim25.VirtualLsiLogicController;
-import com.sugon.vim25.VirtualMachineConfigSpec;
-import com.sugon.vim25.VirtualMachineFileInfo;
-import com.sugon.vim25.VirtualPCNet32;
-import com.sugon.vim25.VirtualSCSISharing;
-import com.sugon.vim25.mo.Datacenter;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ResourcePool;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.Task;
+import com.vmware.vim25.Description;
+import com.vmware.vim25.VirtualDeviceConfigSpec;
+import com.vmware.vim25.VirtualDeviceConfigSpecFileOperation;
+import com.vmware.vim25.VirtualDeviceConfigSpecOperation;
+import com.vmware.vim25.VirtualDisk;
+import com.vmware.vim25.VirtualDiskFlatVer2BackingInfo;
+import com.vmware.vim25.VirtualEthernetCard;
+import com.vmware.vim25.VirtualEthernetCardNetworkBackingInfo;
+import com.vmware.vim25.VirtualLsiLogicController;
+import com.vmware.vim25.VirtualMachineConfigSpec;
+import com.vmware.vim25.VirtualMachineFileInfo;
+import com.vmware.vim25.VirtualPCNet32;
+import com.vmware.vim25.VirtualSCSISharing;
+import com.vmware.vim25.mo.Datacenter;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ResourcePool;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.Task;
 
 /**
  * http://vijava.sf.net

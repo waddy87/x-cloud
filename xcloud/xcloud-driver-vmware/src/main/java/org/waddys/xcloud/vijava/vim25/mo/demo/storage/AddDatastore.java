@@ -31,14 +31,14 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.storage;
 
 import java.net.URL;
 
-import com.sugon.vim25.DatastoreInfo;
-import com.sugon.vim25.HostNasVolumeSpec;
-import com.sugon.vim25.mo.Datastore;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.HostDatastoreSystem;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.DatastoreInfo;
+import com.vmware.vim25.HostNasVolumeSpec;
+import com.vmware.vim25.mo.Datastore;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostDatastoreSystem;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * http://vijava.sf.net

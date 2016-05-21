@@ -38,9 +38,9 @@ import javax.xml.xpath.XPathFactory;
 
 import org.xml.sax.InputSource;
 
-import com.sugon.vim.rest.CachedManagedObject;
-import com.sugon.vim.rest.RestClient;
-import com.sugon.vim.rest.RestManagedObject;
+import com.vmware.vim.rest.CachedManagedObject;
+import com.vmware.vim.rest.RestClient;
+import com.vmware.vim.rest.RestManagedObject;
 
 public class RestAppDemo
 {

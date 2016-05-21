@@ -4,16 +4,15 @@ import java.rmi.RemoteException;
 import java.util.List;
 import java.util.Map;
 
-import com.sugon.vim25.HostHardwareInfo;
-import com.sugon.vim25.HostListSummary;
-import com.sugon.vim25.HostVirtualSwitch;
-import com.sugon.vim25.InvalidProperty;
-import com.sugon.vim25.RuntimeFault;
-import com.sugon.vim25.mo.Datacenter;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.ManagedEntity;
-//批量操作     拆分功能     对照vimstub接口列表
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.HostHardwareInfo;
+import com.vmware.vim25.HostListSummary;
+import com.vmware.vim25.HostVirtualSwitch;
+import com.vmware.vim25.InvalidProperty;
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.mo.Datacenter;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * 主机操作接口

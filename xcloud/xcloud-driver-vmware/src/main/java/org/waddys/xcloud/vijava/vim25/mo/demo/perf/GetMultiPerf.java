@@ -32,20 +32,20 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.perf;
 import java.net.URL;
 import java.util.Calendar;
 
-import com.sugon.vim25.PerfCompositeMetric;
-import com.sugon.vim25.PerfEntityMetric;
-import com.sugon.vim25.PerfEntityMetricBase;
-import com.sugon.vim25.PerfEntityMetricCSV;
-import com.sugon.vim25.PerfMetricId;
-import com.sugon.vim25.PerfMetricIntSeries;
-import com.sugon.vim25.PerfMetricSeries;
-import com.sugon.vim25.PerfMetricSeriesCSV;
-import com.sugon.vim25.PerfQuerySpec;
-import com.sugon.vim25.PerfSampleInfo;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.PerformanceManager;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.PerfCompositeMetric;
+import com.vmware.vim25.PerfEntityMetric;
+import com.vmware.vim25.PerfEntityMetricBase;
+import com.vmware.vim25.PerfEntityMetricCSV;
+import com.vmware.vim25.PerfMetricId;
+import com.vmware.vim25.PerfMetricIntSeries;
+import com.vmware.vim25.PerfMetricSeries;
+import com.vmware.vim25.PerfMetricSeriesCSV;
+import com.vmware.vim25.PerfQuerySpec;
+import com.vmware.vim25.PerfSampleInfo;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.PerformanceManager;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.VirtualMachine;
 
 /**
  * http://vijava.sf.net

@@ -31,9 +31,9 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.storage;
 
 import java.net.URL;
 
-import com.sugon.vim25.HostDiskDimensionsChs;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.VirtualDiskManager;
+import com.vmware.vim25.HostDiskDimensionsChs;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.VirtualDiskManager;
 
 /**
  * http://vijava.sf.net

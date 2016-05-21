@@ -34,9 +34,9 @@ import java.net.URL;
 import java.rmi.RemoteException;
 import java.util.Hashtable;
 
-import com.sugon.vim25.*;
-import com.sugon.vim25.mo.*;
-import com.sugon.vim25.mo.util.*;
+import com.vmware.vim25.*;
+import com.vmware.vim25.mo.*;
+import com.vmware.vim25.mo.util.*;
 
 /**
  * This demo code shows how to get different API to:

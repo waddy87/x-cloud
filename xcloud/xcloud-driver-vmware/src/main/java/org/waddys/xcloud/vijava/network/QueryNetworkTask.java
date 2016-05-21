@@ -13,8 +13,8 @@ import org.waddys.xcloud.vijava.impl.Session;
 import org.waddys.xcloud.vijava.network.QueryNetwork.QueryNetworkAnswer;
 import org.waddys.xcloud.vijava.network.QueryNetwork.QueryNetworkCmd;
 
-import com.sugon.vim25.mo.Network;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.Network;
+import com.vmware.vim25.mo.ServiceInstance;
 
 public class QueryNetworkTask extends BaseTask<QueryNetworkAnswer> {
 

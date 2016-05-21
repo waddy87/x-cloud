@@ -46,7 +46,7 @@ import org.waddys.xcloud.vm.bo.VmTask;
 import org.waddys.xcloud.vm.constant.RunStatus;
 import org.waddys.xcloud.vm.constant.VmStatus;
 
-import com.sugon.vim25.VirtualDeviceConfigSpecOperation;
+import com.vmware.vim25.VirtualDeviceConfigSpecOperation;
 
 /**
  * @author zhangdapeng

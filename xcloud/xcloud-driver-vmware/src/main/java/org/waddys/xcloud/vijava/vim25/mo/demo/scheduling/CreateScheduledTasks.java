@@ -32,17 +32,17 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.scheduling;
 import java.net.URL;
 import java.util.Calendar;
 
-import com.sugon.vim25.MethodAction;
-import com.sugon.vim25.MethodActionArgument;
-import com.sugon.vim25.OnceTaskScheduler;
-import com.sugon.vim25.ScheduledTaskSpec;
-import com.sugon.vim25.WeeklyTaskScheduler;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ScheduledTask;
-import com.sugon.vim25.mo.ScheduledTaskManager;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.MethodAction;
+import com.vmware.vim25.MethodActionArgument;
+import com.vmware.vim25.OnceTaskScheduler;
+import com.vmware.vim25.ScheduledTaskSpec;
+import com.vmware.vim25.WeeklyTaskScheduler;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ScheduledTask;
+import com.vmware.vim25.mo.ScheduledTaskManager;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.VirtualMachine;
 
 /**
  * http://vijava.sf.net

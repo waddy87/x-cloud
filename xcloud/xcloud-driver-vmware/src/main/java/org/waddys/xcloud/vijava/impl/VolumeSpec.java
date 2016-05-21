@@ -1,6 +1,6 @@
 package org.waddys.xcloud.vijava.impl;
 
-import com.sugon.vim25.DynamicData;
+import com.vmware.vim25.DynamicData;
 
 
 public class VolumeSpec  extends DynamicData{

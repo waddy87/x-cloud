@@ -31,13 +31,13 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.task;
 
 import java.net.URL;
 
-import com.sugon.vim25.ElementDescription;
-import com.sugon.vim25.TaskDescription;
-import com.sugon.vim25.TaskInfo;
-import com.sugon.vim25.TypeDescription;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.Task;
-import com.sugon.vim25.mo.TaskManager;
+import com.vmware.vim25.ElementDescription;
+import com.vmware.vim25.TaskDescription;
+import com.vmware.vim25.TaskInfo;
+import com.vmware.vim25.TypeDescription;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.Task;
+import com.vmware.vim25.mo.TaskManager;
 
 /**
  * http://vijava.sf.net

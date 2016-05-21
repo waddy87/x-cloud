@@ -33,8 +33,8 @@ import java.net.URL;
 
 import org.waddys.xcloud.util.JsonUtil;
 
-import com.sugon.vim25.*;
-import com.sugon.vim25.mo.*;
+import com.vmware.vim25.*;
+import com.vmware.vim25.mo.*;
 
 public class HelloVM {
 

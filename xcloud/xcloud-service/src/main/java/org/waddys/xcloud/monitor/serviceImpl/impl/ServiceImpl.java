@@ -35,9 +35,9 @@ import org.waddys.xcloud.monitor.serviceImpl.util.PerfUtils;
 import org.waddys.xcloud.monitor.serviceImpl.util.ToolsUtils;
 import org.waddys.xcloud.monitor.serviceImpl.util.VCenterManageUtils;
 
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.VirtualMachine;
 
 @Service("monitor-serviceImpl")
 public class ServiceImpl implements ServiceI {

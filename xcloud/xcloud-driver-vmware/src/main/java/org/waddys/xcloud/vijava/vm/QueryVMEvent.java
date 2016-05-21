@@ -5,7 +5,7 @@ import java.util.Arrays;
 import org.waddys.xcloud.vijava.base.Answer;
 import org.waddys.xcloud.vijava.base.Cmd;
 
-import com.sugon.vim25.VmEvent;
+import com.vmware.vim25.VmEvent;
 
 public class QueryVMEvent {
 

@@ -2,13 +2,13 @@ package org.waddys.xcloud.vijava.util;
 
 import java.rmi.RemoteException;
 
-import com.sugon.vim25.KeyAnyValue;
-import com.sugon.vim25.LicenseAssignmentManagerLicenseAssignment;
-import com.sugon.vim25.RuntimeFault;
-import com.sugon.vim25.mo.LicenseAssignmentManager;
-import com.sugon.vim25.mo.LicenseManager;
-import com.sugon.vim25.mo.ManagedEntity;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.KeyAnyValue;
+import com.vmware.vim25.LicenseAssignmentManagerLicenseAssignment;
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.mo.LicenseAssignmentManager;
+import com.vmware.vim25.mo.LicenseManager;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.ServiceInstance;
 
 public class MoQueryUtils {
 	/**

@@ -5,13 +5,13 @@ import java.util.List;
 
 import org.waddys.xcloud.vijava.data.NetPool;
 
-import com.sugon.vim25.HostPortGroup;
-import com.sugon.vim25.HostVirtualSwitch;
-import com.sugon.vim25.InvalidProperty;
-import com.sugon.vim25.RuntimeFault;
-import com.sugon.vim25.mo.Network;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.VmwareDistributedVirtualSwitch;
+import com.vmware.vim25.HostPortGroup;
+import com.vmware.vim25.HostVirtualSwitch;
+import com.vmware.vim25.InvalidProperty;
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.mo.Network;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.VmwareDistributedVirtualSwitch;
 
 public interface NetworkI {
 

@@ -22,11 +22,11 @@ import org.waddys.xcloud.monitor.service.bo.HostBo;
 import org.waddys.xcloud.monitor.service.bo.StorageBo;
 import org.waddys.xcloud.monitor.service.bo.VMBo;
 
-import com.sugon.vim25.HostSystemConnectionState;
-import com.sugon.vim25.HostSystemPowerState;
-import com.sugon.vim25.ManagedEntityStatus;
-import com.sugon.vim25.PerfCounterInfo;
-import com.sugon.vim25.VirtualMachinePowerState;
+import com.vmware.vim25.HostSystemConnectionState;
+import com.vmware.vim25.HostSystemPowerState;
+import com.vmware.vim25.ManagedEntityStatus;
+import com.vmware.vim25.PerfCounterInfo;
+import com.vmware.vim25.VirtualMachinePowerState;
 
 @Service("monitor-toolsutils")
 public class ToolsUtils {

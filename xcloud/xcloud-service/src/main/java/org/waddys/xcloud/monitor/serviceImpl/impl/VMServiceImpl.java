@@ -24,16 +24,16 @@ import org.waddys.xcloud.monitor.serviceImpl.util.PerfUtils;
 import org.waddys.xcloud.monitor.serviceImpl.util.ToolsUtils;
 import org.waddys.xcloud.monitor.serviceImpl.util.VCenterManageUtils;
 
-import com.sugon.vim25.HostHardwareInfo;
-import com.sugon.vim25.HostSystemConnectionState;
-import com.sugon.vim25.ManagedObjectReference;
-import com.sugon.vim25.VirtualMachineConfigInfo;
-import com.sugon.vim25.VirtualMachineStorageSummary;
-import com.sugon.vim25.VirtualMachineSummary;
-import com.sugon.vim25.mo.ClusterComputeResource;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.ManagedEntity;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.HostHardwareInfo;
+import com.vmware.vim25.HostSystemConnectionState;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.VirtualMachineConfigInfo;
+import com.vmware.vim25.VirtualMachineStorageSummary;
+import com.vmware.vim25.VirtualMachineSummary;
+import com.vmware.vim25.mo.ClusterComputeResource;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.VirtualMachine;
 
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;

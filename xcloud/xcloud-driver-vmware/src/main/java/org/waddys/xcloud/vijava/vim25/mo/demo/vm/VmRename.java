@@ -31,9 +31,9 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.vm;
 
 import java.net.URL;
 
-import com.sugon.vim25.mo.*;
-import com.sugon.vim25.mo.util.CommandLineParser;
-import com.sugon.vim25.mo.util.OptionSpec;
+import com.vmware.vim25.mo.*;
+import com.vmware.vim25.mo.util.CommandLineParser;
+import com.vmware.vim25.mo.util.OptionSpec;
 
 /**
  * This demo shows how to change a VM's name.

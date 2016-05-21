@@ -26,12 +26,12 @@ import org.waddys.xcloud.monitor.serviceImpl.util.PerfUtils;
 import org.waddys.xcloud.monitor.serviceImpl.util.ToolsUtils;
 import org.waddys.xcloud.monitor.serviceImpl.util.VCenterManageUtils;
 
-import com.sugon.vim25.HostSystemConnectionState;
-import com.sugon.vim25.HostSystemPowerState;
-import com.sugon.vim25.ManagedEntityStatus;
-import com.sugon.vim25.mo.Datastore;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.HostSystemConnectionState;
+import com.vmware.vim25.HostSystemPowerState;
+import com.vmware.vim25.ManagedEntityStatus;
+import com.vmware.vim25.mo.Datastore;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.VirtualMachine;
 
 /**
  * 功能名: 请填写功能名 功能描述: 请简要描述功能的要点 Copyright: Copyright (c) 2016 公司: 曙光云计算技术有限公司

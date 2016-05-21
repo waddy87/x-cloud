@@ -5,8 +5,8 @@ import java.util.List;
 import org.waddys.xcloud.vijava.base.Answer;
 import org.waddys.xcloud.vijava.base.Cmd;
 
-import com.sugon.vim25.mo.DistributedVirtualPortgroup;
-import com.sugon.vim25.mo.Network;
+import com.vmware.vim25.mo.DistributedVirtualPortgroup;
+import com.vmware.vim25.mo.Network;
 
 public class QueryNetwork {
 

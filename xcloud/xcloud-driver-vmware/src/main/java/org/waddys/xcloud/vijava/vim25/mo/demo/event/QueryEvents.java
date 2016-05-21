@@ -32,14 +32,14 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.event;
 import java.net.URL;
 import java.util.Calendar;
 
-import com.sugon.vim25.Event;
-import com.sugon.vim25.EventFilterSpec;
-import com.sugon.vim25.EventFilterSpecByEntity;
-import com.sugon.vim25.EventFilterSpecByTime;
-import com.sugon.vim25.EventFilterSpecByUsername;
-import com.sugon.vim25.EventFilterSpecRecursionOption;
-import com.sugon.vim25.mo.EventManager;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.Event;
+import com.vmware.vim25.EventFilterSpec;
+import com.vmware.vim25.EventFilterSpecByEntity;
+import com.vmware.vim25.EventFilterSpecByTime;
+import com.vmware.vim25.EventFilterSpecByUsername;
+import com.vmware.vim25.EventFilterSpecRecursionOption;
+import com.vmware.vim25.mo.EventManager;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * http://vijava.sf.net

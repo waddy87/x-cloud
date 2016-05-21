@@ -31,15 +31,15 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.vm;
 
 import java.net.URL;
 
-import com.sugon.vim25.ResourceAllocationInfo;
-import com.sugon.vim25.SharesInfo;
-import com.sugon.vim25.SharesLevel;
-import com.sugon.vim25.VirtualMachineConfigSpec;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.Task;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.ResourceAllocationInfo;
+import com.vmware.vim25.SharesInfo;
+import com.vmware.vim25.SharesLevel;
+import com.vmware.vim25.VirtualMachineConfigSpec;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.Task;
+import com.vmware.vim25.mo.VirtualMachine;
 
 /**
  * http://vijava.sf.net

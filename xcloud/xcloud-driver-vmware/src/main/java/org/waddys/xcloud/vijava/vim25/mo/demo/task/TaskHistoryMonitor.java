@@ -33,24 +33,24 @@ import java.net.URL;
 import java.util.Calendar;
 import java.util.Date;
 
-import com.sugon.vim25.TaskFilterSpec;
-import com.sugon.vim25.TaskFilterSpecByEntity;
-import com.sugon.vim25.TaskFilterSpecByTime;
-import com.sugon.vim25.TaskFilterSpecByUsername;
-import com.sugon.vim25.TaskFilterSpecRecursionOption;
-import com.sugon.vim25.TaskFilterSpecTimeOption;
-import com.sugon.vim25.TaskInfo;
-import com.sugon.vim25.TaskInfoState;
-import com.sugon.vim25.TaskReason;
-import com.sugon.vim25.TaskReasonAlarm;
-import com.sugon.vim25.TaskReasonSchedule;
-import com.sugon.vim25.TaskReasonSystem;
-import com.sugon.vim25.TaskReasonUser;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.ManagedEntity;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.TaskHistoryCollector;
-import com.sugon.vim25.mo.TaskManager;
+import com.vmware.vim25.TaskFilterSpec;
+import com.vmware.vim25.TaskFilterSpecByEntity;
+import com.vmware.vim25.TaskFilterSpecByTime;
+import com.vmware.vim25.TaskFilterSpecByUsername;
+import com.vmware.vim25.TaskFilterSpecRecursionOption;
+import com.vmware.vim25.TaskFilterSpecTimeOption;
+import com.vmware.vim25.TaskInfo;
+import com.vmware.vim25.TaskInfoState;
+import com.vmware.vim25.TaskReason;
+import com.vmware.vim25.TaskReasonAlarm;
+import com.vmware.vim25.TaskReasonSchedule;
+import com.vmware.vim25.TaskReasonSystem;
+import com.vmware.vim25.TaskReasonUser;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.TaskHistoryCollector;
+import com.vmware.vim25.mo.TaskManager;
 
 /**
  * http://vijava.sf.net

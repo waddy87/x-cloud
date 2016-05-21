@@ -7,7 +7,7 @@ import java.util.List;
 import org.waddys.xcloud.vijava.base.Answer;
 import org.waddys.xcloud.vijava.base.Cmd;
 
-import com.sugon.vim25.TaskInfoState;
+import com.vmware.vim25.TaskInfoState;
 
 public class QueryTask {
 

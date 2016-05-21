@@ -14,11 +14,11 @@ import org.waddys.xcloud.vijava.util.MoQueryUtils;
 import org.waddys.xcloud.vijava.util.VmConvertUtils;
 import org.waddys.xcloud.vijava.util.CloudVMConfig.ConnectionInfo;
 
-import com.sugon.vim25.AboutInfo;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.AboutInfo;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
 
 public class ConnectCloudVMTask extends BaseTask<ConnectCloudVMAnswer> {
 

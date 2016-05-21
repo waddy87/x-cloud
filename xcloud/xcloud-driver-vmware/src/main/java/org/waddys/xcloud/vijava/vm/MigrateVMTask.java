@@ -10,14 +10,14 @@ import org.waddys.xcloud.vijava.util.ParamValidator;
 import org.waddys.xcloud.vijava.vm.MigrateVM.MigrateVMAnswer;
 import org.waddys.xcloud.vijava.vm.MigrateVM.MigrateVMCmd;
 
-import com.sugon.vim25.ManagedObjectReference;
-import com.sugon.vim25.TaskInfo;
-import com.sugon.vim25.VirtualMachineRelocateSpec;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.ResourcePool;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.Task;
-import com.sugon.vim25.mo.VirtualMachine;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.TaskInfo;
+import com.vmware.vim25.VirtualMachineRelocateSpec;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.ResourcePool;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.Task;
+import com.vmware.vim25.mo.VirtualMachine;
 
 public class MigrateVMTask extends BaseTask<MigrateVMAnswer> {
 

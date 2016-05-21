@@ -4,11 +4,11 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.sugon.vim25.LicenseAssignmentManagerLicenseAssignment;
-import com.sugon.vim25.LicenseManagerLicenseInfo;
-import com.sugon.vim25.mo.LicenseAssignmentManager;
-import com.sugon.vim25.mo.LicenseManager;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.LicenseAssignmentManagerLicenseAssignment;
+import com.vmware.vim25.LicenseManagerLicenseInfo;
+import com.vmware.vim25.mo.LicenseAssignmentManager;
+import com.vmware.vim25.mo.LicenseManager;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * This demo shows how to replace an old license key with a new one.

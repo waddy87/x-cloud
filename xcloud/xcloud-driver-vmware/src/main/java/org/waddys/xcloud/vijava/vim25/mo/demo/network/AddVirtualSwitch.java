@@ -31,16 +31,16 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.network;
 
 import java.net.URL;
 
-import com.sugon.vim25.HostIpConfig;
-import com.sugon.vim25.HostNetworkPolicy;
-import com.sugon.vim25.HostPortGroupSpec;
-import com.sugon.vim25.HostVirtualNicSpec;
-import com.sugon.vim25.HostVirtualSwitchSpec;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.HostNetworkSystem;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.HostIpConfig;
+import com.vmware.vim25.HostNetworkPolicy;
+import com.vmware.vim25.HostPortGroupSpec;
+import com.vmware.vim25.HostVirtualNicSpec;
+import com.vmware.vim25.HostVirtualSwitchSpec;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostNetworkSystem;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
 
 
 /**

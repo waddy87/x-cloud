@@ -7,15 +7,15 @@ import java.util.Map;
 import org.waddys.xcloud.vijava.api.HostI;
 import org.waddys.xcloud.vijava.util.MoQueryUtils;
 
-import com.sugon.vim25.HostHardwareInfo;
-import com.sugon.vim25.HostListSummary;
-import com.sugon.vim25.InvalidProperty;
-import com.sugon.vim25.ManagedObjectReference;
-import com.sugon.vim25.RuntimeFault;
-import com.sugon.vim25.mo.Datacenter;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.util.MorUtil;
+import com.vmware.vim25.HostHardwareInfo;
+import com.vmware.vim25.HostListSummary;
+import com.vmware.vim25.InvalidProperty;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.mo.Datacenter;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.util.MorUtil;
 
 public class HostImpl implements HostI {
 

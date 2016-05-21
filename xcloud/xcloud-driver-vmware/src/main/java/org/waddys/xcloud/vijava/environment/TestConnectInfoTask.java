@@ -7,7 +7,7 @@ import org.waddys.xcloud.vijava.environment.TestConnectInfo.TestConnectInfoAnswe
 import org.waddys.xcloud.vijava.environment.TestConnectInfo.TestConnectInfoCmd;
 import org.waddys.xcloud.vijava.impl.Session;
 
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.ServiceInstance;
 
 public class TestConnectInfoTask extends BaseTask<TestConnectInfoAnswer> {
 	private static Logger logger = LoggerFactory
