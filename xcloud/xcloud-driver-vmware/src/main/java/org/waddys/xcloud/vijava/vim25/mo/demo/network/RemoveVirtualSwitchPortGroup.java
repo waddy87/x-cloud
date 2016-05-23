@@ -51,17 +51,17 @@ import com.vmware.vim25.ws.*;
 *datacenter     [optional]: Name of the datacenter
 *
 *<b>Command Line: To remove a Virtual Switch Port Group</b>
-*run.bat com.sugon.demos.host.RemoveVirtualSwitchPortGroup --url [webserviceurl] 
+*run.bat com.vmware.demos.host.RemoveVirtualSwitchPortGroup --url [webserviceurl] 
 *--username [username] --password  <password> 
 *--datacenter [mydatacenter] --portgroupname[<myportgroup] --host <hostname>
 *
 *<b>Command Line: To remove a Virtual Switch Port Group without specifying the host name</b>
-*run.bat com.sugon.demos.host.RemoveVirtualSwitchPortGroup --url [webserviceurl] 
+*run.bat com.vmware.demos.host.RemoveVirtualSwitchPortGroup --url [webserviceurl] 
 *--username [username] --password  <password> 
 *--datacenter [mydatacenter] --portgroupname[<myportgroup]
 *
 *<b>Command Line: To remove a Virtual Switch Port Group without specifying the datacenter name</b>
-*run.bat com.sugon.demos.host.RemoveVirtualSwitchPortGroup --url [webserviceurl] --username [username] --password  <password> 
+*run.bat com.vmware.demos.host.RemoveVirtualSwitchPortGroup --url [webserviceurl] --username [username] --password  <password> 
 *--portgroupname[<myportgroup] --host<hostname>
 *</pre>
 * @author Steve Jin

@@ -122,8 +122,8 @@ public class LogDaoServiceImpl implements LogDaoService {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.waddys.xcloud.log.dao.LogDaoService#save(com.sugon.
-	 * cloudview.cloudmanager.log.entity.LogInfoEntity)
+	 * org.waddys.xcloud.log.dao.LogDaoService#save(org.waddys.
+	 * xcloud.log.entity.LogInfoEntity)
 	 */
 	@Override
 	public LogInfoEntity save(LogInfoEntity logInfo) {

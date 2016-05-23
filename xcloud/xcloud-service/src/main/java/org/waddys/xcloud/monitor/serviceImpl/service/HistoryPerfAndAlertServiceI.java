@@ -3,9 +3,9 @@ package org.waddys.xcloud.monitor.serviceImpl.service;
 import java.util.List;
 import java.util.Map;
 
-import org.waddys.xcloud.monitor.service.bo.AlarmEntity;
-import org.waddys.xcloud.monitor.service.bo.AlertEvent;
-import org.waddys.xcloud.monitor.service.bo.MetricValue;
+import org.waddys.xcloud.monitor.bo.AlarmEntity;
+import org.waddys.xcloud.monitor.bo.AlertEvent;
+import org.waddys.xcloud.monitor.bo.MetricValue;
 
 import com.vmware.vim25.mo.ManagedEntity;
 

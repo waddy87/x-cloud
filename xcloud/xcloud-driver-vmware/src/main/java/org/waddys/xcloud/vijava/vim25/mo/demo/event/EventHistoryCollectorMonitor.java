@@ -46,7 +46,7 @@ import com.vmware.vim25.ws.*;
  *EventHistoryCollector
  *
  *<b>Command Line: </b>
- *run.bat com.sugon.demos.vm.EventHistoryCollectorMonitor --url 
+ *run.bat com.vmware.demos.vm.EventHistoryCollectorMonitor --url 
  *[webserviceurl] --username [username] --password [password]
  *</pre>
  * http://vijava.sf.net

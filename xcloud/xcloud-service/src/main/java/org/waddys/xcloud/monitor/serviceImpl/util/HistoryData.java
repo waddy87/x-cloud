@@ -12,7 +12,7 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
-import org.waddys.xcloud.monitor.service.bo.MetricValue;
+import org.waddys.xcloud.monitor.bo.MetricValue;
 
 import com.vmware.vim25.ManagedObjectReference;
 import com.vmware.vim25.PerfCounterInfo;

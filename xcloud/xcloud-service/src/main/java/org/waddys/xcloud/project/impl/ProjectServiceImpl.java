@@ -14,14 +14,14 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 import org.waddys.xcloud.project.bo.Project;
-import org.waddys.xcloud.project.dao.entity.ProjectVM;
-import org.waddys.xcloud.project.dao.service.ProjectDaoService;
-import org.waddys.xcloud.project.dao.service.ProjectVmDaoService;
+import org.waddys.xcloud.project.po.dao.ProjectDaoService;
+import org.waddys.xcloud.project.po.dao.ProjectVmDaoService;
+import org.waddys.xcloud.project.po.entity.ProjectVM;
 import org.waddys.xcloud.project.service.ProjectService;
-import org.waddys.xcloud.usermgmt.service.bo.User;
-import org.waddys.xcloud.usermgmt.service.service.UserService;
+import org.waddys.xcloud.user.bo.User;
+import org.waddys.xcloud.user.service.service.UserService;
 import org.waddys.xcloud.vm.bo.VmHost;
-import org.waddys.xcloud.vm.dao.service.VmHostDaoService;
+import org.waddys.xcloud.vm.po.dao.VmHostDaoService;
 
 @Service("projectService")
 public class ProjectServiceImpl implements ProjectService {

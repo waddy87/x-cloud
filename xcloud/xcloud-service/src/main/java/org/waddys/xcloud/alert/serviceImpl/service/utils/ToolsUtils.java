@@ -3,8 +3,8 @@ package org.waddys.xcloud.alert.serviceImpl.service.utils;
 import java.util.Calendar;
 import java.util.Map;
 
-import org.waddys.xcloud.alert.service.bo.AlertSenderUI;
-import org.waddys.xcloud.alert.serviceImpl.entity.AlertSender;
+import org.waddys.xcloud.alert.bo.AlertSenderUI;
+import org.waddys.xcloud.alert.po.entity.AlertSender;
 
 import com.vmware.vim25.HostSystemConnectionState;
 import com.vmware.vim25.HostSystemPowerState;

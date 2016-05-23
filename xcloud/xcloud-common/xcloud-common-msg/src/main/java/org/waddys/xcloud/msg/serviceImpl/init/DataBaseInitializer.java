@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.sugon.cloudview.cloudmanage.messagepush.service.bo.MessageInfo;
+import org.waddys.cloudview.cloudmanage.messagepush.service.bo.MessageInfo;
 import org.waddys.xcloud.messagepush.serviceImpl.dao.entity.MessageInfoE;
 import org.waddys.xcloud.messagepush.serviceImpl.dao.service.MessageDaoService;
 import org.waddys.xcloud.messagepush.serviceImpl.utils.MessageQueue;

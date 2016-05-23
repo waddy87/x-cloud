@@ -5,9 +5,9 @@ import java.util.List;
 
 import org.waddys.xcloud.org.bo.Organization;
 import org.waddys.xcloud.project.bo.Project;
-import org.waddys.xcloud.resource.service.bo.vdc.ProviderVDC;
-import org.waddys.xcloud.resource.service.bo.vdc.StoragePool;
-import org.waddys.xcloud.usermgmt.service.bo.User;
+import org.waddys.xcloud.res.bo.vdc.ProviderVDC;
+import org.waddys.xcloud.res.bo.vdc.StoragePool;
+import org.waddys.xcloud.user.bo.User;
 import org.waddys.xcloud.vm.constant.RunStatus;
 import org.waddys.xcloud.vm.constant.SourceType;
 import org.waddys.xcloud.vm.constant.VmStatus;

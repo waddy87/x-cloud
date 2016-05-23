@@ -5,7 +5,7 @@ package org.waddys.xcloud.vm.bo;
 
 import java.util.Date;
 
-import org.waddys.xcloud.resource.service.bo.vnet.NetPool;
+import org.waddys.xcloud.res.bo.vnet.NetPool;
 
 /**
  * 虚机网络实体

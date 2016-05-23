@@ -31,13 +31,13 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.cluster;
 
 import java.net.URL;
 
-import com.sugon.vim25.ClusterConfigSpec;
-import com.sugon.vim25.ClusterDrsConfigInfo;
-import com.sugon.vim25.DrsBehavior;
-import com.sugon.vim25.ManagedObjectReference;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.ClusterComputeResource;
-import com.sugon.vim25.mo.util.*;
+import com.vmware.vim25.ClusterConfigSpec;
+import com.vmware.vim25.ClusterDrsConfigInfo;
+import com.vmware.vim25.DrsBehavior;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.ClusterComputeResource;
+import com.vmware.vim25.mo.util.*;
 
 /**
  * @author Steve Jin

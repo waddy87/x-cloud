@@ -13,13 +13,13 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.waddys.xcloud.driver.IVmDriver;
-import org.waddys.xcloud.resource.service.service.vdc.ProvideVDCStoragePoolService;
+import org.waddys.xcloud.res.service.service.vdc.ProvideVDCStoragePoolService;
 import org.waddys.xcloud.util.JsonUtil;
 import org.waddys.xcloud.vm.bo.VmDisk;
 import org.waddys.xcloud.vm.bo.VmHost;
 import org.waddys.xcloud.vm.constant.VmStatus;
-import org.waddys.xcloud.vm.dao.service.VmDiskDaoService;
-import org.waddys.xcloud.vm.dao.service.VmHostDaoService;
+import org.waddys.xcloud.vm.po.dao.VmDiskDaoService;
+import org.waddys.xcloud.vm.po.dao.VmHostDaoService;
 import org.waddys.xcloud.vm.service.VmDiskService;
 
 /**

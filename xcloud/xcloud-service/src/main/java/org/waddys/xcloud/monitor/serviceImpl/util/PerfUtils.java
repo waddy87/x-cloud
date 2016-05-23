@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.stereotype.Component;
-import org.waddys.xcloud.monitor.service.bo.AlarmEntity;
+import org.waddys.xcloud.monitor.bo.AlarmEntity;
 import org.waddys.xcloud.monitor.serviceImpl.entity.Host;
 import org.waddys.xcloud.monitor.serviceImpl.entity.VM;
 

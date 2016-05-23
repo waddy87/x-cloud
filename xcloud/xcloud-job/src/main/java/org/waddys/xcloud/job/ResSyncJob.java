@@ -9,8 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
-import org.waddys.xcloud.taskMgmt.service.exception.TaskinfoException;
-import org.waddys.xcloud.taskMgmt.service.service.TaskInfoService;
+import org.waddys.xcloud.task.exception.TaskinfoException;
+import org.waddys.xcloud.task.service.service.TaskInfoService;
 
 /**
  * @author zhangdapeng

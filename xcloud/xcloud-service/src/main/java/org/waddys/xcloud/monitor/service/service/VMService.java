@@ -2,7 +2,7 @@ package org.waddys.xcloud.monitor.service.service;
 
 import java.util.List;
 
-import org.waddys.xcloud.monitor.service.bo.VMBo;
+import org.waddys.xcloud.monitor.bo.VMBo;
 
 import net.sf.json.JSONObject;
 

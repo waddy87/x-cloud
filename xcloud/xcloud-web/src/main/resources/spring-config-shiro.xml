@@ -121,7 +121,7 @@
 		</property>
 	</bean>
 	<!-- 用于控制并发登录人数-->
-    <bean id="kickoutSessionControlFilter"  class="org.waddys.xcloud.shiro.KickoutSessionControlFilter">  
+    <bean id="kickoutSessionControlFilter"  class="org.waddys.xcloud.web.shiro.KickoutSessionControlFilter">  
 	    <property name="cacheManager" ref="cacheManager"/>  
 	    <property name="sessionManager" ref="sessionManager"/>  
 	    <property name="kickoutAfter" value="false"/>  

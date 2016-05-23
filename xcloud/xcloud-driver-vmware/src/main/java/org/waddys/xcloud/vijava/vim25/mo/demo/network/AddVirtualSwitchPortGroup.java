@@ -47,16 +47,16 @@ import com.vmware.vim25.mo.util.*;
 *datacenter     [optional]: Name of the datacenter
 *
 *<b>Command Line:to add a Virtual switch Port Group as: -</b>
-*run.bat com.sugon.demos.host.AddVirtualSwitchPortGroup --url [webserviceurl] --username [username] --password  [password] 
+*run.bat com.vmware.demos.host.AddVirtualSwitchPortGroup --url [webserviceurl] --username [username] --password  [password] 
 *--vsiwtchid [mySwitch] --datacenter [mydatacenter] --portgroupname [myportgroup] --host[hostname]
 *
 *<b>Command Line:to add a Virtual switch Port Group without specifying the host: </b>
-*run.bat com.sugon.demos.host.AddVirtualSwitchPortGroup --url [webserviceurl] --username [username] --password  [password] 
+*run.bat com.vmware.demos.host.AddVirtualSwitchPortGroup --url [webserviceurl] --username [username] --password  [password] 
 *--vsiwtchid [mySwitch] --datacenter [mydatacenter] --portgroupname [myportgroup]
 *
 *
 *<b>Command Line:to add a Virtual switch Port Group without specifying the datacenter -</b>
-*run.bat com.sugon.demos.host.AddVirtualSwitchPortGroup --url [webserviceurl] --username [username] --password  [password] 
+*run.bat com.vmware.demos.host.AddVirtualSwitchPortGroup --url [webserviceurl] --username [username] --password  [password] 
 *--vsiwtchid [mySwitch]  --portgroupname [myportgroup]
 *</pre>
 *

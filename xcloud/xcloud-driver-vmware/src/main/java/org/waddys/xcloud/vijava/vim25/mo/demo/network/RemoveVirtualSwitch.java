@@ -49,13 +49,13 @@ import com.vmware.vim25.mo.util.*;
 *datacenter  [optional]: Name of the datacenter
 *
 *<b>Command Line: to remove the Virtual Switch from a virtual center</b>
-*run.bat com.sugon.demos.host.RemoveVirtualSwitch --url [webserviceurl] --username [username] --password  *[password]  --vsiwtchid [mySwitch] --datacenter [mydatacenter]  --host[hostname]
+*run.bat com.vmware.demos.host.RemoveVirtualSwitch --url [webserviceurl] --username [username] --password  *[password]  --vsiwtchid [mySwitch] --datacenter [mydatacenter]  --host[hostname]
 *
 *<b>Command Line:to remove a Virtual Switch from a virtual center without specifying the host</b>
-*run.bat com.sugon.demos.host.RemoveVirtualSwitch --url [webserviceurl] --username [username] --password  *[password]  --vsiwtchid [mySwitch] --datacenter [mydatacenter] 
+*run.bat com.vmware.demos.host.RemoveVirtualSwitch --url [webserviceurl] --username [username] --password  *[password]  --vsiwtchid [mySwitch] --datacenter [mydatacenter] 
 *
 *<b> Command Line:to remove a Virtual Switch from a virtual center without specifying the datacenter</b>
-*run.bat com.sugon.demos.host.RemoveVirtualSwitch --url [webserviceurl] --username [username] --password  [password]  --vsiwtchid [mySwitch] --host [host]
+*run.bat com.vmware.demos.host.RemoveVirtualSwitch --url [webserviceurl] --username [username] --password  [password]  --vsiwtchid [mySwitch] --host [host]
 *
 *</pre>
 /**

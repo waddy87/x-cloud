@@ -16,11 +16,11 @@ import java.util.regex.Pattern;
 
 import org.apache.commons.lang.ArrayUtils;
 import org.springframework.stereotype.Service;
-import org.waddys.xcloud.monitor.service.bo.ClusterBo;
-import org.waddys.xcloud.monitor.service.bo.ComputeSystemBo;
-import org.waddys.xcloud.monitor.service.bo.HostBo;
-import org.waddys.xcloud.monitor.service.bo.StorageBo;
-import org.waddys.xcloud.monitor.service.bo.VMBo;
+import org.waddys.xcloud.monitor.bo.ClusterBo;
+import org.waddys.xcloud.monitor.bo.ComputeSystemBo;
+import org.waddys.xcloud.monitor.bo.HostBo;
+import org.waddys.xcloud.monitor.bo.StorageBo;
+import org.waddys.xcloud.monitor.bo.VMBo;
 
 import com.vmware.vim25.HostSystemConnectionState;
 import com.vmware.vim25.HostSystemPowerState;

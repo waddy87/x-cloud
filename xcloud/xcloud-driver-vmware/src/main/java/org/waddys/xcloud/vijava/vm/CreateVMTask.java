@@ -168,7 +168,7 @@ public class CreateVMTask extends BaseTask<CreateVMAnswer> {
             relocate.setPool(pool.getMOR());
             relocate.setDatastore(datastore.getMOR());
             // relocate.setDiskMoveType(
-            // com.sugon.vim25.VirtualMachineRelocateDiskMoveOptions.createNewChildDiskBacking.name());
+            // com.vmware.vim25.VirtualMachineRelocateDiskMoveOptions.createNewChildDiskBacking.name());
             
             
             //3. 设置虚拟机配置参数

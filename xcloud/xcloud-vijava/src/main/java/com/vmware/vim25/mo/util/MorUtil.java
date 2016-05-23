@@ -41,7 +41,7 @@ import com.vmware.vim25.mo.*;
 
 public class MorUtil 
 {
-	final public static String moPackageName = "com.sugon.vim25.mo";
+	final public static String moPackageName = "com.vmware.vim25.mo";
 
 	public static ManagedObjectReference[] createMORs(ManagedObject[] mos)
 	{

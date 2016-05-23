@@ -27,8 +27,8 @@ import org.waddys.xcloud.org.api.OrgApi;
 import org.waddys.xcloud.org.bo.Organization;
 import org.waddys.xcloud.org.constant.OrgStatus;
 import org.waddys.xcloud.org.service.OrganizationService;
-import org.waddys.xcloud.usermgmt.service.bo.User;
-import org.waddys.xcloud.usermgmt.service.service.UserService;
+import org.waddys.xcloud.user.bo.User;
+import org.waddys.xcloud.user.service.service.UserService;
 import org.waddys.xcloud.util.JsonUtil;
 import org.waddys.xcloud.vm.bo.VmHost;
 

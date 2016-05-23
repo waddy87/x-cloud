@@ -3,7 +3,7 @@ package org.waddys.xcloud.monitor.service.service;
 
 import java.util.List;
 
-import org.waddys.xcloud.monitor.service.bo.ClusterBo;
+import org.waddys.xcloud.monitor.bo.ClusterBo;
 
 /**
  * 功能名: 集群接口

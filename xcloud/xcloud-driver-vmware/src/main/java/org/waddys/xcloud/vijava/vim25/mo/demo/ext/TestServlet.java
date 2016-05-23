@@ -39,10 +39,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.sugon.vim25.ManagedObjectReference;
-import com.sugon.vim25.mo.ManagedEntity;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.util.MorUtil;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.util.MorUtil;
 
 /**
  * http://vijava.sf.net

@@ -39,11 +39,11 @@ import org.sblim.wbem.client.CIMClient;
 import org.sblim.wbem.client.PasswordCredential;
 import org.sblim.wbem.client.UserPrincipal;
 
-import com.sugon.vim25.HostServiceTicket;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.HostSystem;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.HostServiceTicket;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * http://vijava.sf.net

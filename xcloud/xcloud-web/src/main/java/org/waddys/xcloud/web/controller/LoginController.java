@@ -36,11 +36,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-import org.waddys.xcloud.resource.api.common.DateJsonValueProcessor;
+import org.waddys.xcloud.res.action.common.DateJsonValueProcessor;
 import org.waddys.xcloud.shiro.RetryLimitHashedCredentialsMatcher;
-import org.waddys.xcloud.taskMgmt.service.bo.TaskInfo;
-import org.waddys.xcloud.taskMgmt.service.exception.TaskinfoException;
-import org.waddys.xcloud.usermgmt.service.bo.User;
+import org.waddys.xcloud.task.bo.TaskInfo;
+import org.waddys.xcloud.task.exception.TaskinfoException;
+import org.waddys.xcloud.user.bo.User;
 import org.waddys.xcloud.web.validatecode.ValidateCode;
 
 @Controller

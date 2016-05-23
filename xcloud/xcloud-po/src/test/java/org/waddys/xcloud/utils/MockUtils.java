@@ -11,21 +11,21 @@ import javax.persistence.Column;
 import org.mockito.Mockito;
 import org.springframework.beans.BeanUtils;
 import org.waddys.xcloud.org.bo.Organization;
-import org.waddys.xcloud.project.dao.entity.ProjectE;
-import org.waddys.xcloud.resource.service.bo.vdc.ComputingPool;
-import org.waddys.xcloud.resource.service.bo.vdc.ProviderVDC;
-import org.waddys.xcloud.resource.service.bo.vdc.StoragePool;
-import org.waddys.xcloud.resource.service.bo.vnet.NetPool;
-import org.waddys.xcloud.resource.serviceImpl.dao.entity.vdc.ProviderVDCE;
-import org.waddys.xcloud.resource.serviceImpl.dao.entity.vdc.StoragePoolE;
-import org.waddys.xcloud.templet.service.entity.VMTempletE;
+import org.waddys.xcloud.project.po.entity.ProjectE;
+import org.waddys.xcloud.res.bo.vdc.ComputingPool;
+import org.waddys.xcloud.res.bo.vdc.ProviderVDC;
+import org.waddys.xcloud.res.bo.vdc.StoragePool;
+import org.waddys.xcloud.res.bo.vnet.NetPool;
+import org.waddys.xcloud.res.po.entity.vdc.ProviderVDCE;
+import org.waddys.xcloud.res.po.entity.vdc.StoragePoolE;
+import org.waddys.xcloud.template.po.entity.VMTempletE;
 import org.waddys.xcloud.vm.bo.VmHost;
 import org.waddys.xcloud.vm.bo.VmNet;
 import org.waddys.xcloud.vm.constant.RunStatus;
 import org.waddys.xcloud.vm.constant.SourceType;
 import org.waddys.xcloud.vm.constant.VmStatus;
-import org.waddys.xcloud.vm.dao.entity.VmHostE;
-import org.waddys.xcloud.vm.dao.entity.VmNetE;
+import org.waddys.xcloud.vm.po.entity.VmHostE;
+import org.waddys.xcloud.vm.po.entity.VmNetE;
 
 /**
  * @author zhangdapeng

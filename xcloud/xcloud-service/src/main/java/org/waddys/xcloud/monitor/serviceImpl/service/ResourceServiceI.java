@@ -2,7 +2,7 @@ package org.waddys.xcloud.monitor.serviceImpl.service;
 
 import java.util.List;
 
-import org.waddys.xcloud.monitor.service.bo.AlarmEntity;
+import org.waddys.xcloud.monitor.bo.AlarmEntity;
 import org.waddys.xcloud.monitor.serviceImpl.entity.Cluster;
 import org.waddys.xcloud.monitor.serviceImpl.entity.DataCenter;
 import org.waddys.xcloud.monitor.serviceImpl.entity.Host;

@@ -5,7 +5,7 @@ package org.waddys.xcloud.vm.bo;
 
 import java.util.Date;
 
-import org.waddys.xcloud.resource.service.bo.vdc.StoragePool;
+import org.waddys.xcloud.res.bo.vdc.StoragePool;
 
 /**
  * 虚机磁盘实体

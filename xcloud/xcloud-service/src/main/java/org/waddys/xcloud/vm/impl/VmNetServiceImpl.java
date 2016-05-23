@@ -16,8 +16,8 @@ import org.waddys.xcloud.driver.IVmDriver;
 import org.waddys.xcloud.vm.bo.VmHost;
 import org.waddys.xcloud.vm.bo.VmNet;
 import org.waddys.xcloud.vm.constant.VmStatus;
-import org.waddys.xcloud.vm.dao.service.VmHostDaoService;
-import org.waddys.xcloud.vm.dao.service.VmNetDaoService;
+import org.waddys.xcloud.vm.po.dao.VmHostDaoService;
+import org.waddys.xcloud.vm.po.dao.VmNetDaoService;
 import org.waddys.xcloud.vm.service.VmNetService;
 
 /**

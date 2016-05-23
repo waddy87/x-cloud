@@ -36,12 +36,12 @@ import java.net.URL;
 import java.util.Calendar;
 import java.util.Properties;
 
-import com.sugon.vim25.Description;
-import com.sugon.vim25.Extension;
-import com.sugon.vim25.ExtensionClientInfo;
-import com.sugon.vim25.ExtensionServerInfo;
-import com.sugon.vim25.mo.ExtensionManager;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.Description;
+import com.vmware.vim25.Extension;
+import com.vmware.vim25.ExtensionClientInfo;
+import com.vmware.vim25.ExtensionServerInfo;
+import com.vmware.vim25.mo.ExtensionManager;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * http://vijava.sf.net
@@ -209,13 +209,13 @@ public class ExtMgrUtil
     esi.setUrl(extUrl);
     esi.setCompany(companyStr);
     // the following type must NOT be changed
-    esi.setType("com.sugon.vim.viClientScripts");
+    esi.setType("com.vmware.vim.viClientScripts");
     esi.setAdminEmail( new String[] { adminEmail } );
 
     ExtensionClientInfo eci = new ExtensionClientInfo();
     eci.setCompany(companyStr);
     eci.setUrl(extUrl);
-    eci.setType("com.sugon.vim.viClientScripts");
+    eci.setType("com.vmware.vim.viClientScripts");
     eci.setVersion(version);
     eci.setDescription(description);
 

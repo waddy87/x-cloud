@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.waddys.xcloud.exception.ApiException;
 import org.waddys.xcloud.org.bo.Organization;
 import org.waddys.xcloud.org.service.OrganizationService;
-import org.waddys.xcloud.resource.service.service.vnet.NetPoolService;
-import org.waddys.xcloud.usermgmt.service.bo.RoleEnum;
-import org.waddys.xcloud.usermgmt.service.bo.User;
-import org.waddys.xcloud.usermgmt.service.service.UserService;
+import org.waddys.xcloud.res.service.service.vnet.NetPoolService;
+import org.waddys.xcloud.user.bo.RoleEnum;
+import org.waddys.xcloud.user.bo.User;
+import org.waddys.xcloud.user.service.service.UserService;
 import org.waddys.xcloud.util.PageUtil;
 
 import net.sf.json.JSONObject;

@@ -27,14 +27,14 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
 import org.waddys.xcloud.Application;
 import org.waddys.xcloud.project.bo.Project;
-import org.waddys.xcloud.project.dao.entity.ProjectE;
-import org.waddys.xcloud.project.dao.entity.ProjectVM;
-import org.waddys.xcloud.project.dao.repository.ProjectRepository;
+import org.waddys.xcloud.project.po.dao.repository.ProjectRepository;
+import org.waddys.xcloud.project.po.entity.ProjectE;
+import org.waddys.xcloud.project.po.entity.ProjectVM;
 import org.waddys.xcloud.util.JsonUtil;
 import org.waddys.xcloud.utils.MockUtils;
-import org.waddys.xcloud.vm.dao.entity.VmHostE;
-import org.waddys.xcloud.vm.dao.entity.VmNetE;
-import org.waddys.xcloud.vm.dao.repository.VmNetRepository;
+import org.waddys.xcloud.vm.po.dao.repository.VmNetRepository;
+import org.waddys.xcloud.vm.po.entity.VmHostE;
+import org.waddys.xcloud.vm.po.entity.VmNetE;
 
 @Transactional
 @RunWith(SpringJUnit4ClassRunner.class)

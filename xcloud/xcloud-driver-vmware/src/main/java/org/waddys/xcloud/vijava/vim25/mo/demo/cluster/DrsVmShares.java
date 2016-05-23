@@ -32,14 +32,14 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.cluster;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import com.sugon.vim25.ManagedObjectReference;
-import com.sugon.vim25.ResourceAllocationInfo;
-import com.sugon.vim25.SharesInfo;
-import com.sugon.vim25.SharesLevel;
-import com.sugon.vim25.VirtualMachineConfigSpec;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.VirtualMachine;
-import com.sugon.vim25.mo.util.*;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.ResourceAllocationInfo;
+import com.vmware.vim25.SharesInfo;
+import com.vmware.vim25.SharesLevel;
+import com.vmware.vim25.VirtualMachineConfigSpec;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.VirtualMachine;
+import com.vmware.vim25.mo.util.*;
 
 /**
  * @author Steve Jin

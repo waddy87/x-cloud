@@ -8,8 +8,8 @@ import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.sugon.cloudview.cloudmanage.messagepush.service.bo.MessageInfo;
-import com.sugon.cloudview.cloudmanage.messagepush.service.exception.MessageException;
+import org.waddys.cloudview.cloudmanage.messagepush.service.bo.MessageInfo;
+import org.waddys.cloudview.cloudmanage.messagepush.service.exception.MessageException;
 import org.waddys.xcloud.messagepush.serviceImpl.serviceImpl.BaseMessageManageServiceImpl;
 
 *//**

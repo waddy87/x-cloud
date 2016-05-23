@@ -63,7 +63,7 @@ import java.net.URL;
  *vmname    [required]   : name of the virtual machine  
  *
  *<b>Command : /<b>
- *run.bat com.sugon.demos.general.GetUpdates --url [webserviceurl] 
+ *run.bat com.vmware.demos.general.GetUpdates --url [webserviceurl] 
  *--username [username] --password [password] --vmname  [vmName]
  *
  *<pre>

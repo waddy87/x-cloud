@@ -11,7 +11,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.waddys.xcloud.org.bo.Organization;
 import org.waddys.xcloud.org.constant.OrgStatus;
-import org.waddys.xcloud.org.dao.service.OrganizationDaoService;
+import org.waddys.xcloud.org.po.dao.OrganizationDaoService;
 import org.waddys.xcloud.org.service.OrganizationService;
 import org.waddys.xcloud.vm.bo.VmHost;
 import org.waddys.xcloud.vm.service.VmService;

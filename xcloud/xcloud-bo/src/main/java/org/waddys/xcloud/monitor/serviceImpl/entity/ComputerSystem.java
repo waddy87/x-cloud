@@ -2,7 +2,7 @@ package org.waddys.xcloud.monitor.serviceImpl.entity;
 
 import java.util.List;
 
-import org.waddys.xcloud.monitor.service.bo.AlarmEntity;
+import org.waddys.xcloud.monitor.bo.AlarmEntity;
 
 public class ComputerSystem {
 

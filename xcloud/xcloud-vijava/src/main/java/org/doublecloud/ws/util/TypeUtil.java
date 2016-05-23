@@ -84,7 +84,7 @@ public class TypeUtil
     return false;
   }
   
-  private static String PACKAGE_NAME = "com.sugon.vim25";
+  private static String PACKAGE_NAME = "com.vmware.vim25";
   private final static Map<String, Class<?>> VIM_CLASSES = new ConcurrentHashMap<String, Class<?>>();
   public final static Class<?> getVimClass(String type)
   {

@@ -32,14 +32,14 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.cluster;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import com.sugon.vim25.ArrayUpdateOperation;
-import com.sugon.vim25.ClusterAffinityRuleSpec;
-import com.sugon.vim25.ClusterConfigSpec;
-import com.sugon.vim25.ClusterRuleSpec;
-import com.sugon.vim25.ManagedObjectReference;
-import com.sugon.vim25.mo.ClusterComputeResource;
-import com.sugon.vim25.mo.ServiceInstance;
-import com.sugon.vim25.mo.util.MorUtil;
+import com.vmware.vim25.ArrayUpdateOperation;
+import com.vmware.vim25.ClusterAffinityRuleSpec;
+import com.vmware.vim25.ClusterConfigSpec;
+import com.vmware.vim25.ClusterRuleSpec;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.mo.ClusterComputeResource;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.util.MorUtil;
 
 /**
  * @author Steve Jin

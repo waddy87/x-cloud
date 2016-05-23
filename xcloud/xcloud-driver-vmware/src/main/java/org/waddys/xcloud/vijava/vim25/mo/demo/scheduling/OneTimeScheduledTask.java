@@ -48,7 +48,7 @@ import com.vmware.vim25.mo.util.*;
 *vmname     [required]   : name of the virtual machine
 *
 *<b>Command Line:</b>
-*run.bat com.sugon.demos.vm.OneTimeScheduledTask --url 
+*run.bat com.vmware.demos.vm.OneTimeScheduledTask --url 
 *[webserviceurl] --username [username] --password [password] 
 *--taskname [myTask]
 *<pre>

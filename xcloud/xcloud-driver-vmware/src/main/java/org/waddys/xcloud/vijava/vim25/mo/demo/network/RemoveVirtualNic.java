@@ -50,15 +50,15 @@ import com.vmware.vim25.ws.*;
 *
 *<b>Parameters:</b>
 *<b>Command Line:to remove a Host VirtualNic from a PortGroup</b>
-*run.bat com.sugon.demos.host.RemoveVirtualNic --url [webserviceurl] --username [username] --password  [password] 
+*run.bat com.vmware.demos.host.RemoveVirtualNic --url [webserviceurl] --username [username] --password  [password] 
 *--datacenter [mydatacenter] --portgroupname [myportgroup]>  --host [hostname]
 *
 *<b>Command Line:to remove a Host VirtualNic from a PortGroup without specifying the host</b>
-*run.bat com.sugon.demos.host.RemoveVirtualNic --url [webserviceurl] --username [username] --password  [password] 
+*run.bat com.vmware.demos.host.RemoveVirtualNic --url [webserviceurl] --username [username] --password  [password] 
 *--datacenter [mydatacenter] --portgroupname [myportgroup]
 *
 *<b>Command Line:to remove a Host VirtualNic from a PortGroup without specifying the datacenter</b>
-*run.bat com.sugon.demos.host.RemoveVirtualNic --url [webserviceurl] --username [username] --password  [password] 
+*run.bat com.vmware.demos.host.RemoveVirtualNic --url [webserviceurl] --username [username] --password  [password] 
 *--portgroupname [myportgroup] --host [name of the host]
 *</pre>
  * http://vijava.sf.net

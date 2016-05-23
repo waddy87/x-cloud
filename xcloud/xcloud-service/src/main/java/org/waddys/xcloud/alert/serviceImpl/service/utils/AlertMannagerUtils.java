@@ -11,7 +11,7 @@ import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
-import org.waddys.xcloud.alert.service.bo.AlarmEntity;
+import org.waddys.xcloud.alert.bo.AlarmEntity;
 
 import com.vmware.vim25.AlarmExpression;
 import com.vmware.vim25.AlarmInfo;

@@ -47,17 +47,17 @@ import com.vmware.vim25.mo.util.*;
 *datacenter     [optional]: Name of the datacenter
 *
 *<b>Command Line:To add a Host VirtualNic to a PortGroup on a Virtual Switch as: -</b>
-*run.bat com.sugon.demos.host.AddVirtualNic --url [webserviceurl] --username [username] --password  [password] 
+*run.bat com.vmware.demos.host.AddVirtualNic --url [webserviceurl] --username [username] --password  [password] 
 *--vsiwtchid [mySwitch] --host [hostname]  --datacenter [mydatacenter] --portgroupname [myportgroup] --ipaddress[AAA.AAA.AAA.AAA]
 *
 *<b>Command Line:To add a Host VirtualNic to a PortGroup on a Virtual Switch as 
 *without specifying the host name</b>
-*<br>run.bat com.sugon.demos.host.AddVirtualNic --url [webserviceurl] --username [username] --password  [password] 
+*<br>run.bat com.vmware.demos.host.AddVirtualNic --url [webserviceurl] --username [username] --password  [password] 
 *--vsiwtchid [mySwitch] --datacenter [mydatacenter] --portgroupname [myportgroup] --ipaddress[AAA.AAA.AAA.AAA]
 
 *<b>Command Line:To add a Host VirtualNic to a PortGroup on a Virtual Switch as </b>
 *without specifying the datacenter name
-*<br>run.bat com.sugon.demos.host.AddVirtualNic --url [webserviceurl] --username [username] --password  [password] 
+*<br>run.bat com.vmware.demos.host.AddVirtualNic --url [webserviceurl] --username [username] --password  [password] 
 *--vsiwtchid [mySwitch] --portgroupname[myportgroup] --ipaddress[AAA.AAA.AAA.AAA]
 
 </pre>

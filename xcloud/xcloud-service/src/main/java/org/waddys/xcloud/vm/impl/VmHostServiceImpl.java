@@ -15,7 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 import org.waddys.xcloud.driver.IVmDriver;
-import org.waddys.xcloud.resource.service.service.vdc.ProviderVDCService;
+import org.waddys.xcloud.res.service.service.vdc.ProviderVDCService;
 import org.waddys.xcloud.util.JsonUtil;
 import org.waddys.xcloud.util.PasswordUtil;
 import org.waddys.xcloud.vm.bo.VmConfig;
@@ -24,8 +24,8 @@ import org.waddys.xcloud.vm.bo.VmNet;
 import org.waddys.xcloud.vm.bo.VmTask;
 import org.waddys.xcloud.vm.constant.RunStatus;
 import org.waddys.xcloud.vm.constant.VmStatus;
-import org.waddys.xcloud.vm.dao.service.VmHostDaoService;
-import org.waddys.xcloud.vm.dao.service.VmNetDaoService;
+import org.waddys.xcloud.vm.po.dao.VmHostDaoService;
+import org.waddys.xcloud.vm.po.dao.VmNetDaoService;
 import org.waddys.xcloud.vm.service.VmService;
 
 /**

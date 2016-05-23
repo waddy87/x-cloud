@@ -32,13 +32,13 @@ package org.waddys.xcloud.vijava.vim25.mo.demo.cluster;
 import java.net.URL;
 import java.util.Date;
 
-import com.sugon.vim25.ClusterRecommendation;
-import com.sugon.vim25.mo.ClusterComputeResource;
-import com.sugon.vim25.mo.Folder;
-import com.sugon.vim25.mo.InventoryNavigator;
-import com.sugon.vim25.mo.ManagedEntity;
-import com.sugon.vim25.mo.ManagedObject;
-import com.sugon.vim25.mo.ServiceInstance;
+import com.vmware.vim25.ClusterRecommendation;
+import com.vmware.vim25.mo.ClusterComputeResource;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.ManagedObject;
+import com.vmware.vim25.mo.ServiceInstance;
 
 /**
  * http://vijava.sf.net

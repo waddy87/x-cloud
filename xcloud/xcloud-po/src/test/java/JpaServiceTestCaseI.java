@@ -25,11 +25,11 @@ import org.springframework.data.domain.Page;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
 import org.waddys.xcloud.Application;
-import org.waddys.xcloud.project.dao.entity.ProjectE;
-import org.waddys.xcloud.project.dao.entity.ProjectVM;
+import org.waddys.xcloud.project.po.entity.ProjectE;
+import org.waddys.xcloud.project.po.entity.ProjectVM;
 import org.waddys.xcloud.util.JsonUtil;
 import org.waddys.xcloud.utils.MockUtils;
-import org.waddys.xcloud.vm.dao.entity.VmHostE;
+import org.waddys.xcloud.vm.po.entity.VmHostE;
 
 @Transactional
 @RunWith(SpringJUnit4ClassRunner.class)

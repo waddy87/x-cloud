@@ -49,18 +49,18 @@ import com.vmware.vim25.mo.util.*;
 *diskmode   [optional]:  persistent|independent_persistent,independent_nonpersistent
 *
 *<b>Command:</b> To configure virtual machine. i.e.changing the CPU shares to 100
-*run.bat com.sugon.demos.vm.VMReconfig --url [webserviceurl] 
+*run.bat com.vmware.demos.vm.VMReconfig --url [webserviceurl] 
 *--username [username] --password [password] --vmname [vmname] --device [device]
 *--operation [operation] --value [value] --disksize [disksize] --diskmode [diskmode]
 *
 *<b>Command:</b> To configure a virtual machine to add a hard disk with name HardDiskA and 
 *Disksize = 100
-*run.bat com.sugon.demos.vm.VMReconfig --url [webserviceurl] 
+*run.bat com.vmware.demos.vm.VMReconfig --url [webserviceurl] 
 *--username [username] --password [password] --vmname [vmname] --device [disk]
 *--operation [add]  --value [A] --disksize [100]
 
 *<b>Command:</b> To configure a virtual machine to delete a NIC
-*run.bat com.sugon.demos.vm.VMReconfig --url [webserviceurl] 
+*run.bat com.vmware.demos.vm.VMReconfig --url [webserviceurl] 
 *--username [username] --password [password] --vmname [vmname] --device [nic]
 *--operation [remove]  --value [name of the nic]
 *</pre>

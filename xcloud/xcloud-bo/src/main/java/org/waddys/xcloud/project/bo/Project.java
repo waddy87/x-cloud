@@ -3,7 +3,7 @@ package org.waddys.xcloud.project.bo;
 import java.util.Date;
 import java.util.Set;
 
-import org.waddys.xcloud.usermgmt.service.bo.User;
+import org.waddys.xcloud.user.bo.User;
 
 /**
  * 

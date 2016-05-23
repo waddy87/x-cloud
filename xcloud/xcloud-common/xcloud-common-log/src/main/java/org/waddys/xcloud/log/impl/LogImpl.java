@@ -27,7 +27,7 @@ public class LogImpl implements LogAPI {
 
 	public LogImpl() {
 		rootLogLevel = LogLevel.ERROR;
-		customLogLevel.put("com.sugon.webapps.service.log.export", LogLevel.TRACE);
+		customLogLevel.put("org.waddys.webapps.service.log.export", LogLevel.TRACE);
 	}
 
 	@Autowired
@@ -94,7 +94,7 @@ public class LogImpl implements LogAPI {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.waddys.xcloud.log.api.LogAPI#log(com.sugon.cloudview.
+	 * org.waddys.xcloud.log.api.LogAPI#log(org.waddys.cloudview.
 	 * cloudmanager.log.impl.LogObject)
 	 */
 	@Override
@@ -158,8 +158,8 @@ public class LogImpl implements LogAPI {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.waddys.xcloud.log.api.LogAPI#findAllLoginfo(com.sugon.
-	 * cloudview.cloudmanager.log.entity.LogInfoEntity, int, int)
+	 * org.waddys.xcloud.log.api.LogAPI#findAllLoginfo(org.waddys.
+	 * xcloud.log.entity.LogInfoEntity, int, int)
 	 */
 	@Override
 	public Page<LogInfoEntity> findAllLoginfo(LogInfoEntity logInfoEntity, int pageNum, int pageSize,
@@ -172,8 +172,8 @@ public class LogImpl implements LogAPI {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.waddys.xcloud.log.api.LogAPI#countAllLoginfo(com.sugon
-	 * .cloudview.cloudmanager.log.entity.LogInfoEntity)
+	 * org.waddys.xcloud.log.api.LogAPI#countAllLoginfo(org.waddys
+	 * .xcloud.log.entity.LogInfoEntity)
 	 */
 	@Override
 	public long countAllLoginfo(LogInfoEntity logInfoEntity, Map<String, String> otherParam) throws CloudviewException {

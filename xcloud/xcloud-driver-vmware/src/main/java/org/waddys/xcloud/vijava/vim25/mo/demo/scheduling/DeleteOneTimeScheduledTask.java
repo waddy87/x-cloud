@@ -46,7 +46,7 @@ import com.vmware.vim25.mo.util.*;
 *
 *<b>Command Line:</b>
 *Delete a task named Task1
-*run.bat com.sugon.demos.vm.DeleteOneTimeScheduledTask --url [webserviceurl]
+*run.bat com.vmware.demos.vm.DeleteOneTimeScheduledTask --url [webserviceurl]
 *--username [username] --password [password] --taskname [Task1]
 *</pre>
 * @author sjin 

@@ -6,10 +6,10 @@ package org.waddys.xcloud.alert.service.intf;
 import java.util.List;
 import java.util.Map;
 
-import org.waddys.xcloud.alert.service.bo.AlertInfoQueryUI;
-import org.waddys.xcloud.alert.service.bo.AlertSenderUI;
-import org.waddys.xcloud.alert.service.bo.ResourceInfoUI;
-import org.waddys.xcloud.alert.service.bo.TriggerInfoUI;
+import org.waddys.xcloud.alert.bo.AlertInfoQueryUI;
+import org.waddys.xcloud.alert.bo.AlertSenderUI;
+import org.waddys.xcloud.alert.bo.ResourceInfoUI;
+import org.waddys.xcloud.alert.bo.TriggerInfoUI;
 
 /**
  * 功能名: 请填写功能名

@@ -59,7 +59,7 @@ import com.vmware.vim25.mo.util.OptionSpec;
 *
 *
 *<b>Command: To clone a virtual machine</b>
-*run.bat com.sugon.demos.vm.VMClone --url <webserviceurl> 
+*run.bat com.vmware.demos.vm.VMClone --url <webserviceurl> 
 *--username <username> --password <password> --DatacenterName <DatacenterName> 
 *--vmPath <vmPath>  --CloneName <CloneName>
 *

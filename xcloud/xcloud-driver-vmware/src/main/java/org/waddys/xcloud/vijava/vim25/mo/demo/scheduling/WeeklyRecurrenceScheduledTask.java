@@ -50,7 +50,7 @@ import com.vmware.vim25.mo.util.*;
 *
 *
 *<b>Command Line:</b>
-*run.bat com.sugon.demos.vm.WeeklyRecurrenceScheduledTask --url [webserviceurl]
+*run.bat com.vmware.demos.vm.WeeklyRecurrenceScheduledTask --url [webserviceurl]
 *--username [username] --password  [password] 
 *--vmpath ["/DatacenterName/vm/FolderName/myVM"]
 *--taskname [Task1]

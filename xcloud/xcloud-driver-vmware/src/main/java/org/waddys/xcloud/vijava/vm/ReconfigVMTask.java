@@ -730,7 +730,7 @@ public class ReconfigVMTask extends BaseTask<ReconfigVMAnswer> {
 			VMNicInfo nicInfo) throws  VirtException {
 
 		try {
-			//VI SDK invoke exception:com.sugon.vim25.InvalidState
+			//VI SDK invoke exception:com.vmware.vim25.InvalidState
 			Thread.sleep(30000);
 		} catch (InterruptedException e1) {
 			e1.printStackTrace();

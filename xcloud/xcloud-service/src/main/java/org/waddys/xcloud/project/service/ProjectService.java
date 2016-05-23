@@ -7,7 +7,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.waddys.xcloud.project.bo.Project;
-import org.waddys.xcloud.usermgmt.service.bo.User;
+import org.waddys.xcloud.user.bo.User;
 import org.waddys.xcloud.vm.bo.VmHost;
 
 /**

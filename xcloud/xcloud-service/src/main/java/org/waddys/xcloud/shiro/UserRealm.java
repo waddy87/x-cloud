@@ -18,11 +18,11 @@ import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.waddys.xcloud.usermgmt.service.bo.Resource;
-import org.waddys.xcloud.usermgmt.service.bo.Role;
-import org.waddys.xcloud.usermgmt.service.bo.User;
-import org.waddys.xcloud.usermgmt.service.exception.UserMgmtException;
-import org.waddys.xcloud.usermgmt.service.service.UserService;
+import org.waddys.xcloud.user.bo.Resource;
+import org.waddys.xcloud.user.bo.Role;
+import org.waddys.xcloud.user.bo.User;
+import org.waddys.xcloud.user.exception.UserMgmtException;
+import org.waddys.xcloud.user.service.service.UserService;
 
 public class UserRealm extends AuthorizingRealm {
 
