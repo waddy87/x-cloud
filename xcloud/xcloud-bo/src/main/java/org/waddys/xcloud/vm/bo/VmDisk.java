@@ -6,6 +6,8 @@ package org.waddys.xcloud.vm.bo;
 import java.util.Date;
 
 import org.waddys.xcloud.res.bo.vdc.StoragePool;
+import org.waddys.xcloud.vm.constant.DiskBizType;
+
 
 /**
  * 虚机磁盘实体
@@ -24,6 +26,11 @@ public class VmDisk extends Asset {
      * 虚拟磁盘内部唯一标识
      */
     private String internalId;
+
+    /**
+     * 磁盘类型
+     */
+    private DiskBizType bizType;
 
     /**
      * 任务标识
@@ -61,7 +68,15 @@ public class VmDisk extends Asset {
      */
     private Long usedCapacity;
 
-    public String getId() {
+    public DiskBizType getBizType() {
+		return bizType;
+	}
+
+	public void setBizType(DiskBizType bizType) {
+		this.bizType = bizType;
+	}
+
+	public String getId() {
         return id;
     }
 

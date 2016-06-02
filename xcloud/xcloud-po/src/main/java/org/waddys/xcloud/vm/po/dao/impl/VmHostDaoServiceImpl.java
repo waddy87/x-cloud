@@ -59,6 +59,11 @@ public class VmHostDaoServiceImpl implements VmHostDaoService {
     public VmHost findById(String id) {
         return convertToBo(vmHostRepository.findById(id));
     }
+    
+    @Override
+    public VmHost findByIdAndStatus(String id,String status) {
+    	return convertToBo(vmHostRepository.findByIdAndStatus(id,status));
+    }
 
     @Override
     public List<VmHost> ListVmHosts(char status, String name, int page, int per_page) {

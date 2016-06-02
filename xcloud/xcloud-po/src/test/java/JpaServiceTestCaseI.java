@@ -60,7 +60,7 @@ public class JpaServiceTestCaseI {
         em.createNativeQuery(jpql).executeUpdate();
     }
 
-    @Test    
+    @Test
     public void testFindProjectByVm(){
     	// mock project
     	ProjectE p = MockUtils.mockProjectE();
@@ -70,7 +70,7 @@ public class JpaServiceTestCaseI {
     	// mock vm
     	VmHostE vm = MockUtils.mockVmE();
     	em.persist(vm);
-    	String vmId = vm.getId();
+    	String vmId = vm.getId()+"";
     	
     	// mock p-v
     	ProjectVM pv = new ProjectVM();

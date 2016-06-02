@@ -29,7 +29,7 @@ public class VmHostE extends EntityBase{
     @Column(nullable = false, unique = true, length = 32)
     private String id;
 
-    @Column(unique = true, length = 128)
+    @Column(length = 128)
     private String name;
 
     /**

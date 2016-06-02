@@ -54,4 +54,6 @@ public interface VmHostDaoService {
 
     public Page<VmHost> findByHavingTask(VmHost search, Pageable pageable);
 
+	public VmHost findByIdAndStatus(String id, String status);
+
 }

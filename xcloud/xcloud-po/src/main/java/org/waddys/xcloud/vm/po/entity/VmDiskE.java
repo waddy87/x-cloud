@@ -14,6 +14,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 import org.hibernate.annotations.GenericGenerator;
+import org.waddys.xcloud.vm.constant.DiskBizType;
 
 /**
  * 虚机磁盘实体
@@ -39,6 +40,12 @@ public class VmDiskE {
      */
     @Column(name = "internal_id")
     private String internalId;
+
+    /**
+     * 磁盘类型
+     */
+    @Column(name = "biz_type")
+    private DiskBizType bizType;
 
     /**
      * 任务标识
@@ -83,7 +90,15 @@ public class VmDiskE {
     @Column(name = "capacity_used")
     private Long usedCapacity;
 
-    public String getId() {
+    public DiskBizType getBizType() {
+		return bizType;
+	}
+
+	public void setBizType(DiskBizType bizType) {
+		this.bizType = bizType;
+	}
+
+	public String getId() {
         return id;
     }
 

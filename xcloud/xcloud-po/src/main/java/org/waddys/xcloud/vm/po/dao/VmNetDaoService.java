@@ -29,4 +29,6 @@ public interface VmNetDaoService {
 
 	public VmNet findByVmAndNet(String vmId, String netId);
 
+	public void deleteByVm(String vmId) throws Exception;
+
 }

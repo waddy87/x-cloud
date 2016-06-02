@@ -266,5 +266,13 @@ public interface VmService {
      * @return
      */
     public boolean exists(String name);
+    
+    /**
+     * 根据ip分页查询虚机列表
+     * @param search 所属组织标识或所属用户标识
+     * @param pageable
+     * @return
+     */
+    public Page<VmHost> pageByIp(String ip, VmHost search, Pageable pageable);
 
 }

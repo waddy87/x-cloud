@@ -12,6 +12,9 @@ import org.waddys.xcloud.vm.constant.RunStatus;
 import org.waddys.xcloud.vm.constant.SourceType;
 import org.waddys.xcloud.vm.constant.VmStatus;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 /**
  * 虚机业务实体
  * 
@@ -29,6 +32,11 @@ public class VmHost extends Asset {
      * 虚机业务名称
      */
     private String name;
+    
+    /**
+     * 虚机IP（仅作查询条件使用）
+     */
+    private String ip;
 
     /**
      * 虚机内部唯一标识（wmware）
@@ -49,10 +57,6 @@ public class VmHost extends Asset {
      * 所属组织唯一标识
      */
     private String orgId;
-
-    /**
-     * 所属组织
-     */
     private Organization organization;
 
     /**
@@ -159,7 +163,20 @@ public class VmHost extends Asset {
      */
     private List<VmNet> nets;
 
-    public List<VmNet> getNets() {
+    /**
+     * 磁盘列表
+     */
+    private List<VmDisk> disks;
+
+    public List<VmDisk> getDisks() {
+		return disks;
+	}
+
+	public void setDisks(List<VmDisk> disks) {
+		this.disks = disks;
+	}
+
+	public List<VmNet> getNets() {
         return nets;
     }
 
@@ -352,6 +369,7 @@ public class VmHost extends Asset {
         this.vmStatus = vmStatus;
     }
 
+    @JsonManagedReference
     public Organization getOrganization() {
         return organization;
     }
@@ -422,6 +440,15 @@ public class VmHost extends Asset {
 
 	public void setProject(Project project) {
 		this.project = project;
+	}
+
+    @JsonIgnore
+	public String getIp() {
+		return ip;
+	}
+
+	public void setIp(String ip) {
+		this.ip = ip;
 	}
 
 	@Override

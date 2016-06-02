@@ -6,6 +6,8 @@ import java.util.List;
 
 import org.waddys.xcloud.project.bo.Project;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 public class User implements Serializable {
     private static final long serialVersionUID = 1L;
     private String id;
@@ -17,11 +19,13 @@ public class User implements Serializable {
     private String username; // 用户名
     private String password; // 密码
     private String salt; // 加密密码的盐
+    @JsonManagedReference
     private List<Role> roles;
     private Boolean locked = Boolean.FALSE;
     private Date createDate;
     private Boolean isOnline = Boolean.FALSE;
     private Boolean isDelete = Boolean.FALSE;// 是否被删除
+    @JsonManagedReference
     private List<Project> projects;
 
     public List<Project> getProjects() {

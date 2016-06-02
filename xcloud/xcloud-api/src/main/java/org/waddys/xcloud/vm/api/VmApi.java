@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.domain.Sort.Direction;
 import org.springframework.transaction.TransactionSystemException;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -135,7 +137,7 @@ public class VmApi {
         logger.info("收到客户端查询请求：" + search);
 
         // 构造分页对象
-        PageRequest pageRequest = PageUtil.buildPageRequest(page, per_page);
+        PageRequest pageRequest = PageUtil.buildPageRequest(page, per_page,new Sort(Direction.DESC, new String[] { "createTime" }));
 
         // 根据情况执行不同的查询
         Page<VmHost> result = null;
@@ -201,12 +203,13 @@ public class VmApi {
             String name = vmHost.getName();
             if (!StringUtils.isEmpty(name)) {
                 target.setName(vmHost.getName());
-            } else {
-                if (vmService.exists(name)) {
-                    logger.error("虚机名称已存在！");
-                    throw new ApiException("虚机名称已存在！");
-                }
-            }
+            } 
+//            else {
+//                if (vmService.exists(name)) {
+//                    logger.error("虚机名称已存在！");
+//                    throw new ApiException("虚机名称已存在！");
+//                }
+//            }
             if (!StringUtils.isEmpty(vmHost.getRemarks())) {
                 target.setRemarks(vmHost.getRemarks());
             }

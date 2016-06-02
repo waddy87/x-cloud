@@ -3,12 +3,15 @@ package org.waddys.xcloud.user.bo;
 import java.io.Serializable;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 public class Role implements Serializable {
     private static final long serialVersionUID = 1L;
     private String id;
     private String roleName;
     private String roleCode;
     private String description; // 角色描述,UI界面显示使用
+    @JsonBackReference
     private List<User> users;
     private List<Resource> resources; // 拥有的资源
     private Boolean available = Boolean.FALSE; // 是否可用,如果不可用将不会添加给用户
@@ -63,7 +66,7 @@ public class Role implements Serializable {
     public void setAvailable(Boolean available) {
         this.available = available;
     }
-
+    
     public List<User> getUsers() {
         return users;
     }

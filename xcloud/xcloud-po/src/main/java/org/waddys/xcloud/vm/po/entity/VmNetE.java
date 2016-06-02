@@ -39,6 +39,11 @@ public class VmNetE {
      */
     @Column(name = "internal_id")
     private String internalId;
+    
+    /**
+     * 有效状态：A-有效、P-无效
+     */
+    private String status;
 
     /**
      * 任务标识
@@ -95,7 +100,15 @@ public class VmNetE {
     @Column(nullable = false)
     private String ip;
 
-    public String getId() {
+    public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public String getId() {
         return id;
     }
 

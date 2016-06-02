@@ -3,6 +3,7 @@
  */
 package org.waddys.xcloud.vm.po.dao.impl;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.criteria.CriteriaBuilder;
@@ -47,6 +48,12 @@ public class VmNetDaoServiceImpl implements VmNetDaoService {
                     if (!StringUtils.isEmpty(vmNet.getVmId())) {
                         expressions.add(cb.equal(root.get("vmId"), vmNet.getVmId()));
                     }
+                    if (!StringUtils.isEmpty(vmNet.getIp())) {
+                    	expressions.add(cb.equal(root.get("ip"), vmNet.getIp()));
+                    }
+                    if (!StringUtils.isEmpty(vmNet.getStatus())) {
+                    	expressions.add(cb.equal(root.get("status"), vmNet.getStatus()));
+                    }
                 }
                 return predicate;
             }
@@ -84,9 +91,15 @@ public class VmNetDaoServiceImpl implements VmNetDaoService {
     }
 
     @Override
+    public void deleteByVm(String vmId) throws Exception {
+    	vmNetRepository.deleteByVmId(vmId);
+//    	vmNetRepository.deleteBatch(vmId);
+    }
+
+    @Override
     public void addBatch(List<VmNet> nets) throws Exception {
         // TODO Auto-generated method stub
-        // vmNetRepository.save(entities);
+    	//vmNetRepository.save(nets);
     }
 
     private VmNetE bo2po(VmNet bo) {

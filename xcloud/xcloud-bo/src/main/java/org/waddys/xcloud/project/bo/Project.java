@@ -5,6 +5,8 @@ import java.util.Set;
 
 import org.waddys.xcloud.user.bo.User;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 /**
  * 
  * @author zhaoych@sugon.com
@@ -28,6 +30,7 @@ public class Project {
     // length = 512
     private String orgName;
 
+    @JsonBackReference
     private Set<User> users;
 
     // type = java.util.Date
