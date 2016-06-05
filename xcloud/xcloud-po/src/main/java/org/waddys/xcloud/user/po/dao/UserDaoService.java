@@ -28,4 +28,6 @@ public interface UserDaoService {
     public void updateUserStatusByOrgId(String orgId, Boolean isDelete);
 
     public List<UserE> findAllUsers(UserE userE);
+
+	public Page<UserE> findByRole(String roleId, String roleName, Pageable pageable);
 }

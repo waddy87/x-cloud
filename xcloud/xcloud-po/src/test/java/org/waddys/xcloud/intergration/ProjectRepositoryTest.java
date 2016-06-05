@@ -3,7 +3,7 @@ package org.waddys.xcloud.intergration;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
-import static org.hamcrest.Matchers.notNullValue;
+import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
 import java.util.Date;
@@ -11,6 +11,8 @@ import java.util.List;
 import java.util.Set;
 
 import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
@@ -30,8 +32,10 @@ import org.waddys.xcloud.project.bo.Project;
 import org.waddys.xcloud.project.po.dao.repository.ProjectRepository;
 import org.waddys.xcloud.project.po.entity.ProjectE;
 import org.waddys.xcloud.project.po.entity.ProjectVM;
+import org.waddys.xcloud.user.po.entity.UserE;
 import org.waddys.xcloud.util.JsonUtil;
 import org.waddys.xcloud.utils.MockUtils;
+import org.waddys.xcloud.vm.po.dao.repository.VmHostRepository;
 import org.waddys.xcloud.vm.po.entity.VmHostE;
 
 @Transactional
@@ -43,27 +47,54 @@ public class ProjectRepositoryTest {
     
     @Autowired
     private ProjectRepository repos;
-
-
-    @BeforeClass
-    public static void setUpBeforeClass() throws Exception {
-    }
-
-    @AfterClass
-    public static void tearDownAfterClass() throws Exception {
-    }
-
-    @Before
-    public void setUp() throws Exception {
-    }
-
-    @After
-    public void tearDown() throws Exception {
-    }
+    
+    @Autowired
+    private VmHostRepository vmRepos;
 
     public void test() {
         String jpql = "INSERT INTO user (id, create_date, email, org_id,org_name,password,realname,salt,telephone,username,locked,is_delete) VALUES ('1', '2016-3-30 18:29:53', '', '', '', 'd3c59d25033dbf980d29554025c23a75', 'admin', '8d78869f470951332959580424d4bf4f', '1234567890', 'admin',0, 0);";
         em.createNativeQuery(jpql).executeUpdate();
+    }
+    
+    @Test
+    public void testAddUser(){
+    	// mock a project
+    	ProjectE p = MockUtils.mockProjectE();
+    	em.persist(p);
+    	// mock a user
+    	UserE u = MockUtils.mockUserE();
+    	em.persist(u);
+    	
+    	// call test method
+    	p.getUsers().add(u);
+    	em.merge(p);
+
+    	// assertions
+    	ProjectE result = repos.findById(p.getId());
+    	System.out.println(result);
+    	System.out.println(JsonUtil.toJson(result.getUsers()));
+    	assertThat(result.getUsers(), notNullValue());
+    	assertThat(result.getUsers().size(), equalTo(1));
+    }
+    
+    @Test
+    public void testAddVm(){
+    	// mock a project
+    	ProjectE p = MockUtils.mockProjectE();
+    	VmHostE vm = MockUtils.mockVmE();
+    	
+    	// call test method
+    	p.addVm(vm);
+    	em.persist(p);
+
+    	// assertions
+    	ProjectE result = repos.findById(p.getId());
+    	System.out.println(JsonUtil.toJson(result.getVms()));
+    	assertThat(result.getVms(), notNullValue());
+    	assertThat(result.getVms().size(), equalTo(1));
+    	VmHostE v = vmRepos.findById(result.getVms().iterator().next().getId());
+    	assertThat(v, notNullValue());
+    	System.out.println(JsonUtil.toJson(v));
     }
 
     @Test
@@ -79,10 +110,10 @@ public class ProjectRepositoryTest {
     	String vmId = vm.getId();
     	
     	// mock p-v
-	    	ProjectVM pv = new ProjectVM();
-	    	pv.setProjectId(pid);
-	    	pv.setVmId(vmId);
-	    	em.persist(pv);
+    	ProjectVM pv = new ProjectVM();
+    	pv.setProjectId(pid);
+    	pv.setVmId(vmId);
+    	em.persist(pv);
     	
     	// call test method
     	ProjectE result = repos.findByVm(vmId);
@@ -91,6 +122,23 @@ public class ProjectRepositoryTest {
     	//assertNotNull(result);
     	assertThat(result, notNullValue());
     	System.out.println(JsonUtil.toJson(result));
+    }
+
+    @Test
+    public void testFindProjectByVm2(){
+    	// mock a project and it's a vm
+    	ProjectE p = MockUtils.mockProjectE();
+    	VmHostE vm = MockUtils.mockVmE();
+    	p.addVm(vm);
+    	em.persist(p);
+    	VmHostE v = vmRepos.findById(p.getVms().iterator().next().getId());
+    	
+    	// call test method
+    	ProjectE result = v.getProject();
+    	
+    	// assertions
+    	assertThat(result, notNullValue());
+    	System.out.println("testFindProjectByVm2: "+JsonUtil.toJson(result));
     }
 
     public void test2() {

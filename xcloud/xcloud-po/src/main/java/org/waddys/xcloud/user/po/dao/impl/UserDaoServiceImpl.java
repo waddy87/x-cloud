@@ -5,8 +5,11 @@ import java.util.List;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Expression;
+import javax.persistence.criteria.JoinType;
+import javax.persistence.criteria.Path;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
+import javax.persistence.criteria.SetJoin;
 
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +20,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import org.waddys.xcloud.user.po.dao.UserDaoService;
 import org.waddys.xcloud.user.po.dao.repository.UserRepository;
+import org.waddys.xcloud.user.po.entity.RoleE;
 import org.waddys.xcloud.user.po.entity.UserE;
 
 @Component("userDaoServiceImpl")
@@ -114,6 +118,28 @@ public class UserDaoServiceImpl implements UserDaoService {
                 return predicate;
             }
         });
+    }
+
+	@Override
+	public Page<UserE> findByRole(String roleId, String roleName, Pageable pageable) {
+        return userRepository.findAll(new Specification<UserE>() {
+            @Override
+            public Predicate toPredicate(Root<UserE> root,
+                    CriteriaQuery<?> query, CriteriaBuilder cb) {
+            	query.distinct(true);
+                Predicate predicate = cb.conjunction();
+                List<Expression<Boolean>> expressions = predicate
+                        .getExpressions();
+                SetJoin<UserE, RoleE> roleJoin = root.joinSet("roles",JoinType.LEFT);
+                if(StringUtils.isNotEmpty(roleId)){
+                	expressions.add(cb.equal(roleJoin.get("id"), roleId));
+                }
+                if(StringUtils.isNotEmpty(roleName)){
+                	expressions.add(cb.like(roleJoin.get("roleName"), roleName));
+                }
+                return predicate;
+            }
+        }, pageable);
     }
 
 }

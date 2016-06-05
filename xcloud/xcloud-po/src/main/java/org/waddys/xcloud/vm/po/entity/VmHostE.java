@@ -8,12 +8,15 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 import org.hibernate.annotations.GenericGenerator;
 import org.waddys.xcloud.db.EntityBase;
+import org.waddys.xcloud.project.po.entity.ProjectE;
 import org.waddys.xcloud.vm.constant.RunStatus;
 import org.waddys.xcloud.vm.constant.SourceType;
 import org.waddys.xcloud.vm.constant.VmStatus;
@@ -61,6 +64,10 @@ public class VmHostE extends EntityBase{
      */
     @Column(name = "owner_id", length = 32)
     private String ownerId;
+    
+    @ManyToOne
+    @JoinColumn(name="project_id")
+    private ProjectE project;
 
     /**
      * 虚机来源：申请、分配
@@ -415,6 +422,14 @@ public class VmHostE extends EntityBase{
     public void setOsPassword(String osPassword) {
         this.osPassword = osPassword;
     }
+
+	public ProjectE getProject() {
+		return project;
+	}
+
+	public void setProject(ProjectE project) {
+		this.project = project;
+	}
 
     // @Query("select org.name from organization org where org.id=:aaa")
     // public String getOrgName(@Param("aaa") String orgId) {

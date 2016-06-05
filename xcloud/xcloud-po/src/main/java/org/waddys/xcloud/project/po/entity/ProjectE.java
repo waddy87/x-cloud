@@ -1,8 +1,10 @@
 package org.waddys.xcloud.project.po.entity;
 
 import java.util.Date;
+import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -11,6 +13,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -18,6 +21,7 @@ import javax.persistence.TemporalType;
 import org.hibernate.annotations.GenericGenerator;
 import org.waddys.xcloud.db.EntityBase;
 import org.waddys.xcloud.user.po.entity.UserE;
+import org.waddys.xcloud.vm.po.entity.VmHostE;
 
 @Entity
 @Table(name = "project")
@@ -43,11 +47,15 @@ public class ProjectE extends EntityBase{
     private String orgId;
 
     // bi-directional many-to-many association to UserE
-    @ManyToMany(fetch = FetchType.EAGER)
+//    @ManyToMany(fetch = FetchType.EAGER)
+    @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(name = "project_user", joinColumns = {
             @JoinColumn(name = "project_id", referencedColumnName = "id") }, inverseJoinColumns = {
                     @JoinColumn(name = "user_id", referencedColumnName = "id") })
-    private Set<UserE> users;
+    private Set<UserE> users = new HashSet<UserE>();
+    
+    @OneToMany(mappedBy="project",cascade={CascadeType.PERSIST})
+    private Set<VmHostE> vms = new HashSet<VmHostE>();
 
     @Column(name = "create_time", nullable = true)
     @Temporal(TemporalType.TIMESTAMP)
@@ -133,6 +141,25 @@ public class ProjectE extends EntityBase{
 
     public void setUsers(Set<UserE> users) {
         this.users = users;
+    }
+    
+    public Set<VmHostE> getVms() {
+		return vms;
+	}
+
+	public void setVms(Set<VmHostE> vms) {
+		this.vms = vms;
+	}
+	
+	public void addVm(VmHostE vm){
+		vm.setProject(this);
+		this.vms.add(vm);
+	}
+
+	@Override
+    public String toString() {
+    	// TODO Auto-generated method stub
+    	return "{id:"+this.id+",users:"+users.size()+"}";
     }
 
 }

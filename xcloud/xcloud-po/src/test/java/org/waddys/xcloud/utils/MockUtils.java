@@ -5,6 +5,7 @@ package org.waddys.xcloud.utils;
 
 import java.lang.reflect.Field;
 import java.util.Date;
+import java.util.HashSet;
 
 import javax.persistence.Column;
 
@@ -19,6 +20,8 @@ import org.waddys.xcloud.res.bo.vnet.NetPool;
 import org.waddys.xcloud.res.po.entity.vdc.ProviderVDCE;
 import org.waddys.xcloud.res.po.entity.vdc.StoragePoolE;
 import org.waddys.xcloud.template.po.entity.VMTempletE;
+import org.waddys.xcloud.user.po.entity.RoleE;
+import org.waddys.xcloud.user.po.entity.UserE;
 import org.waddys.xcloud.vm.bo.VmHost;
 import org.waddys.xcloud.vm.bo.VmNet;
 import org.waddys.xcloud.vm.constant.RunStatus;
@@ -76,6 +79,29 @@ public class MockUtils {
             }
         }
         return null;
+    }
+    
+    public static UserE mockUserE(){
+    	UserE e = new UserE();
+    	e.setRealname("administrator");
+    	e.setUsername("admin");
+    	e.setPassword("d3c59d25033dbf980d29554025c23a75");
+    	e.setSalt("8d78869f470951332959580424d4bf4f");
+    	e.setEmail("zdp@zdp.com");
+    	e.setOrgId("1");
+    	e.setIsDelete(false);
+    	e.setLocked(false);
+    	e.setTelephone("18635229978");
+    	e.setRoles(new HashSet<RoleE>());
+    	return e;
+    }
+    
+    public static RoleE mockRoleE(){
+    	RoleE e = new RoleE();
+    	e.setRoleName("运营管理员");
+    	e.setRoleCode("operation_manager");
+    	e.setAvailable(true);
+    	return e;
     }
 
     public static Organization mockOrg() {
