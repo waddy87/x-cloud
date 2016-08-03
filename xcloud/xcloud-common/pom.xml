@@ -19,5 +19,6 @@
 		<module>xcloud-common-event</module>
 		<module>xcloud-common-log</module>
 		<module>xcloud-common-msg</module>
+		<module>xcloud-common-redis</module>
 	</modules>
 </project>

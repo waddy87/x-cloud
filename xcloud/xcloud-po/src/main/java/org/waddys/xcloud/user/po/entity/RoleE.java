@@ -91,8 +91,7 @@ public class RoleE implements Serializable {
         this.available = available;
     }
 
-    @ManyToMany(cascade = CascadeType.REFRESH)
-    @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "role_id"), inverseJoinColumns = @JoinColumn(name = "user_id"))
+    @ManyToMany(mappedBy="roles")
     public Set<UserE> getUsers() {
         return users;
     }

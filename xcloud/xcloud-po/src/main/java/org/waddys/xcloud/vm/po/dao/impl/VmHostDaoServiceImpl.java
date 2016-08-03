@@ -6,8 +6,11 @@ import java.util.List;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Expression;
+import javax.persistence.criteria.Join;
+import javax.persistence.criteria.JoinType;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
+import javax.persistence.criteria.SetJoin;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.BeanUtils;
@@ -28,6 +31,7 @@ import org.waddys.xcloud.vm.constant.VmStatus;
 import org.waddys.xcloud.vm.po.dao.VmHostDaoService;
 import org.waddys.xcloud.vm.po.dao.repository.VmHostRepository;
 import org.waddys.xcloud.vm.po.entity.VmHostE;
+import org.waddys.xcloud.vm.po.entity.VmNetE;
 
 @Component("VmHostDaoService")
 @Transactional
@@ -165,6 +169,16 @@ public class VmHostDaoServiceImpl implements VmHostDaoService {
         }
         return vmHostRepository.pageByProject(pid, name, pageRequest);
     }
+    
+    @Override
+    public Page<VmHost> pageByProject2(Project pSearch, PageRequest pageRequest) {
+    	VmHost search = null;
+    	if (pSearch != null) {
+    		search = new VmHost();
+    		search.setProject(pSearch);
+    	}
+    	return this.findByBO(search,pageRequest);
+    }
 
     @Override
     public Page<VmHost> pageByOrg(String oid, VmHost search, PageRequest pageRequest) {
@@ -252,6 +266,13 @@ public class VmHostDaoServiceImpl implements VmHostDaoService {
                     if (!StringUtils.isEmpty(search.getOwnerId())) {
                         expressions.add(cb.equal(root.get("ownerId"), search.getOwnerId()));
                     }
+                    if (search.getProject()!=null){
+                    	Project pSearch = search.getProject();
+                    	Join<VmHostE, ProjectE> projectJoin = root.join("project",JoinType.LEFT);
+                    	if(!StringUtils.isEmpty(pSearch.getId())) {
+                    		expressions.add(cb.equal(projectJoin.get("id"), pSearch.getId()));
+                    	}
+                    }
                     if (!StringUtils.isEmpty(search.getVdcId())) {
                         expressions.add(cb.equal(root.get("vdcId"), search.getVdcId()));
                     }
@@ -268,7 +289,12 @@ public class VmHostDaoServiceImpl implements VmHostDaoService {
                         expressions.add(cb.equal(root.get("status"), search.getStatus()));
                     }
                     if (!StringUtils.isEmpty(search.getName())) {
-                        expressions.add(cb.like(root.get("name"), "%" + search.getName() + "%"));
+                        expressions.add(cb.like(root.get("name"), search.getName()));
+                    }
+                    //根据网卡IP地址过滤
+                    if (!StringUtils.isEmpty(search.getIp())) {
+                    	SetJoin<VmHostE, VmNetE> netJoin = root.joinSet("nets",JoinType.LEFT);
+                    	expressions.add(cb.equal(netJoin.get("ip"), search.getIp()));
                     }
                 }
                 return predicate;

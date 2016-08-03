@@ -17,6 +17,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.persistence.Transient;
 
 import org.hibernate.annotations.GenericGenerator;
 import org.waddys.xcloud.db.EntityBase;
@@ -54,6 +55,7 @@ public class ProjectE extends EntityBase{
                     @JoinColumn(name = "user_id", referencedColumnName = "id") })
     private Set<UserE> users = new HashSet<UserE>();
     
+//    @Transient
     @OneToMany(mappedBy="project",cascade={CascadeType.PERSIST})
     private Set<VmHostE> vms = new HashSet<VmHostE>();
 

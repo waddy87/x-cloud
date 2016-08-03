@@ -1,4 +1,4 @@
-package org.waddys.xcloud;
+package org.waddys.xcloud.common.redis;
 
 
 import org.slf4j.Logger;
@@ -9,7 +9,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
-@EnableConfigurationProperties({  Sysconfig.class})
 public class Application {
     private static final Logger logger = LoggerFactory.getLogger(Application.class);
 

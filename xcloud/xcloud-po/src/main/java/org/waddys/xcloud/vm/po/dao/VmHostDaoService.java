@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.waddys.xcloud.project.bo.Project;
 import org.waddys.xcloud.vm.bo.VmHost;
 
 /**
@@ -55,5 +56,7 @@ public interface VmHostDaoService {
     public Page<VmHost> findByHavingTask(VmHost search, Pageable pageable);
 
 	public VmHost findByIdAndStatus(String id, String status);
+
+	public Page<VmHost> pageByProject2(Project pSearch, PageRequest pageRequest);
 
 }

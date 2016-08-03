@@ -53,7 +53,9 @@ public class VmNetRepositoryTest {
     @Test
     public void testDeleteByVmId(){
     	// mock data
-    	String vmId = "vm-123";
+    	VmHostE vm = MockUtils.mockVmE();
+    	em.persist(vm);
+    	String vmId = vm.getId();
     	VmNetE vn = MockUtils.mockVmNetE();
     	vn.setVmId(vmId);
     	em.persist(vn);
@@ -71,15 +73,19 @@ public class VmNetRepositoryTest {
     	assertThat(result.size(), equalTo(0));
     }
 
-//    @Test(enabled=false)
+    //@Test(enabled=false)
     @Test
     public void testFindByVmAndNet(){
     	// mock data
+    	VmHostE vm = MockUtils.mockVmE();
+    	em.persist(vm);
+    	String vmId = vm.getId();
     	VmNetE vn = MockUtils.mockVmNetE();
+    	vn.setVmId(vmId);
     	em.persist(vn);
     	
     	// call test method
-    	VmNetE result = netRepos.findByVmIdAndNetId(vn.getVmId(), vn.getNetId());
+    	VmNetE result = netRepos.findByVmIdAndNetId(vmId, vn.getNetId());
     	
     	// assertions
     	assertNotNull(result);

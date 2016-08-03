@@ -1,7 +1,13 @@
 package org.waddys.xcloud.vm.po.entity;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -10,6 +16,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -68,6 +75,10 @@ public class VmHostE extends EntityBase{
     @ManyToOne
     @JoinColumn(name="project_id")
     private ProjectE project;
+    
+//    @OneToMany(mappedBy="host",cascade={CascadeType.PERSIST})
+    @OneToMany(mappedBy="vmId")
+    private Set<VmNetE> nets = new HashSet<VmNetE>();
 
     /**
      * 虚机来源：申请、分配
@@ -429,6 +440,10 @@ public class VmHostE extends EntityBase{
 
 	public void setProject(ProjectE project) {
 		this.project = project;
+	}
+	
+	public void addNet(VmNetE net){
+		this.nets.add(net);
 	}
 
     // @Query("select org.name from organization org where org.id=:aaa")

@@ -115,6 +115,7 @@
 				/userlogin=anon
 				/login = anon
 				/validateCode= anon
+				/api/** = anon
 				/logout = logout
 				/** = kickout
 			</value>
